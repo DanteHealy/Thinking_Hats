@@ -1,0 +1,56 @@
+/*--------------------------- main body and text*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: bisque;
+}
+
+body h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-hat {
+    padding-top: 5em;       /* ----------Exaggerated for now*/
+    padding-bottom: 20px;
+}
+
+.row-hat {
+    padding-top: 20px;       /* ----------Exaggerated for now*/
+    padding-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 600px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+/* ---------------------------------------- Footer-Social-Media */
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social-media {   
+    display: flex;     
+    width: 100%;
+    bottom: 0;    
+    border: none;    
+}
+
+.social-media i {        
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.social-media i:hover {
+    color: red;
+    transform: scale(1.2);  /* 120% zoom */ 
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
