@@ -24,6 +24,17 @@ input[type="text"] {
 }
 
 
+/* ----- Image overlay for card */
+
+.card-container {
+    margin: auto;    
+    width: 18rem;
+    text-align: center;
+}
+
+
+
+
 
 
 
