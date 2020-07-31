@@ -23,6 +23,11 @@ input[type="text"] {
     height: 40px;
 }
 
+.hat-video {
+    border: 5px;
+    border-color: black;
+}
+
 
 /* ----- Image overlay for card */
 
