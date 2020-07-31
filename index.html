@@ -37,13 +37,12 @@
     
 
 <!--- Title section --->
-
     <div class="container-fluid main-hat">
         <h1 class="text-center">Six Thinking Hats</h1>
     </div>
 
-<!--- Initial Prompt for Challenge Question --->
 
+<!--- Initial Prompt for Challenge Question --->
     <div class="container main-hat text-center">
         <div class="row justify-content-center row-hat">
             <div class="col-lg-4 col-md-6">
@@ -62,10 +61,21 @@
         </div>
     </div>
 
-
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="assets/images/white-hat.JPG" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1>
+      <p>Architect & Engineer</p>
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
 
 <!--- Insert and Overlay White Hat Card -->   
-    <div class="container">     
+    <div class="container flip-card">     
         <div class="row justify-content-center">
             <div class="card-front text-center" id="white-img" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/white-hat.JPG" alt="Six Thinking Hats WhiteHat">                
@@ -85,10 +95,10 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Header</h4>                    
+                        <h4 class="modal-title">White Hat Header</h4>                    
                     </div>
                     <div class="modal-body">
-                        <p>Content</p>
+                        <p>Content Placeholder</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -107,13 +117,7 @@
 
 
 
-
 <!--- Insert the various hat sections -->
-
-    
-
-    
-
     <div class="container main-hat">
         <div class="row justify-content-center row-hat">
             <i class="fab fa-redhat fa-10x" style="color:red"></i><br>            
@@ -182,11 +186,11 @@
       </div>
     </footer>
         
-    <script src="assets/javascript/jquery.js"></script>     <!-- Reference to the jquery script file stored locally -->
-    <script src="assets/javascript/main.js"></script>       <!-- Reference to the jquery code -->
+    <script src="assets/javascript/jquery.js"></script>     <!-- Reference to the jquery script file stored locally -->    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="assets/javascript/main.js"></script>       <!-- Reference to the jquery code -->
 </body>
 
 </html>
