@@ -61,32 +61,109 @@
         </div>
     </div>
 
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="assets/images/white-hat.JPG" alt="Avatar" style="width:300px;height:300px;">
-    </div>
-    <div class="flip-card-back">
-      <h1>John Doe</h1>
-      <p>Architect & Engineer</p>
-      <p>We love that guy</p>
-    </div>
-  </div>
-</div>
 
-<!--- Insert and Overlay White Hat Card -->   
-    <div class="container flip-card">     
+<!--- Create Hat Cards that flip on Hover --> 
+    <div class="container main-hat">
         <div class="row justify-content-center">
-            <div class="card-front text-center" id="white-img" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/white-hat.JPG" alt="Six Thinking Hats WhiteHat">                
-                <div class="card-body">
-                    <h5 class="card-title">White Hat</h5>
-                    <p class="card-text">What data and facts do we have or need regarding the question?</p>                     
-                    <button type="button" id="white-btn" class="btn btn-light" data-toggle="modal" data-target="white-modal">White Hat Form</button>    
+            <div class="col-lg-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/images/white-hat.JPG" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>White Hat</h1>
+                            <p>Information requirements</p>
+                            <p>What data and facts do we need?</p>
+                            <button type="button" id="white-btn" class="btn btn-light" data-toggle="modal" data-target="white-modal">White Hat Inputs</button>    
+                        </div>
+                    </div>
                 </div>
-            </div>            
-        </div>   
-    </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/images/black-hat.JPG" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Black Hat</h1>
+                            <p>Information requirements</p>
+                            <p>What data and facts do we need?</p>
+                            <button type="button" id="black-btn" class="btn btn-dark" data-toggle="modal" data-target="black-modal">Black Hat Inputs</button>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/images/yellow-hat.JPG" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Yellow Hat</h1>
+                            <p>Information requirements</p>
+                            <p>What data and facts do we need?</p>
+                            <button type="button" id="yellow-btn" class="btn btn-warning" data-toggle="modal" data-target="yellow-modal">Yellow Hat Inputs</button>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+
+    <div class="container main-hat">
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/images/green-hat.JPG" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Green Hat</h1>
+                            <p>Information requirements</p>
+                            <p>What data and facts do we need?</p>
+                            <button type="button" id="green-btn" class="btn btn-success" data-toggle="modal" data-target="green-modal">Green Hat Inputs</button>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/images/red-hat.JPG" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Red Hat</h1>
+                            <p>Information requirements</p>
+                            <p>What data and facts do we need?</p>
+                            <button type="button" id="red-btn" class="btn btn-danger" data-toggle="modal" data-target="red-modal">Red Hat Inputs</button>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/images/blue-hat.JPG" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Blue Hat</h1>
+                            <p>Information requirements</p>
+                            <p>What data and facts do we need?</p>
+                            <button type="button" id="blue-btn" class="btn btn-primary" data-toggle="modal" data-target="blue-modal">Blue Hat Inputs</button>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
 
 <!--- Define White Hat modal -->
     <div class="modal fade" id="white-modal">
@@ -108,60 +185,7 @@
     </div>
 
 
-    <div class="container main-hat">
-        <div class="row justify-content-center row-hat">
-            <i class="fab fa-redhat fa-10x" style="color:white"></i><br>            
-            <button type="button" class="btn btn-light">Question Form</button>
-        </div>
-    </div>
 
-
-
-<!--- Insert the various hat sections -->
-    <div class="container main-hat">
-        <div class="row justify-content-center row-hat">
-            <i class="fab fa-redhat fa-10x" style="color:red"></i><br>            
-        </div>
-        <div class="row justify-content-center row-hat">
-            <button type="button" class="btn btn-danger">Question Form</button>
-        </div>
-    </div>
-
-    <div class="container main-hat">
-        <div class="row justify-content-center row-hat">
-            <i class="fab fa-redhat fa-10x" style="color:black"></i><br>            
-        </div>
-        <div class="row justify-content-center row-hat">
-            <button type="button" class="btn btn-dark">Question Form</button>
-        </div>
-    </div>
-
-    <div class="container main-hat">
-        <div class="row justify-content-center row-hat">
-            <i class="fab fa-redhat fa-10x" style="color:yellow"></i><br>            
-        </div>
-        <div class="row justify-content-center row-hat">
-            <button type="button" class="btn btn-warning">Question Form</button>
-        </div>
-    </div>
-
-    <div class="container main-hat">
-        <div class="row justify-content-center row-hat">
-            <i class="fab fa-redhat fa-10x" style="color:green"></i><br>            
-        </div>
-        <div class="row justify-content-center row-hat">
-            <button type="button" class="btn btn-success">Question Form</button>
-        </div>
-    </div>
-
-    <div class="container main-hat">
-        <div class="row justify-content-center row-hat">
-            <i class="fab fa-redhat fa-10x" style="color:blue"></i><br>            
-        </div>
-        <div class="row justify-content-center row-hat">
-            <button type="button" class="btn btn-primary">Question Form</button>
-        </div>
-    </div>
 
 <!--- Add a button to activate report generation once all the boxes are complete -->
 
