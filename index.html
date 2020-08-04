@@ -30,7 +30,7 @@
                 </ul>
             </div>         
             <div>
-                <h3>Placeholder to add the initial question in the header!</h3>
+                <h3 id="question-display">Enter Your Question or Challenge to Display Here!</h3>
             </div>
         </div>
     </nav>
@@ -52,17 +52,17 @@
             </div>        
         </div>
         <div class="row justify-content-center row-hat">            
-            <form>
+            <form id="main-question" onsubmit="return false">
                 <label for="">Enter your problem or challenge question here (100 character limit):</label><br>               
-                <input type="text" id="question-problem" name="question-problem" maxlength="100"><br> 
-                <input type="reset" value="Reset" class="btn btn-secondary">
-                <input type="submit" value="Enter" class="btn btn-outline-secondary">
+                <input type="text" id="question-problem" name="question-problem" maxlength="100" style="width:100%;"><br> 
+                <input type="submit" value="Reset" id="clear" class="btn btn-secondary">
+                <input type="submit" value="Enter" id="submit" class="btn btn-outline-secondary">
             </form> 
         </div>
     </div>
 
 
-<!--- Create Hat Cards that flip on Hover --> 
+<!--- Create a set of Hat Cards that flip on Hover --> 
     <div class="container main-hat">
         <div class="row justify-content-around">
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
@@ -75,11 +75,15 @@
                             <h1>White Hat</h1>
                             <p>Information requirements</p>
                             <p>What data and facts do we need?</p>
-                            <button type="button" id="white-btn" class="btn btn-light" data-toggle="modal" data-target="white-modal">White Hat Inputs</button>    
+                            <button type="button" id="white-btn" class="btn btn-light" data-toggle="modal" data-target="#white-modal">White Hat Inputs</button>    
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
+
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
                 <div class="flip-card">
                     <div class="flip-card-inner">
@@ -155,7 +159,8 @@
                         </div>
                     </div>
                 </div>
-            </div>        
+            </div>
+        </div>
     </div>    
 
 
@@ -181,15 +186,13 @@
     </div>
 
 
-
-
-<!--- Add a button to activate report generation once all the boxes are complete -->
-
+<!--- Add a button to activate report generation once all the boxes are complete --> 
     <div class="container main-hat">
         <div class="row justify-content-center row-hat">
             <button type="button" class="btn btn-danger">Form completed</button>
         </div>        
     </div>
+
 
 <!--- Add a footer to the bottom of the page -->
     <footer class="social-media bg-light text-primary">
