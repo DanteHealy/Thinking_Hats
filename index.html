@@ -26,12 +26,12 @@
                     </li>
                     <li class="nav-item">
                     <a href="contact.html" class="nav-link">Contact </a>
-                    </li> 
+                    </li>                     
                 </ul>
-            </div>         
-            <div>
-                <h3 id="question-display">Enter Your Question or Challenge to Display Here!</h3>
-            </div>
+                <div class="mr-auto">
+                    <h3 id="question-display">Enter Your Question or Challenge to Display Here!</h3>            
+                </div>
+            </div>            
         </div>
     </nav>
     
@@ -54,7 +54,7 @@
         <div class="row justify-content-center row-hat">            
             <form id="main-question" onsubmit="return false">
                 <label for="">Enter your problem or challenge question here (100 character limit):</label><br>               
-                <input type="text" id="question-problem" name="question-problem" maxlength="100" style="width:100%;"><br> 
+                <input type="text" id="question-problem" name="question-problem" maxlength="100" style="width:100%; height: 50px;"><br> 
                 <input type="submit" value="Reset" id="clear" class="btn btn-secondary">
                 <input type="submit" value="Enter" id="submit" class="btn btn-outline-secondary">
             </form> 
@@ -80,10 +80,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
                 <div class="flip-card">
                     <div class="flip-card-inner">
@@ -94,7 +90,7 @@
                             <h1>Black Hat</h1>
                             <p>Information requirements</p>
                             <p>What data and facts do we need?</p>
-                            <button type="button" id="black-btn" class="btn btn-dark" data-toggle="modal" data-target="black-modal">Black Hat Inputs</button>    
+                            <button type="button" id="black-btn" class="btn btn-dark" data-toggle="modal" data-target="#black-modal">Black Hat Inputs</button>    
                         </div>
                     </div>
                 </div>
@@ -109,7 +105,7 @@
                             <h1>Yellow Hat</h1>
                             <p>Information requirements</p>
                             <p>What data and facts do we need?</p>
-                            <button type="button" id="yellow-btn" class="btn btn-warning" data-toggle="modal" data-target="yellow-modal">Yellow Hat Inputs</button>    
+                            <button type="button" id="yellow-btn" class="btn btn-warning" data-toggle="modal" data-target="#yellow-modal">Yellow Hat Inputs</button>    
                         </div>
                     </div>
                 </div>
@@ -125,7 +121,7 @@
                             <h1>Green Hat</h1>
                             <p>Information requirements</p>
                             <p>What data and facts do we need?</p>
-                            <button type="button" id="green-btn" class="btn btn-success" data-toggle="modal" data-target="green-modal">Green Hat Inputs</button>    
+                            <button type="button" id="green-btn" class="btn btn-success" data-toggle="modal" data-target="#green-modal">Green Hat Inputs</button>    
                         </div>
                     </div>
                 </div>
@@ -140,7 +136,7 @@
                             <h1>Red Hat</h1>
                             <p>Information requirements</p>
                             <p>What data and facts do we need?</p>
-                            <button type="button" id="red-btn" class="btn btn-danger" data-toggle="modal" data-target="red-modal">Red Hat Inputs</button>    
+                            <button type="button" id="red-btn" class="btn btn-danger" data-toggle="modal" data-target="#red-modal">Red Hat Inputs</button>    
                         </div>
                     </div>
                 </div>
@@ -155,7 +151,7 @@
                             <h1>Blue Hat</h1>
                             <p>Information requirements</p>
                             <p>What data and facts do we need?</p>
-                            <button type="button" id="blue-btn" class="btn btn-primary" data-toggle="modal" data-target="blue-modal">Blue Hat Inputs</button>    
+                            <button type="button" id="blue-btn" class="btn btn-primary" data-toggle="modal" data-target="#blue-modal">Blue Hat Inputs</button>    
                         </div>
                     </div>
                 </div>
@@ -164,26 +160,157 @@
     </div>    
 
 
-
-
 <!--- Define Various Hat modals -->
+    <!--- White Hat modal -->
     <div class="modal fade" id="white-modal">
         <div class="modal-dialog">
         <!--- White Hat modal content -->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">White Hat Header</h4>                    
-                    </div>
-                    <div class="modal-body">
-                        <p>Content Placeholder</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
+            <div class="modal-content">
+                <div class="modal-header">                        
+                    <h4 class="modal-title">White Hat Thinking Exercise</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
+                <div class="modal-body">
+                    <video width="100%" height="auto" controls class="hat-video">
+                        <source src="assets/movie/White-Hat-Test.mp4" type="video/mp4">                
+                        Your browser does not support the video tag.
+                    </video>         
+                    <label for="">What information do we need? (400 character limit):</label><br>
+                    <textarea name="answer-white" id="answer-white" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
+                    <input type="submit" value="Enter" id="whiteHat" class="btn btn-light">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!--- Black Hat modal -->
+    <div class="modal fade" id="black-modal">
+        <div class="modal-dialog">
+        <!--- Black Hat modal content -->
+            <div class="modal-content">
+                <div class="modal-header">                        
+                    <h4 class="modal-title">Black Hat Thinking Exercise</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <video width="100%" height="auto" controls class="hat-video">
+                        <source src="assets/movie/White-Hat-Test.mp4" type="video/mp4">                
+                        Your browser does not support the video tag.
+                    </video>         
+                    <label for="">What are the negatives and posible risks? (400 character limit):</label><br>
+                    <textarea name="answer-black" id="answer-black" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
+                    <input type="submit" value="Enter" id="blackHat" class="btn btn-dark">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Yellow Hat modal -->
+    <div class="modal fade" id="yellow-modal">
+        <div class="modal-dialog">
+        <!--- Yellow Hat modal content -->
+            <div class="modal-content">
+                <div class="modal-header">                        
+                    <h4 class="modal-title">Yellow Hat Thinking Exercise</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <video width="100%" height="auto" controls class="hat-video">
+                        <source src="assets/movie/White-Hat-Test.mp4" type="video/mp4">                
+                        Your browser does not support the video tag.
+                    </video>         
+                    <label for="">What are the benefits? (400 character limit):</label><br>
+                    <textarea name="answer-yellow" id="answer-yellow" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
+                    <input type="submit" value="Enter" id="yellowHat" class="btn btn-warning">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Green Hat modal -->
+    <div class="modal fade" id="green-modal">
+        <div class="modal-dialog">
+        <!--- Green Hat modal content -->
+            <div class="modal-content">
+                <div class="modal-header">                        
+                    <h4 class="modal-title">Green Hat Thinking Exercise</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <video width="100%" height="auto" controls class="hat-video">
+                        <source src="assets/movie/White-Hat-Test.mp4" type="video/mp4">                
+                        Your browser does not support the video tag.
+                    </video>         
+                    <label for="">What are the options and opportunities? (400 character limit):</label><br>
+                    <textarea name="answer-green" id="answer-green" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
+                    <input type="submit" value="Enter" id="greenHat" class="btn btn-success">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Red Hat modal -->
+    <div class="modal fade" id="red-modal">
+        <div class="modal-dialog">
+        <!--- Red Hat modal content -->
+            <div class="modal-content">
+                <div class="modal-header">                        
+                    <h4 class="modal-title">Red Hat Thinking Exercise</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <video width="100%" height="auto" controls class="hat-video">
+                        <source src="assets/movie/White-Hat-Test.mp4" type="video/mp4">                
+                        Your browser does not support the video tag.
+                    </video>         
+                    <label for="">How do you feel about this? (400 character limit):</label><br>
+                    <textarea name="answer-red" id="answer-red" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
+                    <input type="submit" value="Enter" id="redHat" class="btn btn-danger">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Blue Hat modal -->
+    <div class="modal fade" id="blue-modal">
+        <div class="modal-dialog">
+        <!--- Blue Hat modal content -->
+            <div class="modal-content">
+                <div class="modal-header">                        
+                    <h4 class="modal-title">Blue Hat Thinking Exercise</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <video width="100%" height="auto" controls class="hat-video">
+                        <source src="assets/movie/White-Hat-Test.mp4" type="video/mp4">                
+                        Your browser does not support the video tag.
+                    </video>         
+                    <label for="">Summarise your thoughts so far and what needs to happen next? (400 character limit):</label><br>
+                    <textarea name="answer-blue" id="answer-blue" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
+                    <input type="submit" value="Enter" id="blueHat" class="btn btn-primary">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 <!--- Add a button to activate report generation once all the boxes are complete --> 
