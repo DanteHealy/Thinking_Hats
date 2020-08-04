@@ -1,30 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">    
     <title>Six Thinking Hats</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<!---   <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.js" integrity="sha512-dqL4nYnbiMiNNy/V2zRK55QXSRVyu26KCuGoL8Zf5lDfKRRf8pBFW8RXe8at36QlB8s8bnOjKP6b5YTalHO6wQ==" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine-html.js" integrity="sha512-bqig44hBpNuvBzxsqbHiqwRximGm4UfJAvOeNQHjB7++0D2u/3bcw4ZwmVsqrooii2UJ91oDI/6aANdp3BwcQQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/boot.js" integrity="sha512-igPP1Xd0hsvXVZGyfIYeUD779NLEA1Sj/5ts2C/e/22zeUqR6ehA7M/nNLuONalznkHQkGPBESNwzGpwBQD60g==" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.css" integrity="sha512-XKXP02aeSNI5HsDB3+4MM0tSDXJTBFZpt99xL7PvMz3+A3aRy0F0Ne/CATK+Z72ckE/4Ev9OiosWQr5LtU284Q==" crossorigin="anonymous" />   ----->
-     
-    <!-- Load Scripts -->
-<!---   <script type="text/javascript" src="javascript/calc.js"></script>       -->    
-
-    <!-- Load Tests -->
-<!---   <script type="text/javascript" src="javascript/calcSpec.js"></script>       -->    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    
     <script src="https://kit.fontawesome.com/a1392580bd.js" crossorigin="anonymous"></script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
 <!--- Insert Navigation bar --->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">        
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: purple;">        
         <div class="container-fluid">            
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
                 <span class="navbar-toggler-icon"></span>
@@ -36,21 +26,45 @@
                     </li>
                     <li class="nav-item">
                     <a href="contact.html" class="nav-link">Contact </a>
-                    </li> 
-                </ul>
-            </div>                     
+                    </li>                     
+                </ul>                                
+            </div>            
+        </div>
+        <div class="container-fluid">            
+            <ul class="navbar-nav mr-auto">
+                <li>
+                <h3 style="color: white;">Six Thinking Hats</h3>
+                </li>
+                <li>
+                    <i class="fab fa-redhat fa-3x" style="color:white"></i><br>   
+                </li>
+                <li>
+                    <i class="fab fa-redhat fa-3x" style="color:black"></i><br>   
+                </li>
+                <li>
+                    <i class="fab fa-redhat fa-3x" style="color:yellow"></i><br>   
+                </li>
+                <li>
+                    <i class="fab fa-redhat fa-3x" style="color:green"></i><br>   
+                </li>
+                <li>
+                    <i class="fab fa-redhat fa-3x" style="color:red"></i><br>   
+                </li>
+                <li>
+                    <i class="fab fa-redhat fa-3x" style="color:blue"></i><br>   
+                </li>
+            </ul>
         </div>
     </nav>
     
 
 <!--- Title section --->
     <div class="container-fluid main-hat">
-        <h1 class="text-center">Six Thinking Hats Main Page</h1>
+        <h1 class="text-center">A proven framework for lateral thinking and problem solving</h1>
     </div>
 
-
-<!--- Body to be Inserted --->
-    <div class="container video-div main-hat">
+<!--- Insert instruction video section --->
+    <div class="container video-div">
         <div class="row justify-content-around">
             <div class="col-lg-6 col-md-12">
                 <video width="100%" height="auto" controls class="hat-video">
@@ -62,21 +76,25 @@
                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. 
                 </h4>
             </div>    
-        </div>
-        <div class="row justify-content-center">
-            <h2 class="text-center">To proceed click the button:</h2>            
-        </div> 
-        <div class="row justify-content-center">            
-            <a href="index.html" class="btn btn-info" role="button">Go to Form Button</a>
         </div>        
     </div>
 
+<!--- Button to proceed to the exercise --->
+    <div class="container video-div">        
+        <div class="row justify-content-center">
+            <h2 class="text-center">To proceed click the below button:</h2>            
+        </div> 
+        <div class="row justify-content-center"> 
+            <a href="index.html" class="btn btn-lg" style="background-color: purple; color:white;" role="button">Proceed to the Six Thinking Hats exercise</a> 
+        </div>        
+    </div>
 
-
+        
+    <script src="assets/javascript/jquery.js"></script>     <!-- Reference to the jquery script file stored locally -->    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <script src="assets/javascript/main.js"></script>       <!-- Reference to the jquery code -->
 </body>
 
 </html>

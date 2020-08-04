@@ -8,8 +8,14 @@ body h3 {
     font-family: 'Rubik', sans-serif;
 }
 
+.home-div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .main-hat {
     padding-top: 5em;       /* ----------Exaggerated for now*/    
+    padding-bottom: 40px;
 }
 
 .hat-card {    
@@ -38,7 +44,10 @@ input[type="text"] {
     border-color: black;
 }
 
-
+.navbar-nav > li{
+  margin-left:10px;
+  margin-right:10px;
+}
 
 
 /* ----- Image overlay for card */
@@ -58,11 +67,11 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
+    background-color: purple;    
 }
 
 .social-media {   
-    display: flex;     
-    width: 100%;
+    display: flex;         
     bottom: 0;    
     border: none;    
 }
@@ -70,6 +79,7 @@ footer {
 .social-media i {        
     margin-right: 10px;
     margin-left: 10px;
+    color: white;
 }
 
 .social-media i:hover {
@@ -126,5 +136,5 @@ footer {
   height: 300px;
   background-color: purple;
   color: white;  
-  transform: rotateY(180deg);
+  transform: rotateY(180deg); 
 }

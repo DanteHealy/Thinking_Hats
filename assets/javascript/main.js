@@ -1,4 +1,4 @@
-// Create two variables for element ids
+// Create two variables from element ids for the main question: 
 
 let questionInput = document.getElementById('question-problem');
 let submitButton = document.getElementById('submit');
@@ -12,3 +12,5 @@ submitButton.addEventListener("click",function(){
 clearButton.addEventListener("click",function(){
     questionDisplay.textContent = "Enter Your Question or Challenge to Display Here!";
 });
+
+
