@@ -64,4 +64,6 @@ The text for section Y was copied from the Wikipedia article Z
 The photos used in this site were obtained from ...
 
 ### Acknowledgements
-- https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box
+- https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box - Styling the Text Box. 
+- https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create videos for the webpage. 
+
