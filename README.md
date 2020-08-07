@@ -62,8 +62,22 @@ The text for section Y was copied from the Wikipedia article Z
 
 ### Media
 The photos used in this site were obtained from ...
+- https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create videos for the webpage. 
+
 
 ### Acknowledgements
+- https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono & https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/ - My initial inspirations for this project. 
+- https://getbootstrap.com/docs/4.5/getting-started/introduction/ - Use of Bootstrap generally for responsive styling and layouts. 
 - https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box - Styling the Text Box. 
-- https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create videos for the webpage. 
+- https://www.w3schools.com/howto/howto_css_flip_card.asp Use of a flip card to introduce each of the six thinking hats. 
+- https://getbootstrap.com/docs/4.5/components/modal/ - Use of Bootstrap modal forms. 
+
+- Articles and websites for ideas: 
+    1. https://www.debonogroup.com/services/core-programs/six-thinking-hats/ - The DeBono Group, concept owners
+    2. https://josephjguerra.github.io/six-thinking-hats/#learn - Another similar project found on GitHub
+    3. https://fourminutebooks.com/six-thinking-hats-summary/ - Some great ideas for summarising the book 
+    4. https://improvement.nhs.uk/resources/six-thinking-hats/ - Useful resource from the NHS website 
+    5. https://readingraphics.com/book-summary-six-thinking-hats/ - Useful resources 
+
+- https://github.com/Frozenaught/homechopped - Use this example as the inspiration for my Readme file. 
 
