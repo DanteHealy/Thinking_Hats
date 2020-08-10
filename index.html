@@ -29,12 +29,7 @@
                     </li>
                 </ul>                                
             </div>            
-        </div>
-        <div class="container-fluid mr-auto" style="color: white;">                        
-            <div>
-                <h3 id="question-display">Enter Your Question or Challenge to Display Here!</h3>            
-            </div> 
-        </div>
+        </div>        
     </nav>
     
 
@@ -61,14 +56,29 @@
     <div class="container section-div text-center">        
         <div class="row justify-content-center row-hat">            
             <form id="main-question" onsubmit="return false">
-                <label for="">Enter your problem or challenge question here (100 character limit):</label><br>               
-                <input type="text" id="question-problem" name="question-problem" maxlength="100" style="width:100%; height: 50px;"><br> 
+                <label for="">Enter your problem or decision challenge here (100 character limit):</label><br>               
+                <textarea id="question-problem" name="question-problem" maxlength="100" cols="50" rows="10" wrap="hard" style="width:100%; height:80px;">Problem or decision ...</textarea><br> 
                 <input type="submit" value="Reset" id="clear" class="btn btn-secondary">
                 <input type="submit" value="Enter" id="submit" class="btn btn-outline-secondary">
             </form> 
         </div>
     </div>
+    
 
+<!--- Testing the responses to the questions. -->
+    <div class="container report-div">
+        <div class="row justify-content-center">
+            <div class="col">
+                <h1>Overall Problem Statement:</h1>        
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col">
+                <h1 id="question-display">Enter Your Question or Challenge to Display Here!</h1>            
+            </div>
+        </div>        
+    </div>
+    
 
 <!--- Create a set of Hat Cards that flip on Hover --> 
     <div class="container section-div">
@@ -77,7 +87,8 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="assets/images/white-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <img src="assets/images/white-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:240px;">
+                            <i class="hatCheck fas fa-check fa-3x" style="display: inline; color:green;"></i>
                         </div>
                         <div class="flip-card-back">
                             <h1>White Hat</h1>
@@ -323,45 +334,60 @@
         </div>
     </div>
 
-    <!--- Testing the responses to the questions. -->
-    <div class="container" style="border:5px solid black; padding-top: 10px; padding-bottom: 10px; background-color: #6666CC; color: white;">
-        <div class="row justify-content-center">
-        <h1>Testing the Textarea boxes for each of the hats</h1>        
-        </div>
-        <div class="row">
-        <h1>White Hat: </h1>
-        <h1 id="whiteAnswer">TESTING TESTING 1-2-3</h1>
-        </div>
-        <div class="row">
-        <h1>Black Hat: </h1>
-        <h1 id="blackAnswer">TESTING TESTING 1-2-3</h1>
-        </div>
-        <div class="row">
-        <h1>Yellow Hat: </h1>
-        <h1 id="yellowAnswer">TESTING TESTING 1-2-3</h1>
-        </div>
-        <div class="row">
-        <h1>Green Hat: </h1>
-        <h1 id="greenAnswer">TESTING TESTING 1-2-3</h1>
-        </div>
-        <div class="row">
-        <h1>Red Hat: </h1>
-        <h1 id="redAnswer">TESTING TESTING 1-2-3</h1>
-        </div>
-        <div class="row">
-        <h1>Blue Hat: </h1>
-        <h1 id="blueAnswer">TESTING TESTING 1-2-3</h1>
-        </div>
-    </div>
-
 
 <!--- Add a button to activate report generation once all the boxes are complete --> 
     <div class="container section-div">
         <div class="row justify-content-center row-hat">
-            <button type="button" class="btn  btn-lg" style="background-color: #6666CC; color:white;">Print Your Report</button>
+            <button type="button" class="btn  btn-lg" style="background-color: #6666CC; color:white;">Generate Your Report</button>
         </div>        
     </div>
 
+
+<!--- Testing the responses to the questions. -->
+    <div class="container report-div">
+        <div class="row justify-content-center">
+            <div class="col">        
+                <h1>Testing the Textarea boxes for each of the hats</h1>        
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">        
+                <h1>White Hat: </h1>
+                <h1 id="whiteAnswer">TESTING TESTING 1-2-3</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">        
+                <h1>Black Hat: </h1>
+                <h1 id="blackAnswer">TESTING TESTING 1-2-3</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">        
+                <h1>Yellow Hat: </h1>
+                <h1 id="yellowAnswer">TESTING TESTING 1-2-3</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">        
+                <h1>Green Hat: </h1>
+                <h1 id="greenAnswer">TESTING TESTING 1-2-3</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">        
+                <h1>Red Hat: </h1>
+                <h1 id="redAnswer">TESTING TESTING 1-2-3</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">        
+                <h1>Blue Hat: </h1>
+                <h1 id="blueAnswer">TESTING TESTING 1-2-3</h1>
+            </div>      
+        </div>      
+    </div>
+    
 
 <!--- Add a footer to the bottom of the page -->
     <footer class="social-media">

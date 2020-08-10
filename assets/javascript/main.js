@@ -59,7 +59,7 @@ greenHat.addEventListener("click",function(){
 // Create response variables from element ids for the answer to the Red Hat question 
 let answerRed = document.getElementById('answer-red');
 let submitRed = document.getElementById('redHat');
-let yellowRed = document.getElementById('redAnswer');
+let redAnswer = document.getElementById('redAnswer');
 
 redHat.addEventListener("click",function(){
     redAnswer.textContent = answerRed.value;
@@ -74,6 +74,10 @@ let blueAnswer = document.getElementById('blueAnswer');
 blueHat.addEventListener("click",function(){
     blueAnswer.textContent = answerBlue.value;
 });
+
+
+
+
 
 
 
