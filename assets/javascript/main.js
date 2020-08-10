@@ -10,7 +10,7 @@ submitButton.addEventListener("click",function(){
 });
 
 clearButton.addEventListener("click",function(){
-    questionDisplay.textContent = "Enter Your Question or Challenge to Display Here!";
+    questionDisplay.textContent = "";
 });
 
 
@@ -76,9 +76,12 @@ blueHat.addEventListener("click",function(){
 });
 
 
-
-
-
+// Create variables first hide and then show sections of the exercise page based on certain criteria being met: 
+function hideFunction() {
+    document.getElementById("sixHats").style.display="none";
+    document.getElementById("reportButton").style.display="none";
+    document.getElementById("hatReport").style.display="none";
+}
 
 
 

@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body onload="hideFunction()">
 
 <!--- Insert Navigation bar --->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #6666CC;">
@@ -57,7 +57,7 @@
         <div class="row justify-content-center row-hat">            
             <form id="main-question" onsubmit="return false">
                 <label for="">Enter your problem or decision challenge here (100 character limit):</label><br>               
-                <textarea id="question-problem" name="question-problem" maxlength="100" cols="50" rows="10" wrap="hard" style="width:100%; height:80px;">Problem or decision ...</textarea><br> 
+                <textarea id="question-problem" name="question-problem" maxlength="100" cols="50" rows="10" wrap="hard" style="width:100%; height:80px;">Your problem or decision ...</textarea><br> 
                 <input type="submit" value="Reset" id="clear" class="btn btn-secondary">
                 <input type="submit" value="Enter" id="submit" class="btn btn-outline-secondary">
             </form> 
@@ -74,14 +74,14 @@
         </div>
         <div class="row justify-content-center">
             <div class="col">
-                <h1 id="question-display">Enter Your Question or Challenge to Display Here!</h1>            
+                <h1 id="question-display"></h1>            
             </div>
-        </div>        
+        </div>
     </div>
     
 
 <!--- Create a set of Hat Cards that flip on Hover --> 
-    <div class="container section-div">
+    <div class="container section-div" id="sixHats">
         <div class="row justify-content-around">
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
                 <div class="flip-card">
@@ -336,7 +336,7 @@
 
 
 <!--- Add a button to activate report generation once all the boxes are complete --> 
-    <div class="container section-div">
+    <div class="container section-div" id="reportButton">
         <div class="row justify-content-center row-hat">
             <button type="button" class="btn  btn-lg" style="background-color: #6666CC; color:white;">Generate Your Report</button>
         </div>        
@@ -344,7 +344,7 @@
 
 
 <!--- Testing the responses to the questions. -->
-    <div class="container report-div">
+    <div class="container report-div" id="hatReport">
         <div class="row justify-content-center">
             <div class="col">        
                 <h1>Testing the Textarea boxes for each of the hats</h1>        
