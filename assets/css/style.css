@@ -24,8 +24,8 @@ body h3 {
 }
 
 .hat-card {    
-    padding-top: 20px;
-    padding-bottom: 20px; 
+    padding-top: 50px;
+    padding-bottom: 50px; 
 }
 
 .row-hat {
@@ -144,6 +144,7 @@ footer {
   background-color: yellow;
   color: black;
 }
+
 
 /* Style the back side */
 .flip-card-back {

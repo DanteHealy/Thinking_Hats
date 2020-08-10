@@ -40,7 +40,7 @@
 
 
 <!--- Insert instruction video for Clearly Defining your Question --->
-    <div class="container video-div">
+    <div class="container video-div" id="problemVideo">
         <div class="row justify-content-around">
             <div class="col-lg-6 col-md-12">
                 <video width="100%" height="auto" controls class="hat-video">
@@ -58,8 +58,8 @@
             <form id="main-question" onsubmit="return false">
                 <label for="">Enter your problem or decision challenge here (100 character limit):</label><br>               
                 <textarea id="question-problem" name="question-problem" maxlength="100" cols="50" rows="10" wrap="hard" style="width:100%; height:80px;">Your problem or decision ...</textarea><br> 
-                <input type="submit" value="Reset" id="clear" class="btn btn-secondary">
-                <input type="submit" value="Enter" id="submit" class="btn btn-outline-secondary">
+                <input type="submit" value="Reset" id="clear" class="btn btn-secondary" onclick="resetHats()">
+                <input type="submit" value="Enter" id="submit" class="btn btn-outline-secondary" onclick="showHats()">
             </form> 
         </div>
     </div>
@@ -87,8 +87,8 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="assets/images/white-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:240px;">
-                            <i class="hatCheck fas fa-check fa-3x" style="display: inline; color:green;"></i>
+                            <img src="assets/images/white-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <i class="hatCheck fas fa-check fa-3x" id="whiteTick" style="display: inline; color:green;"></i>
                         </div>
                         <div class="flip-card-back">
                             <h1>White Hat</h1>
@@ -105,6 +105,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/red-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <i class="hatCheck fas fa-check fa-3x" id="redTick" style="display: inline; color:green;"></i>
                         </div>
                         <div class="flip-card-back">
                             <h1>Red Hat</h1>
@@ -121,6 +122,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/yellow-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <i class="hatCheck fas fa-check fa-3x" id="yellowTick" style="display: inline; color:green;"></i>
                         </div>
                         <div class="flip-card-back">
                             <h1>Yellow Hat</h1>
@@ -137,6 +139,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/black-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <i class="hatCheck fas fa-check fa-3x" id="blackTick" style="display: inline; color:green;"></i>
                         </div>
                         <div class="flip-card-back">
                             <h1>Black Hat</h1>
@@ -153,6 +156,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/green-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <i class="hatCheck fas fa-check fa-3x" id="greenTick" style="display: inline; color:green;"></i>
                         </div>
                         <div class="flip-card-back">
                             <h1>Green Hat</h1>
@@ -169,6 +173,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/blue-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <i class="hatCheck fas fa-check fa-3x" id="blueTick" style="display: inline; color:green;"></i>
                         </div>
                         <div class="flip-card-back">
                             <h1>Blue Hat</h1>
