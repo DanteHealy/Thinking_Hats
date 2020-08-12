@@ -75,6 +75,9 @@ The photos used in this site were obtained from ...
 - https://stackoverflow.com/questions/3961422/conditional-display-of-html-element-forms - Hiding certain HTML elements upon loading the exercise page. 
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_hide_show - Hiding and showing HTML elements upon a JavaScript event. 
 - https://www.youtube.com/watch?v=10tXgw-0myA - background color change on hover of hat cards. 
+- https://hookagency.com/website-color-schemes/ - https://www.colorcombos.com/color-schemes/137/ColorCombo137.html - background color schemes. 
+- https://stackoverflow.com/questions/10462839/how-to-display-a-confirmation-dialog-when-clicking-an-a-link - Check if you need to exit the Guided Exercise page. 
+- https://stackoverflow.com/questions/6457750/form-confirm-before-submit - Check to confirm before doing a full reset on the exercise page. 
 
 
 - Articles and websites for ideas: 

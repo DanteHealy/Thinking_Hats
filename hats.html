@@ -21,11 +21,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarmenu">
                 <ul class="navbar-nav mr-auto">
+                <!--- Insert Confirmation message before proceeding to Navigate off this page --->
                     <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home </a>
+                    <a href="index.html" onclick="return confirm('Are you sure you want to leave this page? All your current work will be lost when you exit!')" class="nav-link">Home </a>
                     </li>
                     <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact </a>
+                    <a href="contact.html" onclick="return confirm('Are you sure you want to leave this page? All your current work will be lost when you exit!')" class="nav-link">Contact </a>
                     </li>
                 </ul>                                
             </div>            
@@ -34,8 +35,12 @@
     
 
 <!--- Title section --->
-    <div class="container-fluid main-hat">
-        <h1 class="text-center">Six Thinking Hats</h1>
+    <div class="container main-hat">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h1 class="text-center">Six Thinking Hats</h1>
+            </div>
+        </div>
     </div>
 
 
@@ -59,7 +64,7 @@
                 <label for="">Enter your problem or decision challenge here (100 character limit):</label><br>               
                 <textarea id="question-problem" name="question-problem" maxlength="100" cols="50" rows="10" wrap="hard" style="width:100%; height:80px;">Your problem or decision ...</textarea><br> 
                 <input type="submit" value="Reset" id="clear" class="btn btn-secondary" onclick="resetHats()">
-                <input type="submit" value="Enter" id="submit" class="btn btn-danger" onclick="showHats()">
+                <input type="submit" value="Enter" id="submit" class="btn btn-primary" onclick="showHats()">
             </form> 
         </div>
     </div>
@@ -69,12 +74,12 @@
     <div class="container report-div">
         <div class="row justify-content-center">
             <div class="col">
-                <h1>Overall Problem Statement:</h1>        
+                <h2>Overall Problem Statement:</h2>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col">
-                <h1 id="question-display"></h1>            
+                <h2 id="question-display"></h2>
             </div>
         </div>
     </div>
@@ -82,16 +87,19 @@
 
 <!--- Create a set of Hat Cards that flip on Hover --> 
     <div class="container section-div" id="sixHats">
+        <div class="row justify-content-center">
+            <h3>Please Complete All Six Hats Below:</h3>
+        </div>
         <div class="row justify-content-around">
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="whiteFlip" data-color="white">
+                <div class="flip-card" id="whiteFlip" data-color="#F5FAFA">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/white-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
-                            <i class="hatCheck fas fa-check fa-3x" id="whiteTick" style="display: inline; color:green;"></i>
+                            <i class="hatCheck fas fa-check fa-3x" id="whiteTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
-                            <h1>White Hat</h1>
+                            <h2>White Hat</h2>
                             <p>Information requirements</p>
                             <p>What data and facts do we need?</p>
                             <button type="button" id="white-btn" class="btn btn-lg btn-light" data-toggle="modal" data-target="#white-modal">White Hat Inputs</button>    
@@ -101,14 +109,14 @@
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="redFlip" data-color="red">
+                <div class="flip-card" id="redFlip" data-color="#BC243C">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/red-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
-                            <i class="hatCheck fas fa-check fa-3x" id="redTick" style="display: inline; color:green;"></i>
+                            <i class="hatCheck fas fa-check fa-3x" id="redTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
-                            <h1>Red Hat</h1>
+                            <h2>Red Hat</h2>
                             <p>Check your emotions</p>
                             <p>How do all these thoughts and ideas make you feel?</p>
                             <button type="button" id="red-btn" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#red-modal">Red Hat Inputs</button>    
@@ -118,14 +126,14 @@
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="yellowFlip" data-color="yellow">
+                <div class="flip-card" id="yellowFlip" data-color="#EDF756">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/yellow-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
-                            <i class="hatCheck fas fa-check fa-3x" id="yellowTick" style="display: inline; color:green;"></i>
+                            <i class="hatCheck fas fa-check fa-3x" id="yellowTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
-                            <h1>Yellow Hat</h1>
+                            <h2>Yellow Hat</h2>
                             <p>Look at the benefits</p>
                             <p>What benefits we are expecting to see?</p>
                             <button type="button" id="yellow-btn" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#yellow-modal">Yellow Hat Inputs</button>    
@@ -135,14 +143,14 @@
             </div>
             
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="blackFlip" data-color="black">
+                <div class="flip-card" id="blackFlip" data-color="#20211D">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/black-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
-                            <i class="hatCheck fas fa-check fa-3x" id="blackTick" style="display: inline; color:green;"></i>
+                            <i class="hatCheck fas fa-check fa-3x" id="blackTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
-                            <h1>Black Hat</h1>
+                            <h2>Black Hat</h2>
                             <p>Assess undesirable consequences</p>
                             <p>What negatives and possible risks?</p>
                             <button type="button" id="black-btn" class="btn btn-lg btn-dark" data-toggle="modal" data-target="#black-modal">Black Hat Inputs</button>    
@@ -152,14 +160,14 @@
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="greenFlip" data-color="green">
+                <div class="flip-card" id="greenFlip" data-color="#007f4f">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/green-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
-                            <i class="hatCheck fas fa-check fa-3x" id="greenTick" style="display: inline; color:green;"></i>
+                            <i class="hatCheck fas fa-check fa-3x" id="greenTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
-                            <h1>Green Hat</h1>
+                            <h2>Green Hat</h2>
                             <p>Seek growth opportunities</p>
                             <p>What are the options and opportunities?</p>
                             <button type="button" id="green-btn" class="btn btn-lg btn-success" data-toggle="modal" data-target="#green-modal">Green Hat Inputs</button>    
@@ -169,14 +177,14 @@
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="blueFlip" data-color="blue">
+                <div class="flip-card" id="blueFlip" data-color="#0049B7">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/blue-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
-                            <i class="hatCheck fas fa-check fa-3x" id="blueTick" style="display: inline; color:green;"></i>
+                            <i class="hatCheck fas fa-check fa-3x" id="blueTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
-                            <h1>Blue Hat</h1>
+                            <h2>Blue Hat</h2>
                             <p>Manage all your ideas</p>
                             <p>Summarise your thoughts so far and determine next steps.</p>
                             <button type="button" id="blue-btn" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#blue-modal">Blue Hat Inputs</button>    
@@ -352,43 +360,43 @@
     <div class="container report-div" id="hatReport">
         <div class="row justify-content-center">
             <div class="col">        
-                <h1>Testing the Textarea boxes for each of the hats</h1>        
+                <h2>Testing the Textarea boxes for each of the hats</h2>
             </div>
         </div>
         <div class="row">
             <div class="col">        
-                <h1>White Hat: </h1>
-                <h1 id="whiteAnswer">TESTING TESTING 1-2-3</h1>
+                <h2>White Hat: </h2>
+                <h2 id="whiteAnswer">TESTING TESTING 1-2-3</h2>
             </div>
         </div>
         <div class="row">
             <div class="col">        
-                <h1>Black Hat: </h1>
-                <h1 id="blackAnswer">TESTING TESTING 1-2-3</h1>
+                <h2>Black Hat: </h2>
+                <h2 id="blackAnswer">TESTING TESTING 1-2-3</h2>
             </div>
         </div>
         <div class="row">
             <div class="col">        
-                <h1>Yellow Hat: </h1>
-                <h1 id="yellowAnswer">TESTING TESTING 1-2-3</h1>
+                <h2>Yellow Hat: </h2>
+                <h2 id="yellowAnswer">TESTING TESTING 1-2-3</h2>
             </div>
         </div>
         <div class="row">
             <div class="col">        
-                <h1>Green Hat: </h1>
-                <h1 id="greenAnswer">TESTING TESTING 1-2-3</h1>
+                <h2>Green Hat: </h2>
+                <h2 id="greenAnswer">TESTING TESTING 1-2-3</h2>
             </div>
         </div>
         <div class="row">
             <div class="col">        
-                <h1>Red Hat: </h1>
-                <h1 id="redAnswer">TESTING TESTING 1-2-3</h1>
+                <h2>Red Hat: </h2>
+                <h2 id="redAnswer">TESTING TESTING 1-2-3</h2>
             </div>
         </div>
         <div class="row">
             <div class="col">        
-                <h1>Blue Hat: </h1>
-                <h1 id="blueAnswer">TESTING TESTING 1-2-3</h1>
+                <h2>Blue Hat: </h2>
+                <h2 id="blueAnswer">TESTING TESTING 1-2-3</h2>
             </div>      
         </div>      
     </div>

@@ -24,10 +24,13 @@ submitButton.addEventListener("click",function(){
     document.getElementById("problemVideo").style.display="none";
 });
 
-clearButton.addEventListener("click",function(){
-    questionDisplay.textContent = "";    
-    document.getElementById("sixHats").style.display="none";
-    document.getElementById("problemVideo").style.display="block";
+// Create modal that checks that the user wants to clear all current work when using the reset button before reloading. 
+clearButton.addEventListener("click",function(){ 
+    if ($("input[type='submit']").val() == "Reset") {
+        alert("Please confirm that you want to reset and lose all your current work");
+        location.reload();
+        return false;
+    }       
 });
 
 
@@ -99,7 +102,7 @@ blueHat.addEventListener("click",function(){
 });
 
 
-//Have background colors change on hover using some jQuery
+//Have background colors change on flip-card hover using some jQuery
 $(".flip-card").hover(function() {
     var a =$(this).attr("data-color");
     $("body").css("background", a);

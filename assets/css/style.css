@@ -1,21 +1,29 @@
 /*--------------------------- main body and text*/
 body {
     font-family: 'Open Sans', sans-serif;   
-    color: blueviolet;
+    color: darkblue;
     background-image: url("../images/background-home2.gif");    
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;    
     min-height: 300px;
+    width: 100%;
     position: relative;
     margin: 0;
-    transition-delay: 0.6s;
+    transition-delay: 0.4s;
 }
 
+body h1 {
+    font-family: 'Rubik', sans-serif; 
+    background-color: white;
+    opacity: 0.8;
+}
 
 body h3 {
     font-family: 'Rubik', sans-serif;    
+    background-color: white;
+    opacity: 0.6;
 }
 
 .home-div {
@@ -81,7 +89,7 @@ input[type="text"] {
 /* ---------------------------------------- Insert-flashing-arrow-icon */
 .flash-arrow i {
     font-size: 50px;
-    color: #d9534f;
+    color: blue;
     text-shadow: 5px 5px 5px yellow;
     padding-top: 10px;
     margin-bottom: 10px;
