@@ -1,31 +1,40 @@
 /*--------------------------- main body and text*/
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: bisque;
+    font-family: 'Open Sans', sans-serif;   
+    color: rgb(36, 36, 73);    
+    background-image: url("../images/background-home2.gif");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    min-height: 300px;
+    position: relative;
+    margin: 0;
 }
 
+
 body h3 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;    
 }
 
 .home-div {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px;    
 }
+
 
 .section-div {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px;    
 }
 
 .main-hat {
     padding-top: 5em;       /* ----------Exaggerated for now*/    
-    padding-bottom: 40px;
+    padding-bottom: 40px;    
 }
 
 .hat-card {    
     padding-top: 50px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;     
 }
 
 .row-hat {
@@ -66,6 +75,25 @@ input[type="text"] {
   margin-right:5px;
   display: inline;
 }
+
+/* ---------------------------------------- Insert-flashing-arrow-icon */
+.flash-arrow i {
+    font-size: 50px;
+    color: #d9534f;
+    text-shadow: 5px 5px 5px yellow;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blink {
+    animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+@keyframes blinker {  
+  from { opacity: 1; }
+  to { opacity: 0.2; }
+}
+
 
 
 /* ----- Image overlay for card */

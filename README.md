@@ -63,6 +63,7 @@ The text for section Y was copied from the Wikipedia article Z
 ### Media
 The photos used in this site were obtained from ...
 - https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create videos for the webpage. 
+- https://snappa.com/app - Use snappa for background images and custom styles. 
 
 
 ### Acknowledgements
@@ -81,6 +82,5 @@ The photos used in this site were obtained from ...
     3. https://fourminutebooks.com/six-thinking-hats-summary/ - Some great ideas for summarising the book 
     4. https://improvement.nhs.uk/resources/six-thinking-hats/ - Useful resource from the NHS website 
     5. https://readingraphics.com/book-summary-six-thinking-hats/ - Useful resources 
-
-- https://github.com/Frozenaught/homechopped - Use this example as the inspiration for my Readme file. 
+    6. https://github.com/Frozenaught/homechopped - Use this example as the inspiration for my Readme file. 
 
