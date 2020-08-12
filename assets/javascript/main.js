@@ -99,7 +99,11 @@ blueHat.addEventListener("click",function(){
 });
 
 
-
+//Have background colors change on hover using some jQuery
+$(".flip-card").hover(function() {
+    var a =$(this).attr("data-color");
+    $("body").css("background", a);
+});
     
 
 

@@ -74,6 +74,7 @@ The photos used in this site were obtained from ...
 - https://getbootstrap.com/docs/4.5/components/modal/ - Use of Bootstrap modal forms. 
 - https://stackoverflow.com/questions/3961422/conditional-display-of-html-element-forms - Hiding certain HTML elements upon loading the exercise page. 
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_hide_show - Hiding and showing HTML elements upon a JavaScript event. 
+- https://www.youtube.com/watch?v=10tXgw-0myA - background color change on hover of hat cards. 
 
 
 - Articles and websites for ideas: 
