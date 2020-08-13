@@ -27,13 +27,22 @@ submitButton.addEventListener("click",function(){
 });
 
 // Clear all current work when clicking the reset button before reloading. 
-clearButton.addEventListener("click",function(){ 
+/* clearButton.addEventListener("click",function(){ 
     if ($("input[type='submit']").val() == "Reset") {
         alert("Please confirm that you want to reset and lose all your current work");
         location.reload();
         return false;
     }       
+}); */
+
+clearButton.addEventListener("click",function(){ 
+    if ($("input[type='submit']").val() == "Reset") {
+        if (confirm("Please confirm that you want to reset and lose all your current work")) {
+        location.reload();        
+        }       
+    }
 });
+
 
 
 // Create six variables from element ids for the main question: 
