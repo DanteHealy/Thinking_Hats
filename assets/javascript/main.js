@@ -18,13 +18,15 @@ let submitButton = document.getElementById('submit');
 let questionDisplay = document.getElementById('question-display');
 let clearButton = document.getElementById('clear');
 
+
+// Create modal that reveals the Six Hats Flip-card Div and hides the Problem Video when the problem submit button is pressed 
 submitButton.addEventListener("click",function(){
     questionDisplay.textContent = questionInput.value;
     document.getElementById("sixHats").style.display="block";
     document.getElementById("problemVideo").style.display="none";
 });
 
-// Create modal that checks that the user wants to clear all current work when using the reset button before reloading. 
+// Clear all current work when clicking the reset button before reloading. 
 clearButton.addEventListener("click",function(){ 
     if ($("input[type='submit']").val() == "Reset") {
         alert("Please confirm that you want to reset and lose all your current work");
@@ -41,10 +43,19 @@ let answerWhite = document.getElementById('answer-white');
 let submitWhite = document.getElementById('whiteHat');
 let whiteAnswer = document.getElementById('whiteAnswer');
 
-whiteHat.addEventListener("click",function(){
+/* whiteHat.addEventListener("click",function(){
     whiteAnswer.textContent = answerWhite.value;
     document.getElementById("whiteTick").style.display="block";
+}); */
+
+
+whiteHat.addEventListener("click",function(){         
+    whiteAnswer.textContent = answerWhite.value;
+    document.getElementById("whiteTick").style.display="block";
+    cWhite = 1;
+    showRptBtn();
 });
+
 
 
 // Create response variables from element ids for the answer to the Black Hat question 
@@ -55,6 +66,8 @@ let blackAnswer = document.getElementById('blackAnswer');
 blackHat.addEventListener("click",function(){
     blackAnswer.textContent = answerBlack.value;
     document.getElementById("blackTick").style.display="block";
+    cBlack = 1;    
+    showRptBtn();
 });
 
 
@@ -66,6 +79,8 @@ let yellowAnswer = document.getElementById('yellowAnswer');
 yellowHat.addEventListener("click",function(){
     yellowAnswer.textContent = answerYellow.value;
     document.getElementById("yellowTick").style.display="block";
+    cYellow = 1;
+    showRptBtn();
 });
 
 
@@ -77,6 +92,8 @@ let greenAnswer = document.getElementById('greenAnswer');
 greenHat.addEventListener("click",function(){
     greenAnswer.textContent = answerGreen.value;
     document.getElementById("greenTick").style.display="block";
+    cGreen = 1;
+    showRptBtn();
 });
 
 
@@ -88,6 +105,8 @@ let redAnswer = document.getElementById('redAnswer');
 redHat.addEventListener("click",function(){
     redAnswer.textContent = answerRed.value;
     document.getElementById("redTick").style.display="block";
+    cRed =1;
+    showRptBtn();
 });
 
 
@@ -99,6 +118,8 @@ let blueAnswer = document.getElementById('blueAnswer');
 blueHat.addEventListener("click",function(){
     blueAnswer.textContent = answerBlue.value;
     document.getElementById("blueTick").style.display="block";
+    cBlue = 1;
+    showRptBtn();
 });
 
 
@@ -108,6 +129,42 @@ $(".flip-card").hover(function() {
     $("body").css("background", a);
 });
     
+
+//Show Generate Report Button when all boxes are completed: 
+var cWhite = 0;
+var cRed = 0;
+var cYellow = 0;
+var cBlack = 0;
+var cGreen = 0; 
+var cBlue = 0;
+
+//Reveal the generate report box when the hCount variable equals 6 (or all the Hat boxes are completed)
+function showRptBtn() {
+    if (cWhite + cRed + cYellow + cBlack + cGreen + cBlue == 6) {    
+    document.getElementById("reportButton").style.display="block";    
+    }  generateReport();
+}
+
+
+// Create a function that reveals the report when the Genrate report button is pressed  
+    // set the variable linked to the button ID
+let generateReport = document.getElementById('reportButton');
+
+// Generate report when clicking the generate report button 
+generateReport.addEventListener("click",function(){    
+    document.getElementById("hatReport").style.display="block";
+    document.body.style.backgroundColor = "white";
+});
+
+
+
+
+
+
+ 
+
+
+
 
 
 
