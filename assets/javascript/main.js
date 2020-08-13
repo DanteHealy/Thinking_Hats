@@ -20,43 +20,28 @@ let clearButton = document.getElementById('clear');
 
 
 // Create modal that reveals the Six Hats Flip-card Div and hides the Problem Video when the problem submit button is pressed 
-submitButton.addEventListener("click",function(){
+submitButton.addEventListener("click", function(){
     questionDisplay.textContent = questionInput.value;
     document.getElementById("sixHats").style.display="block";
     document.getElementById("problemVideo").style.display="none";
 });
 
 // Clear all current work when clicking the reset button before reloading. 
-/* clearButton.addEventListener("click",function(){ 
+clearButton.addEventListener("click", function(){ 
     if ($("input[type='submit']").val() == "Reset") {
-        alert("Please confirm that you want to reset and lose all your current work");
-        location.reload();
-        return false;
-    }       
-}); */
-
-clearButton.addEventListener("click",function(){ 
-    if ($("input[type='submit']").val() == "Reset") {
-        if (confirm("Please confirm that you want to reset and lose all your current work")) {
+        if (confirm("WARNING: A reset will lose all your current work!")) {
         location.reload();        
         }       
     }
 });
 
 
-
-// Create six variables from element ids for the main question: 
+/* Create six variables from element ids for the main question: */
 
 // Create response variables from element ids for the answer to the White Hat question 
 let answerWhite = document.getElementById('answer-white');
 let submitWhite = document.getElementById('whiteHat');
 let whiteAnswer = document.getElementById('whiteAnswer');
-
-/* whiteHat.addEventListener("click",function(){
-    whiteAnswer.textContent = answerWhite.value;
-    document.getElementById("whiteTick").style.display="block";
-}); */
-
 
 whiteHat.addEventListener("click",function(){         
     whiteAnswer.textContent = answerWhite.value;
@@ -64,7 +49,6 @@ whiteHat.addEventListener("click",function(){
     cWhite = 1;
     showRptBtn();
 });
-
 
 
 // Create response variables from element ids for the answer to the Black Hat question 
@@ -132,13 +116,12 @@ blueHat.addEventListener("click",function(){
 });
 
 
-//Have background colors change on flip-card hover using some jQuery
+/*Have background colors change on flip-card hover using some jQuery */
 $(".flip-card").hover(function() {
     var a =$(this).attr("data-color");
     $("body").css("background", a);
 });
     
-
 //Show Generate Report Button when all boxes are completed: 
 var cWhite = 0;
 var cRed = 0;
@@ -155,7 +138,7 @@ function showRptBtn() {
 }
 
 
-// Create a function that reveals the report when the Genrate report button is pressed  
+/* Create a function that reveals the report when the Genrate report button is pressed */
     // set the variable linked to the button ID
 let generateReport = document.getElementById('reportButton');
 
@@ -167,6 +150,23 @@ generateReport.addEventListener("click",function(){
 
 
 
+
+
+
+/* Inclusion of an Accordion */
+$(document).ready(function(){
+    // Add minus icon for collapse element which is open by default
+    $(".collapse.show").each(function(){
+        $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+    });
+        
+    // Toggle plus minus icon on show hide of collapse element
+    $(".collapse").on('show.bs.collapse', function(){
+        $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+    }).on('hide.bs.collapse', function(){
+        $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+    });
+});
 
 
 
