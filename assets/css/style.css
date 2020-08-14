@@ -1,17 +1,17 @@
 /*--------------------------- main body and text*/
 body {
-    font-family: 'Open Sans', sans-serif;   
+    font-family: 'Lato', sans-serif;
     color: darkblue;
     background-color: #f1f1f1;    
     transition-delay: 0.4s;
 }
 
 body h1 {
-    font-family: 'Rubik', sans-serif;         
+    font-family: 'Dancing Script', cursive;
 }
 
 body h3 {
-    font-family: 'Rubik', sans-serif;    
+    font-family: 'Dancing Script', cursive;
 }
 
 .navbar {

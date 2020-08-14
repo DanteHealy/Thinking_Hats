@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    
     <script src="https://kit.fontawesome.com/a1392580bd.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -28,9 +28,12 @@
                     <li class="nav-item">
                     <a href="contact.html" onclick="return confirm('Are you sure you want to leave this page? All your current work will be lost when you exit!')" class="nav-link">Contact </a>
                     </li>
-                </ul>                                
-            </div>            
-        </div>        
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid">            
+            <h3 style="color: white;">Six Thinking Hats</h3>
+        </div>
     </nav>
     
 
@@ -187,7 +190,7 @@
         <!--- White Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
-                    <h4 class="modal-title">White Hat Thinking Exercise</h4>
+                    <h4 class="modal-title">White Hat Session</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -195,7 +198,7 @@
                         <source src="assets/movie/Video-White.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
-                    <label for="">What information do we need? (400 character limit):</label><br>
+                    <label for="">What information do we need?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-white" id="answer-white" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="whiteHat" class="btn btn-outline-dark">
                 </div>
@@ -212,7 +215,7 @@
         <!--- Red Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
-                    <h4 class="modal-title">Red Hat Thinking Exercise</h4>
+                    <h4 class="modal-title">Red Hat Session</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -220,7 +223,7 @@
                         <source src="assets/movie/Video-Red.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
-                    <label for="">How do you feel about this? (400 character limit):</label><br>
+                    <label for="">What information do we need?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-red" id="answer-red" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="redHat" class="btn btn-danger">
                 </div>
@@ -237,7 +240,7 @@
         <!--- Yellow Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
-                    <h4 class="modal-title">Yellow Hat Thinking Exercise</h4>
+                    <h4 class="modal-title">Yellow Hat Session</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -245,7 +248,7 @@
                         <source src="assets/movie/Video-Yellow.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
-                    <label for="">What are the benefits? (400 character limit):</label><br>
+                    <label for="">What information do we need?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-yellow" id="answer-yellow" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="yellowHat" class="btn btn-warning">
                 </div>
@@ -262,7 +265,7 @@
         <!--- Black Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
-                    <h4 class="modal-title">Black Hat Thinking Exercise</h4>
+                    <h4 class="modal-title">Black Hat Session</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -270,7 +273,7 @@
                         <source src="assets/movie/Video-Black.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
-                    <label for="">What are the negatives and possible risks? (400 character limit):</label><br>
+                    <label for="">What information do we need?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-black" id="answer-black" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="blackHat" class="btn btn-dark">
                 </div>
@@ -287,7 +290,7 @@
         <!--- Green Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
-                    <h4 class="modal-title">Green Hat Thinking Exercise</h4>
+                    <h4 class="modal-title">Green Hat Session</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -295,7 +298,7 @@
                         <source src="assets/movie/Video-Green.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
-                    <label for="">What are the options and opportunities? (400 character limit):</label><br>
+                    <label for="">What information do we need?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-green" id="answer-green" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="greenHat" class="btn btn-success">
                 </div>
@@ -312,7 +315,7 @@
         <!--- Blue Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
-                    <h4 class="modal-title">Blue Hat Thinking Exercise</h4>
+                    <h4 class="modal-title">Blue Hat Session</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -320,7 +323,7 @@
                         <source src="assets/movie/Video-Blue.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
-                    <label for="">Summarise your thoughts so far and what needs to happen next? (400 character limit):</label><br>
+                    <label for="">What information do we need?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-blue" id="answer-blue" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="blueHat" class="btn btn-primary">
                 </div>

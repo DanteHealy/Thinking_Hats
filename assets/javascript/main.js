@@ -13,12 +13,12 @@ function hideFunction() {
     document.getElementById("blueTick").style.display="none";
 }
 
+
 // Create two variables from element ids for the main question and submit button: 
 let questionInput = document.getElementById('question-problem');
 let submitButton = document.getElementById('submit');
 let questionDisplay = document.getElementById('question-display');
 let clearButton = document.getElementById('clear');
-
 
 // Create modal that reveals the Six Hats Flip-card Div plus Reset button and hides the Problem Video when the problem submit button is pressed 
 submitButton.addEventListener("click", function(){
@@ -43,51 +43,18 @@ let answerWhite = document.getElementById('answer-white');
 let submitWhite = document.getElementById('whiteHat');
 let whiteAnswer = document.getElementById('whiteAnswer');
 
-whiteHat.addEventListener("click",function(){         
+// On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
+whiteHat.addEventListener("click",function(){             
     whiteAnswer.textContent = answerWhite.value;
-    document.getElementById("whiteTick").style.display="block";
-    cWhite = 1;
-    showRptBtn();
-});
-
-
-// Create response variables from element ids for the answer to the Black Hat question 
-let answerBlack = document.getElementById('answer-black');
-let submitBlack = document.getElementById('blackHat');
-let blackAnswer = document.getElementById('blackAnswer');
-
-blackHat.addEventListener("click",function(){
-    blackAnswer.textContent = answerBlack.value;
-    document.getElementById("blackTick").style.display="block";
-    cBlack = 1;    
-    showRptBtn();
-});
-
-
-// Create response variables from element ids for the answer to the Yellow Hat question 
-let answerYellow = document.getElementById('answer-yellow');
-let submitYellow = document.getElementById('yellowHat');
-let yellowAnswer = document.getElementById('yellowAnswer');
-
-yellowHat.addEventListener("click",function(){
-    yellowAnswer.textContent = answerYellow.value;
-    document.getElementById("yellowTick").style.display="block";
-    cYellow = 1;
-    showRptBtn();
-});
-
-
-// Create response variables from element ids for the answer to the Green Hat question 
-let answerGreen = document.getElementById('answer-green');
-let submitGreen = document.getElementById('greenHat');
-let greenAnswer = document.getElementById('greenAnswer');
-
-greenHat.addEventListener("click",function(){
-    greenAnswer.textContent = answerGreen.value;
-    document.getElementById("greenTick").style.display="block";
-    cGreen = 1;
-    showRptBtn();
-});
+    var strW = $('#answer-white').val().length;
+    if (strW < 20) {    
+        alert("Answer is too short. Please elaborate further!");             
+    } else {        
+        document.getElementById("whiteTick").style.display="block";
+        cWhite = 1;
+        showRptBtn();    
+    }
+}); 
 
 
 // Create response variables from element ids for the answer to the Red Hat question 
@@ -95,12 +62,75 @@ let answerRed = document.getElementById('answer-red');
 let submitRed = document.getElementById('redHat');
 let redAnswer = document.getElementById('redAnswer');
 
+// On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 redHat.addEventListener("click",function(){
     redAnswer.textContent = answerRed.value;
-    document.getElementById("redTick").style.display="block";
-    cRed =1;
-    showRptBtn();
-});
+    var strR = $('#answer-white').val().length;
+    if (strR < 20) {    
+        alert("Answer is too short. Please elaborate further!");             
+    } else {        
+        document.getElementById("redTick").style.display="block";
+        cRed =1;
+        showRptBtn();
+    }
+}); 
+
+
+// Create response variables from element ids for the answer to the Yellow Hat question 
+let answerYellow = document.getElementById('answer-yellow');
+let submitYellow = document.getElementById('yellowHat');
+let yellowAnswer = document.getElementById('yellowAnswer');
+
+// On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
+yellowHat.addEventListener("click",function(){
+    yellowAnswer.textContent = answerYellow.value;
+    var strY = $('#answer-white').val().length;
+    if (strY < 20) {    
+        alert("Answer is too short. Please elaborate further!");             
+    } else {        
+        document.getElementById("yellowTick").style.display="block";
+        cYellow = 1;
+        showRptBtn();
+    }
+}); 
+
+
+// Create response variables from element ids for the answer to the Black Hat question 
+let answerBlack = document.getElementById('answer-black');
+let submitBlack = document.getElementById('blackHat');
+let blackAnswer = document.getElementById('blackAnswer');
+
+// On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
+blackHat.addEventListener("click",function(){
+    blackAnswer.textContent = answerBlack.value;
+    var strB = $('#answer-white').val().length;
+    if (strB < 20) {    
+        alert("Answer is too short. Please elaborate further!");             
+    } else {        
+        document.getElementById("blackTick").style.display="block";
+        cBlack = 1;    
+        showRptBtn();
+    }
+}); 
+
+
+// Create response variables from element ids for the answer to the Green Hat question 
+let answerGreen = document.getElementById('answer-green');
+let submitGreen = document.getElementById('greenHat');
+let greenAnswer = document.getElementById('greenAnswer');
+
+// On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
+greenHat.addEventListener("click",function(){
+    greenAnswer.textContent = answerGreen.value;
+    var strG = $('#answer-white').val().length;
+    if (strG < 20) {    
+        alert("Answer is too short. Please elaborate further!");             
+    } else {        
+        document.getElementById("greenTick").style.display="block";
+        cGreen = 1;
+        showRptBtn();
+    }
+}); 
 
 
 // Create response variables from element ids for the answer to the Blue Hat question 
@@ -108,15 +138,23 @@ let answerBlue = document.getElementById('answer-blue');
 let submitBlue = document.getElementById('blueHat');
 let blueAnswer = document.getElementById('blueAnswer');
 
+// On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 blueHat.addEventListener("click",function(){
     blueAnswer.textContent = answerBlue.value;
-    document.getElementById("blueTick").style.display="block";
-    cBlue = 1;
-    showRptBtn();
-});
+    var strB = $('#answer-white').val().length;
+    if (strB < 20) {    
+        alert("Answer is too short. Please elaborate further!");             
+    } else {        
+        document.getElementById("blueTick").style.display="block";
+        cBlue = 1;
+        showRptBtn();
+    }
+}); 
 
     
-//Show Generate Report Button when all boxes are completed: 
+/* Show Generate Report Button when all boxes are completed: */
+
+// Establish the necessary variables to count when each box has been completed: 
 var cWhite = 0;
 var cRed = 0;
 var cYellow = 0;
@@ -137,7 +175,7 @@ function showRptBtn() {
 // set the variable linked to the button ID
 let generateReport = document.getElementById('reportButton');
 
-// Generate report when clicking the generate report button 
+// Generate report when clicking the generate report button leaving only the reset button with the report: 
 generateReport.addEventListener("click",function(){    
     document.getElementById("hatReport").style.display="block";    
     document.getElementById("problemBox").style.display="none";
