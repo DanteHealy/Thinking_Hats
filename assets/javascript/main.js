@@ -4,6 +4,7 @@ function hideFunction() {
     document.getElementById("sixHats").style.display="none";
     document.getElementById("reportButton").style.display="none";
     document.getElementById("hatReport").style.display="none";
+    document.getElementById("resetBtn").style.display="none";
     document.getElementById("whiteTick").style.display="none";
     document.getElementById("redTick").style.display="none";
     document.getElementById("yellowTick").style.display="none";
@@ -19,10 +20,11 @@ let questionDisplay = document.getElementById('question-display');
 let clearButton = document.getElementById('clear');
 
 
-// Create modal that reveals the Six Hats Flip-card Div and hides the Problem Video when the problem submit button is pressed 
+// Create modal that reveals the Six Hats Flip-card Div plus Reset button and hides the Problem Video when the problem submit button is pressed 
 submitButton.addEventListener("click", function(){
     questionDisplay.textContent = questionInput.value;
     document.getElementById("sixHats").style.display="block";
+    document.getElementById("resetBtn").style.display="block";
     document.getElementById("problemVideo").style.display="none";
 });
 
@@ -138,12 +140,11 @@ let generateReport = document.getElementById('reportButton');
 
 // Generate report when clicking the generate report button 
 generateReport.addEventListener("click",function(){    
-    document.getElementById("hatReport").style.display="block";
-    document.body.style.backgroundColor = "white";
+    document.getElementById("hatReport").style.display="block";    
+    document.getElementById("problemBox").style.display="none";
+    document.getElementById("sixHats").style.display="none";
+    document.getElementById("reportPrint").style.display="none";
 });
-
-
-
 
 
 

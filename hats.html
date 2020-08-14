@@ -176,14 +176,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!--- Insert Reset Option If User wants to restart the exercise --> 
-        <div class="row justify-content-center row-hat"> 
-            <form>
-                <input type="submit" value="Reset All" id="clear" class="btn-lg btn-secondary" onclick="resetHats()"> 
-            </form>
-        </div> 
+        </div>        
     </div> 
 
 
@@ -339,17 +332,7 @@
     </div>
 
 
-<!--- Add a button to activate report generation once all the boxes are complete --> 
-    <div class="container section-div">
-        <div class="row justify-content-center row-hat">
-            <form>
-                <button type="button" class="btn btn-lg btn-primary" id="reportButton">Generate Your Printable Report</button>
-            </form>
-        </div>
-    </div>
-
-
-<!--- Testing the responses to the questions. -->
+<!--- Report Template hosting the answers to the Six Hat questions -->
     <div class="container report-div" id="hatReport">
         <div class="row justify-content-center">
             <div class="col">
@@ -403,7 +386,28 @@
             </div>      
         </div>      
     </div>
-    
+
+
+<!--- Insert Reset Option If User wants to restart the exercise --> 
+    <div class="container" id="resetBtn">        
+        <div class="row justify-content-center row-hat"> 
+            <form>
+                <input type="submit" value="Reset" id="clear" class="btn-lg btn-secondary" onclick="resetHats()"> 
+            </form>
+        </div> 
+    </div>
+
+
+<!--- Add a button to activate report generation once all the boxes are complete --> 
+    <div class="container section-div" id="reportPrint">
+        <div class="row justify-content-center row-hat">
+            <form>
+                <button type="button" class="btn btn-lg btn-primary" id="reportButton">Generate Your Printable Report</button>
+            </form>
+        </div>
+    </div>
+
+
 
 <!--- Add a footer to the bottom of the page -->
     <footer class="social-media">
