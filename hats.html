@@ -14,8 +14,8 @@
 <body onload="hideFunction()">
 
 <!--- Insert Navigation bar --->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #6666CC;">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container-fluid"> 
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -62,22 +62,21 @@
         <div class="row justify-content-center row-hat">            
             <form id="main-question" onsubmit="return false">
                 <label for="">Enter your problem or decision challenge here (100 character limit):</label><br>               
-                <textarea id="question-problem" name="question-problem" maxlength="100" cols="50" rows="10" wrap="hard" style="width:100%; height:80px;">Your problem or decision ...</textarea><br> 
-                <input type="submit" value="Reset" id="clear" class="btn btn-secondary" onclick="resetHats()">
-                <input type="submit" value="Enter" id="submit" class="btn btn-primary">
+                <textarea id="question-problem" name="question-problem" maxlength="100" cols="50" rows="10" wrap="hard" style="width:100%; height:80px;">Your problem or decision ...</textarea><br>                 
+                <input type="submit" value="Enter" id="submit" class="btn-lg btn-primary">
             </form> 
         </div>
     </div>
 
 
 <!--- Create a set of Hat Cards that flip on Hover --> 
-    <div class="container section-div" id="sixHats">
+    <div class="container section-div" id="sixHats">        
         <div class="row justify-content-center">
             <h3>Please Complete All Six Hats Below:</h3>
         </div>
         <div class="row justify-content-around">
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="whiteFlip" data-color="#F5FAFA">
+                <div class="flip-card" id="whiteFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/white-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
@@ -94,7 +93,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="redFlip" data-color="#BC243C">
+                <div class="flip-card" id="redFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/red-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
@@ -111,7 +110,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="yellowFlip" data-color="#EDF756">
+                <div class="flip-card" id="yellowFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/yellow-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
@@ -128,7 +127,7 @@
             </div>
             
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="blackFlip" data-color="#20211D">
+                <div class="flip-card" id="blackFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/black-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
@@ -145,7 +144,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="greenFlip" data-color="#007f4f">
+                <div class="flip-card" id="greenFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/green-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
@@ -162,7 +161,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
-                <div class="flip-card" id="blueFlip" data-color="#0049B7">
+                <div class="flip-card" id="blueFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="assets/images/blue-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
@@ -178,7 +177,14 @@
                 </div>
             </div>
         </div>
-    </div>    
+
+        <!--- Insert Reset Option If User wants to restart the exercise --> 
+        <div class="row justify-content-center row-hat"> 
+            <form>
+                <input type="submit" value="Reset All" id="clear" class="btn-lg btn-secondary" onclick="resetHats()"> 
+            </form>
+        </div> 
+    </div> 
 
 
 <!--- Define Various Hat modals -->
@@ -336,8 +342,10 @@
 <!--- Add a button to activate report generation once all the boxes are complete --> 
     <div class="container section-div">
         <div class="row justify-content-center row-hat">
-            <button type="button" class="btn  btn-lg" style="background-color: #6666CC; color:white;" id="reportButton">Generate Your Report</button>
-        </div>        
+            <form>
+                <button type="button" class="btn btn-lg btn-primary" id="reportButton">Generate Your Printable Report</button>
+            </form>
+        </div>
     </div>
 
 

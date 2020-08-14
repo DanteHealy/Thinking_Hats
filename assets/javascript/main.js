@@ -115,12 +115,6 @@ blueHat.addEventListener("click",function(){
     showRptBtn();
 });
 
-
-/*Have background colors change on flip-card hover using some jQuery */
-$(".flip-card").hover(function() {
-    var a =$(this).attr("data-color");
-    $("body").css("background", a);
-});
     
 //Show Generate Report Button when all boxes are completed: 
 var cWhite = 0;
