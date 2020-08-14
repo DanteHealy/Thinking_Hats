@@ -29,11 +29,9 @@ submitButton.addEventListener("click", function(){
 });
 
 // Clear all current work when clicking the reset button before reloading. 
-clearButton.addEventListener("click", function(){ 
-    if ($("input[type='submit']").val() == "Reset") {
-        if (confirm("WARNING: A reset will lose all your current work!")) {
-        location.reload();        
-        }       
+clearButton.addEventListener("click", function(){     
+    if (confirm("WARNING: A reset will lose all your current work!")) {
+        location.reload();                       
     }
 });
 
@@ -135,7 +133,8 @@ function showRptBtn() {
 
 
 /* Create a function that reveals the report when the Genrate report button is pressed */
-    // set the variable linked to the button ID
+
+// set the variable linked to the button ID
 let generateReport = document.getElementById('reportButton');
 
 // Generate report when clicking the generate report button 
@@ -145,7 +144,6 @@ generateReport.addEventListener("click",function(){
     document.getElementById("sixHats").style.display="none";
     document.getElementById("reportPrint").style.display="none";
 });
-
 
 
 /* Inclusion of an Accordion */
