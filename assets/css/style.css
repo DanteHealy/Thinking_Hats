@@ -110,22 +110,24 @@ input[type="text"] {
 
 /* ---------------------------------------- Footer-Social-Media */
 footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;        
     width: 100%;
     background-color: rgba(51, 41, 143, 0.76);
+    color: white;    
 }
 
-.social-media {   
-    display: flex;         
+.social-media {       
     bottom: 0;    
     border: none;    
 }
 
 .social-media i {        
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-right: 10px;
-    margin-left: 10px;
-    color: white;
+    margin-left: 10px;   
+    color: white; 
 }
 
 .social-media i:hover {
@@ -134,7 +136,6 @@ footer {
     transition-delay: 0.2s;
     transition-timing-function: ease-in-out;
 }
-
 
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
