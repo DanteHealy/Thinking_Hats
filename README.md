@@ -14,6 +14,9 @@ This section is also where you would share links to any wireframes, mockups, dia
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
+All features were defined and monitored on a Trello board: https://trello.com/b/RhaoyvZJ/milestone-project-2
+
+
 ## Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
