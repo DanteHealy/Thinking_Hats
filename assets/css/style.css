@@ -15,7 +15,7 @@ body h3 {
 }
 
 .navbar {
-    background-color: rgba(51, 41, 143, 0.76);
+    background-color: #53548A;
     color: white;
 }
 
@@ -23,7 +23,6 @@ body h3 {
     padding-top: 50px;
     padding-bottom: 50px;    
 }
-
 
 .section-div {
     padding-top: 50px;
@@ -82,7 +81,7 @@ input[type="text"] {
 /* ---------------------------------------- Insert-flashing-arrow-icon */
 .flash-hand i {
     font-size: 50px;
-    color: rgba(51, 41, 143, 0.76);
+    color: #53548A;
     text-shadow: 5px 5px 5px darkgray;
     padding-top: 10px;
     margin-bottom: 10px;
@@ -112,7 +111,7 @@ input[type="text"] {
 footer {
     margin-top: 10px;    
     width: 100%;
-    background-color: rgba(51, 41, 143, 0.76);
+    background-color: #53548A;
     color: white;    
 }
 
@@ -173,7 +172,7 @@ footer {
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: yellow;
-  color: black;
+  color: black;  
 }
 
 
@@ -181,7 +180,7 @@ footer {
 .flip-card-back {
   width: 300px;
   height: 300px;
-  background-color: rgba(51, 41, 143, 0.76);
+  background-color: #53548A;
   color: white;  
   transform: rotateY(180deg); 
 }

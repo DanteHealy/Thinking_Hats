@@ -23,17 +23,19 @@
                 <ul class="navbar-nav mr-auto">
                 <!--- Insert Confirmation message before proceeding to Navigate off this page --->
                     <li class="nav-item">
-                    <a href="index.html" onclick="return confirm('Are you sure you want to leave this page? All your current work will be lost when you exit!')" class="nav-link">Home </a>
+                    <a href="index.html" onclick="return confirm('Are you sure you want to leave this page? All your current work will be lost when you exit!')" class="nav-link">Home | </a>
+                    </li>
+                    <li>
+                    <a href="#" class="nav-link">Guided Session | </a>
                     </li>
                     <li class="nav-item">
                     <a href="contact.html" onclick="return confirm('Are you sure you want to leave this page? All your current work will be lost when you exit!')" class="nav-link">Contact </a>
                     </li>
                 </ul>
+                <h3 style="color: white;">Six Thinking Hats  </h3>
+                <img src="assets/images/hat-logo.JPG" alt="Thinking Hat Logo">
             </div>
-        </div>
-        <div class="container-fluid">            
-            <h3 style="color: white;">Six Thinking Hats</h3>
-        </div>
+        </div> 
     </nav>
     
 
@@ -82,7 +84,7 @@
                 <div class="flip-card" id="whiteFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="assets/images/white-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <img src="assets/images/white-hat2.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
                             <i class="hatCheck fas fa-check fa-3x" id="whiteTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
@@ -99,7 +101,7 @@
                 <div class="flip-card" id="redFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="assets/images/red-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <img src="assets/images/red-hat2.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
                             <i class="hatCheck fas fa-check fa-3x" id="redTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
@@ -116,7 +118,7 @@
                 <div class="flip-card" id="yellowFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="assets/images/yellow-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <img src="assets/images/yellow-hat2.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
                             <i class="hatCheck fas fa-check fa-3x" id="yellowTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
@@ -133,7 +135,7 @@
                 <div class="flip-card" id="blackFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="assets/images/black-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <img src="assets/images/black-hat2.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
                             <i class="hatCheck fas fa-check fa-3x" id="blackTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
@@ -150,7 +152,7 @@
                 <div class="flip-card" id="greenFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="assets/images/green-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <img src="assets/images/green-hat2.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
                             <i class="hatCheck fas fa-check fa-3x" id="greenTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
@@ -167,7 +169,7 @@
                 <div class="flip-card" id="blueFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="assets/images/blue-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
+                            <img src="assets/images/blue-hat2.JPG" alt="Avatar" class="img-fluid rounded" style="width:300px;height:300px;">
                             <i class="hatCheck fas fa-check fa-3x" id="blueTick" style="display: inline; color:lightgreen;"></i>
                         </div>
                         <div class="flip-card-back">
@@ -391,16 +393,6 @@
     </div>
 
 
-<!--- Insert Reset Option If User wants to restart the exercise --> 
-    <div class="container" id="resetBtn">        
-        <div class="row justify-content-center row-hat"> 
-            <form>                
-                <input type="submit" value="Reset" id="clear" class="btn-lg btn-secondary" onclick="resetHats()"> 
-            </form>
-        </div> 
-    </div>
-
-
 <!--- Add a button to activate report generation once all the boxes are complete --> 
     <div class="container section-div" id="reportPrint">
         <div class="row justify-content-center row-hat">
@@ -410,6 +402,15 @@
         </div>
     </div>
 
+
+<!--- Insert Reset Option If User wants to restart the exercise --> 
+    <div class="container" id="resetBtn">        
+        <div class="row justify-content-center row-hat"> 
+            <form>                
+                <input type="submit" value="Reset" id="clear" class="btn-lg btn-secondary" onclick="resetHats()"> 
+            </form>
+        </div> 
+    </div>
 
 
 <!--- Add a footer to the bottom of the page -->
