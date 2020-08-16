@@ -91,4 +91,6 @@ The photos used in this site were obtained from ...
     4. https://improvement.nhs.uk/resources/six-thinking-hats/ - Useful resource from the NHS website 
     5. https://readingraphics.com/book-summary-six-thinking-hats/ - Useful resources 
     6. https://github.com/Frozenaught/homechopped - Use this example as the inspiration for my Readme file. 
+    7. https://hbr.org/2012/09/are-you-solving-the-right-problem - Defining the problem by HBR 
+    8. https://transformationacademy.com/2019/10/thoughts-101-how-thoughts-create-emotions-and-stuff/ - Red Hat Thinking
 
