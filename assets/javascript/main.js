@@ -3,7 +3,8 @@ function hideFunction() {
     // First hide key sections on first page load:  
     document.getElementById("hatProblem").style.display="none";
     document.getElementById("sixHats").style.display="none";    
-    document.getElementById("reportButton").style.display="none";
+    document.getElementById("reportProduce").style.display="none";
+    document.getElementById("reportPrint").style.display="none";
     document.getElementById("hatReport").style.display="none";
     document.getElementById("resetBtn").style.display="none";
     document.getElementById("whiteTick").style.display="none";
@@ -41,16 +42,6 @@ submitButton.addEventListener("click", function(){
     document.getElementById("problemVideo").style.display="none";
     }
 });
-
-
-/* submitButton.addEventListener("click", function(){
-    questionDisplay.textContent = questionInput.value;
-    document.getElementById("problemBox").style.display="none";
-    document.getElementById("hatProblem").style.display="block";
-    document.getElementById("sixHats").style.display="block";
-    document.getElementById("resetBtn").style.display="block";
-    document.getElementById("problemVideo").style.display="none";
-}); */ 
 
 // Clear all current work when clicking the reset button before reloading. 
 clearButton.addEventListener("click", function(){     
@@ -195,7 +186,7 @@ var cBlue = 0;
 //Reveal the generate report box when the hCount variable equals 6 (or all the Hat boxes are completed)
 function showRptBtn() {
     if (cWhite + cRed + cYellow + cBlack + cGreen + cBlue == 6) {    
-    document.getElementById("reportButton").style.display="block";    
+    document.getElementById("reportProduce").style.display="block";    
     }  generateReport();
 }
 
@@ -210,7 +201,8 @@ generateReport.addEventListener("click",function(){
     if (confirm("WARNING: After report is run you cannot amend your answers. Please confirm you still wish to proceed!")) {
         document.getElementById("hatReport").style.display="block";         
         document.getElementById("sixHats").style.display="none";
-        document.getElementById("reportPrint").style.display="none";    
+        document.getElementById("reportProduce").style.display="none";
+        document.getElementById("reportPrint").style.display="block";
     }
 });
 

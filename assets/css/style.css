@@ -75,6 +75,11 @@ input[type="text"] {
   display: inline;
 }
 
+/* --- Trying to preserve the line breaks in the textarea inputs */
+textarea {
+    white-space: pre-wrap;
+}
+
 /* ---------------------------------------- Insert-flashing-arrow-icon */
 .flash-hand i {
     font-size: 50px;

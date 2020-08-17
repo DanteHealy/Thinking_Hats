@@ -87,7 +87,10 @@ The photos used in this site were obtained from ...
 - https://www.youtube.com/watch?v=kEf1xSwX5D8 - How to add favicon video. 
 - https://speaking.com/speakers/edward-de-bono/ - References to Edward De Bono's services and Testimonials. 
 - https://www.debono.com/ - More background. 
-- 
+- https://www.w3schools.com/jsref/met_win_print.asp - Add a print report button and avoid refreshing the page by setting type="button" https://stackoverflow.com/questions/1878264/how-do-i-make-an-html-button-not-reload-the-page
+
+
+
 
 
 - Articles and websites for ideas: 
