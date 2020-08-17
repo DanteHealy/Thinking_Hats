@@ -1,6 +1,7 @@
 // Create variables first hide and then show sections of the exercise page based on certain criteria being met: 
 function hideFunction() {
     // First hide key sections on first page load:  
+    document.getElementById("hatProblem").style.display="none";
     document.getElementById("sixHats").style.display="none";    
     document.getElementById("reportButton").style.display="none";
     document.getElementById("hatReport").style.display="none";
@@ -20,9 +21,11 @@ let submitButton = document.getElementById('submit');
 let questionDisplay = document.getElementById('question-display');
 let clearButton = document.getElementById('clear');
 
-// Create modal that reveals the Six Hats Flip-card Div plus Reset button and hides the Problem Video when the problem submit button is pressed 
+// Reveals the Six Hats Flip-card Div plus Reset button and hides the Problem Video when the problem submit button is pressed and fixes the problem statement
 submitButton.addEventListener("click", function(){
     questionDisplay.textContent = questionInput.value;
+    document.getElementById("problemBox").style.display="none";
+    document.getElementById("hatProblem").style.display="block";
     document.getElementById("sixHats").style.display="block";
     document.getElementById("resetBtn").style.display="block";
     document.getElementById("problemVideo").style.display="none";
@@ -178,8 +181,7 @@ let generateReport = document.getElementById('reportButton');
 // Generate report when clicking the generate report button leaving only the reset button with the report: 
 generateReport.addEventListener("click",function(){    
     if (confirm("WARNING: After report is run you cannot amend your answers. Please confirm you still wish to proceed!")) {
-        document.getElementById("hatReport").style.display="block"; 
-        document.getElementById("problemBox").style.display="none";
+        document.getElementById("hatReport").style.display="block";         
         document.getElementById("sixHats").style.display="none";
         document.getElementById("reportPrint").style.display="none";    
     }

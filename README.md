@@ -82,6 +82,8 @@ The photos used in this site were obtained from ...
 - https://stackoverflow.com/questions/10462839/how-to-display-a-confirmation-dialog-when-clicking-an-a-link - Check if you need to exit the Guided Exercise page. 
 - https://stackoverflow.com/questions/6457750/form-confirm-before-submit - Check to confirm before doing a full reset on the exercise page. 
 - https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-accordion.php - Include accordion as per milestone 1 feedback for any overly verbose sections. ;-) 
+- https://favicon.io/ - Favicon generator. 
+- https://www.youtube.com/watch?v=kEf1xSwX5D8 - How to add favicon video. 
 
 
 - Articles and websites for ideas: 
