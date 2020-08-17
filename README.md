@@ -61,7 +61,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 ### Content
-The text for section Y was copied from the Wikipedia article Z
+I couldn't have made this webpage without the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
+gbenga_mentor, Readri205, Michaelstanden, michael_ci, JoWings_alumna, 
 
 ### Media
 The photos used in this site were obtained from ...
@@ -84,6 +85,9 @@ The photos used in this site were obtained from ...
 - https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-accordion.php - Include accordion as per milestone 1 feedback for any overly verbose sections. ;-) 
 - https://favicon.io/ - Favicon generator. 
 - https://www.youtube.com/watch?v=kEf1xSwX5D8 - How to add favicon video. 
+- https://speaking.com/speakers/edward-de-bono/ - References to Edward De Bono's services and Testimonials. 
+- https://www.debono.com/ - More background. 
+- 
 
 
 - Articles and websites for ideas: 

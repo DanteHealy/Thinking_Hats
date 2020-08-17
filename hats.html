@@ -13,7 +13,6 @@
 </head>
 
 <body onload="hideFunction()">
-
 <!--- Insert Navigation bar --->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container-fluid"> 
@@ -39,16 +38,14 @@
         </div> 
     </nav>
     
-
 <!--- Title section --->
     <div class="container main-hat">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <h1 class="text-center">Six Thinking Hats - Guided Session:</h1>
+                <h1 class="text-center"><b>Six Thinking Hats - Guided Session:</b></h1>
             </div>
         </div>
     </div>
-
 
 <!--- Insert instruction video for Clearly Defining your Question --->
     <div class="container video-div" id="problemVideo">
@@ -62,18 +59,16 @@
         </div>
     </div>
 
-
 <!--- Initial Prompt for Challenge Question --->
     <div class="container section-div text-center" id="problemBox">        
         <div class="row justify-content-center row-hat">            
             <form id="main-question" onsubmit="return false">
-                <label for="">Enter your problem statement or question here (enter 20 to 100 characters):</label><br>               
+                <label for="">Enter your problem statement or question here (between 20 to 100 characters):</label><br>               
                 <textarea id="question-problem" name="question-problem" maxlength="100" cols="50" rows="10" wrap="hard" style="width:100%; height:80px;"></textarea><br>                 
                 <input type="submit" value="Submit Question" id="submit" class="btn-lg btn-primary">
             </form> 
         </div>
     </div>
-
 
 <!--- Report Template hosting the answers to the Six Hat questions -->
     <div class="container report-div" id="hatProblem">
@@ -88,7 +83,6 @@
             </div>
         </div>
     </div>
-
 
 <!--- Create a set of Hat Cards that flip on Hover --> 
     <div class="container section-div" id="sixHats">        
@@ -199,7 +193,6 @@
             </div>
         </div>
     </div>
-
 
 <!--- Define Various Hat modals -->
     <!--- White Hat modal -->
@@ -358,7 +351,6 @@
         </div>
     </div>
 
-
 <!--- Report Template hosting the answers to the Six Hat questions -->
     <div class="container report-div" id="hatReport">        
         <div class="row justify-content-center">
@@ -410,7 +402,6 @@
         </div>
     </div>
 
-
 <!--- Add a button to activate report generation once all the boxes are complete --> 
     <div class="container section-div" id="reportPrint">
         <div class="row justify-content-center row-hat">
@@ -420,7 +411,6 @@
         </div>
     </div>
 
-
 <!--- Insert Reset Option If User wants to restart the exercise --> 
     <div class="container" id="resetBtn">        
         <div class="row justify-content-center row-hat"> 
@@ -429,7 +419,6 @@
             </form>
         </div> 
     </div>
-
 
 <!--- Add a footer to the bottom of the page -->
     <footer class="social-media">
@@ -449,13 +438,13 @@
         <div class="row justify-content-center">
             <div class="col-lg-8" align="center">
                 <h4>Disclaimer:</h4>
-                <p>The tool on this site is only for informational and educational purposes. It should not be considered any form of professional advice.<br>
+                <p>The tool on this site is for information and educational purposes only. It should not be considered any form of professional advice.<br>
                 If you think you need immediate assistance, call your local emergency number or the mental health crisis hotline listed in your local Government's pages.</p>            
             </div>
         </div>
     </footer>
         
-        
+<!-- Reference the JavaScript scripts -->
     <script src="assets/javascript/jquery.js"></script>     <!-- Reference to the jquery script file stored locally -->    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

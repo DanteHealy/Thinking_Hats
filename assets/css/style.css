@@ -20,18 +20,18 @@ body h2 {
 }
 
 .home-div {
-    padding-top: 50px;
-    padding-bottom: 50px;    
+    padding-top: 20px;
+    padding-bottom: 20px;    
 }
 
-.section-div {
+.section-div {    
     padding-top: 50px;
     padding-bottom: 50px;    
 }
 
 .main-hat {
-    padding-top: 5em;       /* ----------Exaggerated for now*/    
-    padding-bottom: 40px;    
+    padding-top: 5em;
+    padding-bottom: 20px;    
 }
 
 .hat-card {    
@@ -40,7 +40,7 @@ body h2 {
 }
 
 .row-hat {
-    padding-top: 20px;       /* ----------Exaggerated for now*/
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -54,18 +54,15 @@ body h2 {
     color: black;
 }
 
-
-
 input[type="text"] {
     width: 600px;
     height: 40px;
 }
 
 .video-div {
-    padding-top: 2em;       /* ----------Exaggerated for now*/
+    padding-top: 20px; 
     padding-bottom: 20px;
 }
-
 
 .hat-video {
     border: 5px;
@@ -96,16 +93,12 @@ input[type="text"] {
   to { opacity: 0.2; }
 }
 
-
-
 /* ----- Image overlay for card */
-
 .card-container {
     margin: auto;    
     width: 18rem;
     text-align: center;
 }
-
 
 /* ---------------------------------------- Footer-Social-Media */
 footer {
