@@ -7,11 +7,17 @@ function hideFunction() {
     document.getElementById("hatReport").style.display="none";
     document.getElementById("resetBtn").style.display="none";
     document.getElementById("whiteTick").style.display="none";
+    document.getElementById("whiteTick2").style.display="none";
     document.getElementById("redTick").style.display="none";
+    document.getElementById("redTick2").style.display="none";
     document.getElementById("yellowTick").style.display="none";
+    document.getElementById("yellowTick2").style.display="none";
     document.getElementById("blackTick").style.display="none";
+    document.getElementById("blackTick2").style.display="none";    
     document.getElementById("greenTick").style.display="none";
+    document.getElementById("greenTick2").style.display="none";
     document.getElementById("blueTick").style.display="none";
+    document.getElementById("blueTick2").style.display="none";
 }
 
 
@@ -24,12 +30,27 @@ let clearButton = document.getElementById('clear');
 // Reveals the Six Hats Flip-card Div plus Reset button and hides the Problem Video when the problem submit button is pressed and fixes the problem statement
 submitButton.addEventListener("click", function(){
     questionDisplay.textContent = questionInput.value;
+    var strQ = $('#question-problem').val().length;
+    if (strQ < 20) {    
+        alert("Problem statement is too short. Please elaborate further!");             
+    } else {        
     document.getElementById("problemBox").style.display="none";
     document.getElementById("hatProblem").style.display="block";
     document.getElementById("sixHats").style.display="block";
     document.getElementById("resetBtn").style.display="block";
     document.getElementById("problemVideo").style.display="none";
+    }
 });
+
+
+/* submitButton.addEventListener("click", function(){
+    questionDisplay.textContent = questionInput.value;
+    document.getElementById("problemBox").style.display="none";
+    document.getElementById("hatProblem").style.display="block";
+    document.getElementById("sixHats").style.display="block";
+    document.getElementById("resetBtn").style.display="block";
+    document.getElementById("problemVideo").style.display="none";
+}); */ 
 
 // Clear all current work when clicking the reset button before reloading. 
 clearButton.addEventListener("click", function(){     
@@ -54,6 +75,7 @@ whiteHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("whiteTick").style.display="block";
+        document.getElementById("whiteTick2").style.display="block";
         cWhite = 1;
         showRptBtn();    
     }
@@ -73,6 +95,7 @@ redHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("redTick").style.display="block";
+        document.getElementById("redTick2").style.display="block";
         cRed =1;
         showRptBtn();
     }
@@ -92,6 +115,7 @@ yellowHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("yellowTick").style.display="block";
+        document.getElementById("yellowTick2").style.display="block";
         cYellow = 1;
         showRptBtn();
     }
@@ -111,6 +135,7 @@ blackHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("blackTick").style.display="block";
+        document.getElementById("blackTick2").style.display="block";
         cBlack = 1;    
         showRptBtn();
     }
@@ -130,6 +155,7 @@ greenHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("greenTick").style.display="block";
+        document.getElementById("greenTick2").style.display="block";
         cGreen = 1;
         showRptBtn();
     }
@@ -149,6 +175,7 @@ blueHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("blueTick").style.display="block";
+        document.getElementById("blueTick2").style.display="block";
         cBlue = 1;
         showRptBtn();
     }
