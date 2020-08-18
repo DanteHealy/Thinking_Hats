@@ -88,6 +88,7 @@ The photos used in this site were obtained from ...
 - https://speaking.com/speakers/edward-de-bono/ - References to Edward De Bono's services and Testimonials. 
 - https://www.debono.com/ - More background. 
 - https://www.w3schools.com/jsref/met_win_print.asp - Add a print report button and avoid refreshing the page by setting type="button" https://stackoverflow.com/questions/1878264/how-do-i-make-an-html-button-not-reload-the-page
+- https://stackoverflow.com/questions/20364212/limit-print-area-to-a-div - Specify the print area to be displayed on the page. 
 
 
 

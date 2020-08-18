@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Six Thinking Hats</title>
+
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    
+    <script src="https://kit.fontawesome.com/a1392580bd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!--- Insert Navigation bar --->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container-fluid"> 
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav mr-auto">
+                <!--- Insert Confirmation message before proceeding to Navigate off this page --->
+                    <li class="nav-item">
+                    <a href="index.html" onclick="return confirm('Are you sure you want to leave this page? All your current work will be lost when you exit!')" class="nav-link">Home | </a>
+                    </li>
+                    <li>
+                    <a href="#" class="nav-link">Guided Session | </a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="contact.html" onclick="return confirm('Are you sure you want to leave this page? All your current work will be lost when you exit!')" class="nav-link">Contact </a>
+                    </li>
+                </ul>
+                <h3 style="color: white;">Six Thinking Hats  </h3>
+                <img src="assets/images/hat-logo.JPG" alt="Thinking Hat Logo">
+            </div>
+        </div> 
+    </nav>
+    
+<!--- Title section --->
+    <div class="container main-hat">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1 class="text-center"><b>Six Thinking Hats - Guided Session:</b></h1>
+            </div>
+        </div>
+    </div>
+
+<!--- Report Template hosting the answers to the Six Hat questions -->
+    <div class="container report-div" id="hatReport">        
+        <div class="row justify-content-center">
+            <div class="col">        
+                <h2 class="text-center"><b>Six Thinking Hats Report Based on Your Inputs</b></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="assets/images/white-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">
+                <h2>Information and Data: </h2>
+                <h3 id="whiteAnswer">Some Lorem Ipsum stuff. That's at least 20 characters long, but no more than 400 characters.</h3>
+            </div>        
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="assets/images/red-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">
+                <h2>Your Emotions: </h2>
+                <h3 id="redAnswer">Some Lorem Ipsum stuff. That's at least 20 characters long, but no more than 400 characters</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="assets/images/yellow-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">        
+                <h2>Opportunities and Benefits: </h2>
+                <h3 id="yellowAnswer">Some Lorem Ipsum stuff. That's at least 20 characters long, but no more than 400 characters</h3>
+            </div>        
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="assets/images/black-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">        
+                <h2>Risks and Weaknesses: </h2>
+                <h3 id="blackAnswer">Some Lorem Ipsum stuff. That's at least 20 characters long, but no more than 400 characters</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="assets/images/green-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">
+                <h2>New Ideas and Alternatives:</h2>
+                <h3 id="greenAnswer">Some Lorem Ipsum stuff. That's at least 20 characters long, but no more than 400 characters</h3>
+            </div>        
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="assets/images/blue-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">
+                <h2>Your Conclusions: </h2>
+                <h3 id="blueAnswer">Some Lorem Ipsum stuff. That's at least 20 characters long, but no more than 400 characters</h3>
+            </div>
+        </div>
+    </div>
+
+<!--- Add a button to print report once ready --> 
+    <div class="container section-div" id="reportPrint">
+        <div class="row justify-content-center row-hat">
+            <form>
+                <button type="button" class="btn btn-lg btn-primary" onclick="window.print()">Print</button>
+            </form>
+        </div>
+    </div>
+
+<!--- Insert Reset Option If User wants to restart the exercise --> 
+    <div class="container" id="resetBtn">        
+        <div class="row justify-content-center row-hat"> 
+            <form>                
+                <input type="submit" value="Reset" id="clear" class="btn-lg btn-secondary" onclick="resetHats()"> 
+            </form>
+        </div> 
+    </div>
+
+<!--- Add a footer to the bottom of the page -->
+    <footer class="social-media">
+        <div class="row justify-content-center">
+            <div class="col-md-6" align="center">
+                <a href="https://twitter.com/edward_debono?lang=en" target="_blank">
+                    <i class="fab fa-twitter fa-3x"></i>
+                </a> 
+                <a href="https://www.facebook.com/edwardebonofficial/" target="_blank">
+                    <i class="fab fa-facebook fa-3x"></i>
+                </a> 
+                <a href="https://www.instagram.com/edwardebonofficial/p/BmL77y0A3I2/" target="_blank">
+                    <i class="fab fa-instagram fa-3x"></i>
+                </a> 
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8" align="center">
+                <h4>Disclaimer:</h4>
+                <p>The tool on this site is for information and educational purposes only. It should not be considered any form of professional advice.<br>
+                If you think you need immediate assistance, call your local emergency number or the mental health crisis hotline listed in your local Government's pages.</p>            
+            </div>
+        </div>
+    </footer>
+        
+<!-- Reference the JavaScript scripts -->
+    <script src="assets/javascript/jquery.js"></script>     <!-- Reference to the jquery script file stored locally -->    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="assets/javascript/main.js"></script>       <!-- Reference to the jquery code -->
+</body>
+
+</html>
