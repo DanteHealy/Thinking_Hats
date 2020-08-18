@@ -193,6 +193,12 @@ footer {
 }
 
 
+/* --- Print report only and hide non-relevant elements --- */
+@media print {
+   #resetBtn *, #reportPrint *, #footNote * { display:none; };
+   #hatProblem, #hatReport *, #titleDiv * { display:block; };
+}
+
 
 
 

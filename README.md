@@ -1,7 +1,32 @@
-# Your Project's Name
-One or two paragraphs providing an overview of your project.
+# Six Thnking Hats
+The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
-Essentially, this part is your sales pitch.
+In the current environment there are people who are faced with challenges that they may be struggling with because they lack clarity. 
+This framework has proven effective in all areas of life because it guides people to think about an issue from multiple different angles. 
+Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
+The Landing Page provides a brief overview video with a transcript at the bottom of the page and a call to action button that leads you to the guided session page. 
+At the footer are social media links plus a disclaimer text that says this is educational only and doesn't cover advice relating to emergency services. 
+
+The guided session page opens with another video about defining the specific problem with a text box to enter your problem. 
+The logic requires a string between 10 to 100 characters in length.
+Once the user submits their problem six hat images appear which are individual flip cards leading to a modal that guides the user though each Hat. 
+Within each modeal there is an instruction video and a texarea to enable the user to input their notes (the logic assumes between 20 - 400 characters of input).
+Once each hat is completed a tick will appear on the modal next to the close button at the bottom and each hat will have a tick when completed. 
+Throughout this process there is a reset button which allows the user to reload the page and clear everything to start again. 
+Once all six hats are completed a print report button will appear that generates a user friendly report. 
+Once the report is generate a print button appears which allows the user to print the report from their browser. 
+As the inputs are not saved there are warning popup messages asking for confirmation before navigating out of the session. 
+
+In the contact session there is a bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
+Below the video are two buttons: 
+- Speaker bookings which takes you to a page where you can book Edward De Bono for events and 
+- General Inquiries (The plan is to create a form that emails me as the creator of the webpage, but also refers to the Useful links for the Official Six Thinking Hats organisations)
+
+There is also an accordion which contains: 
+- Testimonlias: For Edward De Bono
+- General Inquiries: An explanation of the form that this is for the creator of the website. 
+- Useful links: Links to Edward De Bono's organisations and related Six Hats groups. 
+
 
 ## UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -61,8 +86,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 ### Content
-I couldn't have made this webpage without the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
-gbenga_mentor, Readri205, Michaelstanden, michael_ci, JoWings_alumna, 
+
 
 ### Media
 The photos used in this site were obtained from ...
@@ -71,6 +95,11 @@ The photos used in this site were obtained from ...
 
 
 ### Acknowledgements
+I couldn't have made this webpage without the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
+gbenga_mentor, Readri205, Michaelstanden, michael_ci, JoWings_alumna and 
+
+
+References used: 
 - https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono & https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/ - My initial inspirations for this project. 
 - https://getbootstrap.com/docs/4.5/getting-started/introduction/ - Use of Bootstrap generally for responsive styling and layouts. 
 - https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box - Styling the Text Box. 
@@ -89,10 +118,7 @@ The photos used in this site were obtained from ...
 - https://www.debono.com/ - More background. 
 - https://www.w3schools.com/jsref/met_win_print.asp - Add a print report button and avoid refreshing the page by setting type="button" https://stackoverflow.com/questions/1878264/how-do-i-make-an-html-button-not-reload-the-page
 - https://stackoverflow.com/questions/20364212/limit-print-area-to-a-div - Specify the print area to be displayed on the page. 
-
-
-
-
+- https://debonoconsulting.com/training-courses/six-thinking-hats/six-thinking-hats-as-applied-in-six-sigma/ 
 
 - Articles and websites for ideas: 
     1. https://www.debonogroup.com/services/core-programs/six-thinking-hats/ - The DeBono Group, concept owners
