@@ -28,6 +28,7 @@ There is also an accordion which contains:
 - Useful links: Links to Edward De Bono's organisations and related Six Hats groups. 
 
 
+
 ## UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -83,6 +84,9 @@ Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
+
+The link to the published site: https://dantehealy.github.io/Thinking_Hats/index.html
+
 
 ## Credits
 ### Content
