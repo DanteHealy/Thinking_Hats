@@ -124,6 +124,7 @@ References used:
 - https://stackoverflow.com/questions/20364212/limit-print-area-to-a-div - Specify the print area to be displayed on the page. 
 - https://debonoconsulting.com/training-courses/six-thinking-hats/six-thinking-hats-as-applied-in-six-sigma/ 
 - http://reusableforms.com/d/p/bootstrap-popup-email-form - Bootstrap popup email form! 
+- Use of the Code Institute Resume Course for my email form - Module "Sending Emails using EmailJS" 
 
 
 - Articles and websites for ideas: 
