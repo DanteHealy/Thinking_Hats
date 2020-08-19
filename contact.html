@@ -66,46 +66,6 @@
             </div>
         </div>
     </div>
-    
-<!--- Contact Buttons --->
-        <div class="container section-div">             
-            <div class="row justify-content-around">
-                <div class="col-lg-3 col-md-4 col-sm-8 d-flex justify-content-around mt-2 mb-2">
-                    <a href="https://speaking.com/speakers/edward-de-bono/" target="_blank" class="btn btn-lg btn-primary" role="button">Speaker Bookings</a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-8 d-flex justify-content-around mt-2 mb-2">
-                    <button type="button" id="i" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#contact-form">General Inquiries</button>
-                </div>
-            </div>
-        </div>
-
-<!--- Email Contact Form Placeholder modal -->
-    <div class="modal fade" id="contact-form">
-        <div class="modal-dialog">
-        <!--- Email Contact Form modal content -->            
-            <div class="modal-content">
-                <div class="modal-header">                        
-                    <h4 class="modal-title">Contact Site Creator</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>                
-                <div class="modal-body">                   
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container section-div">             
-        <div class="row justify-content-around">
-            <div class="col-lg-8">
-            <form id="myForm" method="post" onsubmit="return sendMail(this);">
-                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" style="width: 100%;" required/><br>
-                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" style="width: 100%;" required/><br>
-                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Enter your message" style="width: 100%;" required></textarea><br>
-                <button type="submit" class="btn btn-success center-block">Send Email</button>                        
-            </form>
-            </div>
-        </div>
-    </div>
 
 <!--- Insert an accordion for the more detailed text elements --->
     <div class="container">
@@ -114,12 +74,21 @@
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h3 class="mb-0">
-                            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"><i class="fa fa-plus"></i>Testimonials</button>
+                            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"><i class="fa fa-plus"></i>Speaker Inquiries for Edward De Bono</button>
                         </h3>
                     </div>
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
-                             <ul>
+                            <!--- Contact Buttons --->
+                            <div class="container">
+                                <div class="row justify-content-around">
+                                    <div class="col-lg-3 col-md-4 col-sm-8 d-flex justify-content-around mt-2 mb-2">
+                                        <a href="https://speaking.com/speakers/edward-de-bono/" target="_blank" class="btn btn-lg btn-primary" role="button">Booking Form</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Testimonials</h3>
+                            <ul>
                                 <li> 
                                    <h5><i>“I believe Dr. de Bono′s work in teaching people to think may be the most important thing happening in the world today.”</i><br>
                                     <b> George Gallup</b></h5> 
@@ -156,8 +125,20 @@
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
-                            Insert my credentials and explain that I am the creator of this webpage, but to reach someone for Six Thinking Hats you should refer to the official links below in the "Useful Links" section below. 
-                            
+                            <h5>For more information about Six Thinking Hats please refer to the official sites in the Useful links section.<br><br>
+                            To contact the web developer if you need a similar project enter your details below:</h5>
+                            <div class="container section-div">
+                                <div class="row justify-content-around">
+                                    <div class="col-lg-8">
+                                        <form onsubmit="return sendMail(this);">
+                                            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" style="width: 100%;" required/><br>
+                                            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" style="width: 100%;" required/><br>
+                                            <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Enter your message" style="width: 100%;" required></textarea><br>
+                                            <button type="submit" class="btn btn-success center-block">Send Email</button>                        
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

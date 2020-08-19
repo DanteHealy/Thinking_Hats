@@ -14,12 +14,3 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
-
-function myReset() {
-    document.getElementById(“myForm”).reset();
-    }
-$(document).ready(function() {
-    $(“form”).submit(function() {
-        alert(“Thanks! Your details have been submitted! Thanks for your time, comments and questions! We appreciate it!“);
-    });
-});
