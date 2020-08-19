@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/a1392580bd.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
 </head>
 
 <body>
@@ -74,39 +74,35 @@
                     <a href="https://speaking.com/speakers/edward-de-bono/" target="_blank" class="btn btn-lg btn-primary" role="button">Speaker Bookings</a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-8 d-flex justify-content-around mt-2 mb-2">
-                    <button type="button" id="blue-btn" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#contact-modal">General Inquiries</button>
+                    <button type="button" id="i" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#contact-form">General Inquiries</button>
                 </div>
             </div>
         </div>
 
 <!--- Email Contact Form Placeholder modal -->
-    <div class="modal fade" id="contact-modal">
+    <div class="modal fade" id="contact-form">
         <div class="modal-dialog">
-        <!--- White Hat modal content -->
+        <!--- Email Contact Form modal content -->            
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Contact Site Creator</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>                
-                <div class="modal-body"> 
-                    <div class="form-group">
-                        <label for="name">
-                            Name:</label>
-                        <input type="text" class="form-control" id="name" name="name" required maxlength="50" style="width:100%;">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">
-                            Email:</label>
-                        <input type="email" class="form-control" id="email" name="email" required maxlength="50" style="width:100%;">
-                    </div>
-                    <div class="form-group">
-                        <label for="">Message</label><br>
-                        <textarea class="form-control" id="contact-msg" name="contact-msg" placeholder="Your Message Here" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                                                
-                    </div>
-                    <div>
-                        <input type="submit" value="Send!" id="msg-contact" class="btn btn-success" data-dismiss="modal">
-                    </div>
+                <div class="modal-body">                   
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container section-div">             
+        <div class="row justify-content-around">
+            <div class="col-lg-8">
+            <form id="myForm" method="post" onsubmit="return sendMail(this);">
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" style="width: 100%;" required/><br>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" style="width: 100%;" required/><br>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Enter your message" style="width: 100%;" required></textarea><br>
+                <button type="submit" class="btn btn-success center-block">Send Email</button>                        
+            </form>
             </div>
         </div>
     </div>
@@ -160,9 +156,8 @@
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
-                            <p>
-                                Insert my credentials and explain that I am the creator of this webpage, but to reach someone for Six Thinking Hats you should refer to the official links below in the "Useful Links" section below. 
-                            </p>
+                            Insert my credentials and explain that I am the creator of this webpage, but to reach someone for Six Thinking Hats you should refer to the official links below in the "Useful Links" section below. 
+                            
                         </div>
                     </div>
                 </div>
@@ -215,6 +210,13 @@
     </footer>
 
 <!-- Reference the JavaScript scripts -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("user_kzY5dwHj1okN30wm0qoX0");
+        })();
+    </script>     
+    <script src="assets/javascript/sendEmail.js"></script>
     <script src="assets/javascript/jquery.js"></script>     <!-- Reference to the jquery script file stored locally -->        
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
