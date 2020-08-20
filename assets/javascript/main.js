@@ -61,8 +61,9 @@ let submitWhite = document.getElementById('whiteHat');
 let whiteAnswer = document.getElementById('whiteAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
-whiteHat.addEventListener("click",function(){             
-    whiteAnswer.textContent = answerWhite.value;
+whiteHat.addEventListener("click",function(){                 
+    let whiteanswervalue = encodeURI(answerWhite.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
+    whiteAnswer.innerHTML = whiteanswervalue;
     var strW = $('#answer-white').val().length;
     if (strW < 20) {    
         alert("Answer is too short. Please elaborate further!");             
@@ -82,7 +83,8 @@ let redAnswer = document.getElementById('redAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 redHat.addEventListener("click",function(){
-    redAnswer.textContent = answerRed.value;
+    let redanswervalue = encodeURI(answerRed.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
+    redAnswer.innerHTML = redanswervalue;    
     var strR = $('#answer-red').val().length;
     if (strR < 20) {    
         alert("Answer is too short. Please elaborate further!");             
@@ -102,7 +104,8 @@ let yellowAnswer = document.getElementById('yellowAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 yellowHat.addEventListener("click",function(){
-    yellowAnswer.textContent = answerYellow.value;
+    let yellowanswervalue = encodeURI(answerYellow.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
+    yellowAnswer.innerHTML = yellowanswervalue;    
     var strY = $('#answer-yellow').val().length;
     if (strY < 20) {    
         alert("Answer is too short. Please elaborate further!");             
@@ -122,7 +125,8 @@ let blackAnswer = document.getElementById('blackAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 blackHat.addEventListener("click",function(){
-    blackAnswer.textContent = answerBlack.value;
+    let blackanswervalue = encodeURI(answerBlack.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
+    blackAnswer.innerHTML = blackanswervalue;    
     var strB = $('#answer-black').val().length;
     if (strB < 20) {    
         alert("Answer is too short. Please elaborate further!");             
@@ -142,7 +146,8 @@ let greenAnswer = document.getElementById('greenAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 greenHat.addEventListener("click",function(){
-    greenAnswer.textContent = answerGreen.value;
+    let greenanswervalue = encodeURI(answerGreen.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
+    greenAnswer.innerHTML = greenanswervalue;    
     var strG = $('#answer-green').val().length;
     if (strG < 20) {    
         alert("Answer is too short. Please elaborate further!");             
@@ -162,7 +167,8 @@ let blueAnswer = document.getElementById('blueAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 blueHat.addEventListener("click",function(){
-    blueAnswer.textContent = answerBlue.value;
+    let blueanswervalue = encodeURI(answerBlue.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
+    blueAnswer.innerHTML = blueanswervalue;    
     var strB = $('#answer-blue').val().length;
     if (strB < 20) {    
         alert("Answer is too short. Please elaborate further!");             
