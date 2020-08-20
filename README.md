@@ -57,7 +57,7 @@ Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 Note: 
-One quirk which I am aware of is that the final report layout looks different between the Google Chrome browser, which prints exactly like the screena and the Microsoft Edge browser which applies responsive adjustment so the hats are not side by side in pairs, but on top of each other. 
+One quirk which I am aware of is that the final report layout looks different between the MS Edge browser, which prints exactly like the screena and the Google Chrome and Mobile browsers which applies responsive adjustment so the hats are not side by side in pairs, but on top of each other. 
 As the report looks good in both formats I do not consider this a defect and decided not to invest too much time trying to resolve this. 
 <INSERT EXAMPLE PICTURES >
 
@@ -137,6 +137,7 @@ References used:
 - https://debonoconsulting.com/training-courses/six-thinking-hats/six-thinking-hats-as-applied-in-six-sigma/ 
 - http://reusableforms.com/d/p/bootstrap-popup-email-form - Bootstrap popup email form! 
 - Use of the Code Institute Resume Course for my email form - Module "Sending Emails using EmailJS" 
+- https://stackoverflow.com/questions/33477930/close-bootstrap-modal-on-form-submit - Dismiss modal on successful submit (for a more user friendly mobile experience) after peer review. 
 
 
 - Articles and websites for ideas: 
