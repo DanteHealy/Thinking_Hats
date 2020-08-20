@@ -1,6 +1,8 @@
-// Create variables first hide and then show sections of the exercise page based on certain criteria being met: 
+// Create variables first hide and then show sections of the hats.html exercise page based on certain criteria being met: 
 function hideFunction() {
-    // First hide key sections on first page load:  
+    // First include load animation that runs until page is fully loaded:
+    $(".loader-wrapper").fadeOut("slow");
+    // Second hide key sections on first page load to be called up when certain parts are completed:  
     document.getElementById("hatProblem").style.display="none";
     document.getElementById("sixHats").style.display="none";    
     document.getElementById("reportProduce").style.display="none";

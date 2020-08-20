@@ -138,6 +138,7 @@ References used:
 - http://reusableforms.com/d/p/bootstrap-popup-email-form - Bootstrap popup email form! 
 - Use of the Code Institute Resume Course for my email form - Module "Sending Emails using EmailJS" 
 - https://stackoverflow.com/questions/33477930/close-bootstrap-modal-on-form-submit - Dismiss modal on successful submit (for a more user friendly mobile experience) after peer review. 
+- https://www.youtube.com/watch?v=gttmqvZ4kYc - Transition animation load for the hats.html guided session page. 
 
 
 - Articles and websites for ideas: 

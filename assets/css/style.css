@@ -2,8 +2,8 @@
 body {
     font-family: 'Lato', sans-serif;
     color: darkblue;
-    background-color: #f1f1f1;    
-    transition-delay: 0.4s;
+    background-color: #f1f1f1;
+    transition-duration: 1s;
 }
 
 body h1 {
@@ -209,6 +209,48 @@ footer p {
    #hatProblem, #hatReport *, #titleDiv * { display:block; };
 }
 
+
+/* --- Page load animation for a smoother opening transition for hats.html whilst certain elements are being hidden --- */
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display:flex;
+  justify-content: center;
+  align-items: center;      
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;  
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;  
+}
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
 
 
 
