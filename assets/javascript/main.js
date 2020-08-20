@@ -66,9 +66,9 @@ whiteHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("whiteTick").style.display="block";
-        document.getElementById("whiteTick2").style.display="block";
+        document.getElementById("whiteTick2").style.display="block";        
         cWhite = 1;
-        showRptBtn();    
+        showRptBtn();               
     }
 }); 
 
@@ -86,9 +86,9 @@ redHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("redTick").style.display="block";
-        document.getElementById("redTick2").style.display="block";
+        document.getElementById("redTick2").style.display="block";        
         cRed =1;
-        showRptBtn();
+        showRptBtn();                
     }
 }); 
 
@@ -106,9 +106,9 @@ yellowHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("yellowTick").style.display="block";
-        document.getElementById("yellowTick2").style.display="block";
+        document.getElementById("yellowTick2").style.display="block";        
         cYellow = 1;
-        showRptBtn();
+        showRptBtn();                
     }
 }); 
 
@@ -126,9 +126,9 @@ blackHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("blackTick").style.display="block";
-        document.getElementById("blackTick2").style.display="block";
+        document.getElementById("blackTick2").style.display="block";        
         cBlack = 1;    
-        showRptBtn();
+        showRptBtn();                
     }
 }); 
 
@@ -146,9 +146,9 @@ greenHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("greenTick").style.display="block";
-        document.getElementById("greenTick2").style.display="block";
+        document.getElementById("greenTick2").style.display="block";        
         cGreen = 1;
-        showRptBtn();
+        showRptBtn();                
     }
 }); 
 
@@ -166,9 +166,9 @@ blueHat.addEventListener("click",function(){
         alert("Answer is too short. Please elaborate further!");             
     } else {        
         document.getElementById("blueTick").style.display="block";
-        document.getElementById("blueTick2").style.display="block";
+        document.getElementById("blueTick2").style.display="block";        
         cBlue = 1;
-        showRptBtn();
+        showRptBtn(); 
     }
 }); 
 

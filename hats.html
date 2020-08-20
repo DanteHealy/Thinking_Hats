@@ -62,7 +62,7 @@
 <!--- Initial Prompt for Challenge Question --->
     <div class="container section-div text-center" id="problemBox">        
         <div class="row justify-content-center row-hat">
-            <div class="col-lg-10">
+            <div class="col-lg-10 pb-2">
                 <form id="main-question" onsubmit="return false">
                     <label for="">Enter your problem statement or question here (between 20 to 100 characters):</label><br>               
                     <textarea id="question-problem" name="question-problem" maxlength="100" cols="50" rows="10" wrap="hard" style="width:100%; height:80px;"></textarea><br>                 
@@ -213,7 +213,7 @@
                     </video>         
                     <label for="">What information do we need?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-white" id="answer-white" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
-                    <input type="submit" value="Submit" id="whiteHat" class="btn btn-outline-dark">
+                    <input type="submit" value="Submit" id="whiteHat" class="btn btn-outline-dark" data-dismiss="modal">
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="whiteTick2" style="display: inline; color:lightgreen;"></i>
@@ -239,7 +239,7 @@
                     </video>         
                     <label for="">What emotions are you feeling?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-red" id="answer-red" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
-                    <input type="submit" value="Submit" id="redHat" class="btn btn-danger">
+                    <input type="submit" value="Submit" id="redHat" class="btn btn-danger" data-dismiss="modal">
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="redTick2" style="display: inline; color:lightgreen;"></i>
@@ -265,7 +265,7 @@
                     </video>
                     <label for="">What are your benefits and opportunites?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-yellow" id="answer-yellow" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
-                    <input type="submit" value="Submit" id="yellowHat" class="btn btn-warning">
+                    <input type="submit" value="Submit" id="yellowHat" class="btn btn-warning" data-dismiss="modal">
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="yellowTick2" style="display: inline; color:lightgreen;"></i>
@@ -291,7 +291,7 @@
                     </video>         
                     <label for="">What are your risks and weaknesses?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-black" id="answer-black" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
-                    <input type="submit" value="Submit" id="blackHat" class="btn btn-dark">
+                    <input type="submit" value="Submit" id="blackHat" class="btn btn-dark" data-dismiss="modal">
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="blackTick2" style="display: inline; color:lightgreen;"></i>
@@ -317,7 +317,7 @@
                     </video>
                     <label for="">What are your new ideas and alternatives?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-green" id="answer-green" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
-                    <input type="submit" value="Submit" id="greenHat" class="btn btn-success">
+                    <input type="submit" value="Submit" id="greenHat" class="btn btn-success" data-dismiss="modal">
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="greenTick2" style="display: inline; color:lightgreen;"></i>
@@ -343,7 +343,7 @@
                     </video>         
                     <label for="">What are your conclusions?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-blue" id="answer-blue" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
-                    <input type="submit" value="Submit" id="blueHat" class="btn btn-primary">
+                    <input type="submit" value="Submit" id="blueHat" class="btn btn-primary" data-dismiss="modal">
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="blueTick2" style="display: inline; color:lightgreen;"></i>
@@ -355,12 +355,12 @@
 
 <!--- Report Template hosting the answers to the Six Hat questions -->
     <div class="container report-div" id="hatReport">        
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-2 mb-2">
             <div class="col-lg-10 col-md-10 col-sm-12">        
                 <h2 class="text-center"><b>Six Thinking Hats Report Based on Your Inputs</b></h2>
             </div>
         </div>
-        <div class="row justify-content-around">
+        <div class="row justify-content-around mt-2 mb-2">
             <div class="col-lg-5 col-md-5 col-sm-5">
                 <img src="assets/images/white-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">
                 <h2><u>Information and Data:</u></h2> 
@@ -372,7 +372,7 @@
                 <h3 id="redAnswer"></h3>
             </div>
         </div> 
-        <div class="row justify-content-around">
+        <div class="row justify-content-around mt-2 mb-2">
             <div class="col-lg-5 col-md-5 col-sm-5">
                 <img src="assets/images/yellow-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">        
                 <h2><u>Opportunities and Benefits:</u></h2>
@@ -384,7 +384,7 @@
                 <h3 id="blackAnswer"></h3>
             </div>
         </div>
-        <div class="row justify-content-around">
+        <div class="row justify-content-around mt-2 mb-2">
             <div class="col-lg-5 col-md-5 col-sm-5">
                 <img src="assets/images/green-hat.JPG" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">
                 <h2><u>New Ideas and Alternatives:</u></h2> 

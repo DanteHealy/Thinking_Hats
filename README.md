@@ -40,7 +40,8 @@ This section is also where you would share links to any wireframes, mockups, dia
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-All features were defined and monitored on a Trello board: https://trello.com/b/RhaoyvZJ/milestone-project-2
+All features were defined and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
+
 
 
 ## Existing Features
@@ -54,6 +55,12 @@ In addition, you may also use this section to discuss plans for additional featu
 Another feature idea
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+Note: 
+One quirk which I am aware of is that the final report layout looks different between the Google Chrome browser, which prints exactly like the screena and the Microsoft Edge browser which applies responsive adjustment so the hats are not side by side in pairs, but on top of each other. 
+As the report looks good in both formats I do not consider this a defect and decided not to invest too much time trying to resolve this. 
+<INSERT EXAMPLE PICTURES >
+
 
 ### JQuery
 The project uses JQuery to simplify DOM manipulation.
@@ -74,6 +81,11 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
+## Testing 
+
+
 
 ## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
