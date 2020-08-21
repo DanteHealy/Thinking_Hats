@@ -167,6 +167,7 @@ footer p {
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+  box-shadow: 3px 4px 3px 4px #888888;
 }
 
 /* Position the front and back side */
@@ -180,7 +181,7 @@ footer p {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: yellow;
+  background-color: #f1f1f1;
   color: black;  
 }
 
