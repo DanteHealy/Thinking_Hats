@@ -32,7 +32,8 @@ let clearButton = document.getElementById('clear');
 
 // Reveals the Six Hats Flip-card Div plus Reset button and hides the Problem Video when the problem submit button is pressed and fixes the problem statement
 submitButton.addEventListener("click", function(){
-    questionDisplay.textContent = questionInput.value;
+    let questiondisplayvalue = encodeURI(questionInput.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
+    questionDisplay.innerHTML = questiondisplayvalue;    
     var strQ = $('#question-problem').val().length;
     if (strQ < 20) {    
         alert("Problem statement is too short. Please elaborate further!");             
