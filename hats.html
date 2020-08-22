@@ -205,10 +205,10 @@
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">White Hat Session</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button type="button" class="close" onclick="pauseWhite();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video width="100%" height="auto" controls class="hat-video">
+                    <video id="whiteVid" width="100%" height="auto" controls class="hat-video">
                         <source src="assets/movie/video-white.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
@@ -218,8 +218,8 @@
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="whiteTick2" style="display: inline; color:lightgreen;"></i>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                    
-                </div>                
+                    <button type="button" class="btn btn-default" onclick="pauseWhite();" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
@@ -231,10 +231,10 @@
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Red Hat Session</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button type="button" class="close" onclick="pauseRed();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video width="100%" height="auto" controls class="hat-video">
+                    <video id="redVid" width="100%" height="auto" controls class="hat-video">
                         <source src="assets/movie/video-red.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
@@ -244,7 +244,7 @@
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="redTick2" style="display: inline; color:lightgreen;"></i>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" onclick="pauseRed();" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -257,10 +257,10 @@
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Yellow Hat Session</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button type="button" class="close" onclick="pauseYellow();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video width="100%" height="auto" controls class="hat-video">
+                    <video id="yellowVid" width="100%" height="auto" controls class="hat-video">
                         <source src="assets/movie/video-yellow.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>
@@ -270,7 +270,7 @@
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="yellowTick2" style="display: inline; color:lightgreen;"></i>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" onclick="pauseYellow();" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -283,10 +283,10 @@
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Black Hat Session</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button type="button" class="close" onclick="pauseBlack();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video width="100%" height="auto" controls class="hat-video">
+                    <video id="blackVid" width="100%" height="auto" controls class="hat-video">
                         <source src="assets/movie/video-black.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
@@ -296,7 +296,7 @@
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="blackTick2" style="display: inline; color:lightgreen;"></i>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" onclick="pauseBlack();" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -309,10 +309,10 @@
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Green Hat Session</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button type="button" class="close" onclick="pauseGreen();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video width="100%" height="auto" controls class="hat-video">
+                    <video id="greenVid" width="100%" height="auto" controls class="hat-video">
                         <source src="assets/movie/video-green.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>
@@ -322,7 +322,7 @@
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="greenTick2" style="display: inline; color:lightgreen;"></i>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" onclick="pauseGreen();" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -335,10 +335,10 @@
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Blue Hat Session</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button type="button" class="close" onclick="pauseBlue();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video width="100%" height="auto" controls class="hat-video">
+                    <video id="blueVid" width="100%" height="auto" controls class="hat-video">
                         <source src="assets/movie/video-blue.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
@@ -348,7 +348,7 @@
                 </div>
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="blueTick2" style="display: inline; color:lightgreen;"></i>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" onclick="pauseBlue();" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>

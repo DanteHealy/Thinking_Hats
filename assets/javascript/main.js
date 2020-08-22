@@ -72,7 +72,8 @@ whiteHat.addEventListener("click",function(){
         document.getElementById("whiteTick").style.display="block";
         document.getElementById("whiteTick2").style.display="block";        
         cWhite = 1;
-        showRptBtn();               
+        showRptBtn();
+        pauseWhite();
     }
 }); 
 
@@ -93,7 +94,8 @@ redHat.addEventListener("click",function(){
         document.getElementById("redTick").style.display="block";
         document.getElementById("redTick2").style.display="block";        
         cRed =1;
-        showRptBtn();                
+        showRptBtn();
+        pauseRed();
     }
 }); 
 
@@ -114,7 +116,8 @@ yellowHat.addEventListener("click",function(){
         document.getElementById("yellowTick").style.display="block";
         document.getElementById("yellowTick2").style.display="block";        
         cYellow = 1;
-        showRptBtn();                
+        showRptBtn();
+        pauseYellow();
     }
 }); 
 
@@ -135,7 +138,8 @@ blackHat.addEventListener("click",function(){
         document.getElementById("blackTick").style.display="block";
         document.getElementById("blackTick2").style.display="block";        
         cBlack = 1;    
-        showRptBtn();                
+        showRptBtn();
+        pauseBlack();
     }
 }); 
 
@@ -156,7 +160,8 @@ greenHat.addEventListener("click",function(){
         document.getElementById("greenTick").style.display="block";
         document.getElementById("greenTick2").style.display="block";        
         cGreen = 1;
-        showRptBtn();                
+        showRptBtn();
+        pauseGreen();
     }
 }); 
 
@@ -177,9 +182,36 @@ blueHat.addEventListener("click",function(){
         document.getElementById("blueTick").style.display="block";
         document.getElementById("blueTick2").style.display="block";        
         cBlue = 1;
-        showRptBtn(); 
+        showRptBtn();
+        pauseBlue();
     }
 }); 
+
+
+// Pause the videos when modals are closed to avoid multiple video voices played at the same time. Defect discovered during testing! 
+function pauseWhite() { 
+   $('#whiteVid').get(0).pause();  /* Pause video when white modal closes */
+} 
+
+function pauseRed() { 
+   $('#redVid').get(0).pause();  /* Pause video when red modal closes */
+} 
+
+function pauseYellow() { 
+   $('#yellowVid').get(0).pause();  /* Pause video when yellow modal closes */
+} 
+
+function pauseBlack() { 
+   $('#blackVid').get(0).pause();  /* Pause video when black modal closes */
+} 
+
+function pauseGreen() { 
+   $('#greenVid').get(0).pause();  /* Pause video when green modal closes */
+} 
+
+function pauseBlue() { 
+   $('#blueVid').get(0).pause();  /* Pause video when blue modal closes */
+} 
 
 
 /* Show Generate Report Button when all boxes are completed: */
