@@ -195,9 +195,9 @@ var cBlue = 0;
 
 //Reveal the generate report box when the hCount variable equals 6 (or all the Hat boxes are completed)
 function showRptBtn() {
-    if (cWhite + cRed + cYellow + cBlack + cGreen + cBlue == 6) {    
-    document.getElementById("reportProduce").style.display="block";    
-    }  generateReport();
+    if (cWhite && cRed && cYellow && cBlack && cGreen && cBlue) {    
+    document.getElementById("reportProduce").style.display="block";        
+    }  
 }
 
 

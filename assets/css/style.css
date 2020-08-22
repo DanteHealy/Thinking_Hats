@@ -92,12 +92,12 @@ input[type="text"] {
 }
 
 .blink {
-    animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+    animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
 
 @keyframes blinker {  
   from { opacity: 1; }
-  to { opacity: 0.2; }
+  to { opacity: 0.6; }
 }
 
 /* ----- Image overlay for card */
