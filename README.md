@@ -139,7 +139,7 @@ References used:
 - Use of the Code Institute Resume Course for my email form - Module "Sending Emails using EmailJS" 
 - https://stackoverflow.com/questions/33477930/close-bootstrap-modal-on-form-submit - Dismiss modal on successful submit (for a more user friendly mobile experience) after peer review. 
 - https://www.youtube.com/watch?v=gttmqvZ4kYc - Transition animation load for the hats.html guided session page. 
-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_met_play_pause - Pause MP4 video on close to prevent multiple videos playing at the same time. 
+- https://www.geeksforgeeks.org/how-to-play-pause-video-using-jquery/#:~:text=The%20pause()%20method%20in,element%20to%20pause%20the%20video - Pause MP4 video on close to prevent multiple videos playing at the same time. 
 
 
 - Articles and websites for ideas: 
