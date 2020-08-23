@@ -1,4 +1,4 @@
-# Six Thnking Hats
+# Six Thinking Hats
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
 In the current environment there are people who are faced with challenges that they may be struggling with because they lack clarity. 
@@ -12,11 +12,16 @@ Use this section to provide insight into your UX process, focusing on who this w
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
+
+======= TO DELETE
 As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
+These files should themselves either be included as a pdf file in the project itself (in an separate directory), 
+or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 
 ### The Home page 
+
 
 ### The "Guided Session" page 
 Ppens with another video about defining the specific problem with a text box to enter your problem. 
@@ -41,7 +46,7 @@ There is also an accordion which contains:
 - Useful links: Links to Edward De Bono's organisations and related Six Hats groups. 
 
 ## Wireframes
-Final wireframe 
+Final wireframes outlined as below: 
 
 ### Home Page:
 
@@ -70,11 +75,11 @@ In addition, you may also use this section to discuss plans for additional featu
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-
 Note: 
 One quirk which I am aware of is that the final report layout looks different between the MS Edge browser, which prints exactly like the screena and the Google Chrome and Mobile browsers which applies responsive adjustment so the hats are not side by side in pairs, but on top of each other. 
 As the report looks good in both formats I do not consider this a defect and decided not to invest too much time trying to resolve this. 
 <INSERT EXAMPLE PICTURES >
+
 
 
 ## Technologies Used
@@ -119,15 +124,17 @@ A particularly useful form for describing your testing process is via scenarios,
 - JSHint 
 
 ### Manual testing 
-Significant manual testing performed by myself. 
-Play the videos in the modals - resolve any problems. 
-Test the print report on various formats. 
-
-Testing the "Contact Us" page
+1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) 
+2. Sent the webpage to my selected friends (work colleagues and LinkedIn contacts) and family (wife and brother) to test on their devices and provide feedback
+3. Posted my link via workflow on the Peer-Review SLACK group with the Code Institute for feedback (twice first at about 80% complete then a final review at 95% complete)
+4. Had my content and design reviewed by certain select people amongst my LinkedIn contacts for any changes neede.
+5. Tested all the links and features as I was coding to ensure that they worked as I was coding.
+6. Played the videos in the modals, texted the textareas multiple times to identify and resolve any problems. 
+7. Tested the print report on various devices. 
+8. Testing the email form in the "Contact" page
 - Try to submit the empty form and verify that an error message about the required fields appears
 - Try to submit the form with an invalid email address and verify that a relevant error message appears
 - Try to submit the form with all inputs valid and verify that a success message appears.
-- In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 
 
@@ -141,6 +148,7 @@ Testing the "Contact Us" page
 - Alejandra noted that the flashing hand icon on the landing page was too powerful and needed to be softened or completely removed - softened. 
 - Flip cards would benefit from some shading effects. 
 - EmailJS confirmation alert did not initially work and needed to be fixed. 
+
 
 
 
@@ -162,14 +170,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 I couldn't have made this webpage without the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
 - JoWings_alumna, gbenga_mentor, Readri205, Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical advice and feedback on peer review and 
-- My professional contacts on LinkedIn like Alejandra Huamán Ordóñez plus my friends and family for testing my web site and providing their critical feedback as general users. 
-
-### Content
+- My LinkedIn friend and professional tester Alejandra Huamán Ordóñez plus my friends and family for testing my web site and providing their critical feedback as general users. 
 
 
+## Content
 ### Media
 The photos used in this site were obtained from ...
-- https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create videos for the webpage. 
+- https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create custom videos for the web site. 
 - https://unsplash.com/ - For images 
 
 ### References used: 
@@ -209,3 +216,6 @@ The photos used in this site were obtained from ...
     7. https://hbr.org/2012/09/are-you-solving-the-right-problem - Defining the problem by HBR 
     8. https://transformationacademy.com/2019/10/thoughts-101-how-thoughts-create-emotions-and-stuff/ - Red Hat Thinking
 
+Special dedication to 
+- Edward De Bono and his book Six Thinking Hats https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono/dp/0241257530/ref=sr_1_1?crid=1EEDOQZKPKSVG&dchild=1&keywords=six+thinking+hats&qid=1598200811&sprefix=six+thinking%2Caps%2C149&sr=8-1
+- Jim Kwik for bringing the value of this concept to my attention through his thinking courses and book https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/dp/1401958230/ref=sr_1_1?crid=3RJUP8CP6I5ET&dchild=1&keywords=limitless+jim+kwik&qid=1598200888&sprefix=limitless%2Caps%2C152&sr=8-1
