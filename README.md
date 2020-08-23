@@ -2,14 +2,15 @@
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
 ## UX
-In the current Covid-impacted environment there are people who are faced with new uncertain challenges that they may be struggling with because they lack clarity. 
-This framework has proven effective in all areas of life because it guides people to think about any issue from multiple different angles. 
-People tend to have one dominant way of thinking and the Six Thinking Hats encourages people to exercise multiple perspective when looking at a problem. 
+There are numerous people who are struggling with uncertainty due to new challenges brought about by the current Covid-impacted environment causing distress from lack of clarity. 
+This framework has proven effective in all areas of life because it guides people to think holistically about their problems from multiple different angles when attempting to solve their problems. 
+Most people tend to have one dominant way of thinking and the Six Thinking Hats encourages people to exercise multiple perspective when looking at a problem. 
 Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
 
-The user story I envisaged is framed as follows: 
-As a person struggling with uncertainty, I want to learn how to apply effective thinking to difficult problems. 
-This is so that I can enhance my quality of life by finding clarity through comprehensive solutions enabling confident decisions.
+The user story I envisage is framed as follows: 
+As a person struggling with uncertainty, I want to learn how to think effectively and apply this to difficult problems I encounter. 
+This is so that I can enhance my quality of life by finding clarity through comprehensive solutions enabling confident decisions which I can take action on. 
+I want to be guided through an effective process, be able to record my ideas and produce a report that gives me a record of my thoughts. 
 
 
 ## The Home page 
