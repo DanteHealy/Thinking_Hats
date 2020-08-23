@@ -71,32 +71,108 @@ The Contact page:
 
 
 ## Features
-All features were defined and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
+All features were listed, organised and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
+
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/trello.jpg)
+
 
 
 ### Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
+The following are the features implemented by page: 
 
-Feature X - Navbar logo position is switched to the right of the screen and travels with the menu when expanded in mobile view. 
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+#### Home page
+1.	Navbar - Allows the User fast and convenient navigation between the pages: 
+    a.	Toggler with links to each page
+    b.	A logo comprising of some text and a white hat
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+2.	PowerPoint instruction video allows the user to get an immediate overview of the purpose of the Six Thinking Hats framework: 
+    a.	Overview of the Six Thinking Hats framework
 
-### Features Not Implemented
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+3.	Call to action encourages the users to start a problem solving exercise: 
+    a.	Button to guided session page 
+    b.	Flashing icon encouraging the user to start the session 
+
+4.	Accordion which tucks away further information content neatly and icons indicating the drop down functionlity. Includes: 
+    a.	A fast start cheat sheet as an infographic with a button to download the pdf 
+    b.	A transcript of the overview video 
+
+5.	Footer
+    a.	Social media links 
+    b.	Disclaimer text 
+
+
+#### Guided session page 
+1.  There is a page load feature that guides the user to wait whilst certain elements are being hidden in the background using JavaScript to make the interactive experience more intuitive.
+    To make sure that the user does't perform the process out of sequence the Question video and input section is the only elements presented initially.
+    Then as the user goes through the process other elements are unhidden with the previous elements being hidden to focus the user on the process.     
+
+2.	Navbar same as the home page, but with alerts
+    a.	Toggler with links to each page, but the navigation away from this page comes up with an alert message warning that the information already entered will be lost and does the user still wish to proceed? 
+    b.	A logo comprising of some text and a white hat 
+
+3.	Question section
+    a.	Starts with a PowerPoint video that explains the importance of correctly framing the question before applying the six thinking hats
+    b.	A text area with a submit button that uses JavaScript to validate that the input has more than 20 characters 
+    c.	A submit button that then replace the textarea box with the entered question into fixed text and diplays the six thinking hat flip cards
+
+4.	Six Thinking Hat flip cards 
+    a.	On hover the flip cards reveal a button that opens up a modal which takes the user through a guided explanation of the purpose and perspective of the hat and then allows the user to enter their thoughts into the box 
+    b.	The textarea box uses JavaScript to check that the answers aren’t too short or too long (character limits are set between 20 – 300) 
+    c.	Flashing icon encouraging the user to start the session 
+    d.	There are buttons for closing the modal and submitting the users’ answers for each hat with some more JavaScript logic that pauses the video when the modal is closed to avoid multiple videos being played at the same time. 
+    e.	There are two ticks once an answer is submitted – one within the modal and one outside the flip card to alert the user that an answer has been recognized 
+    f.	Once all six cards are completed, a generate report button appears that replaces the six hat flip cards with a report that consolidates the inputs 
+        - The report uses JavaScript to recognise any line breaks and spaces as entered by the user 
+    g.	A print button appears after the report is generated. 
+    h.	A reset button is available with an alert that warns the user they will lose any current work and requests confirmation that they want to proceed 
+    i.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
+
+5.	Footer is the same on all pages
+    a.	Social media links 
+    b.	Disclaimer text 
+
+Contact page
+1.	Navbar 
+    a.	Toggler with links to each page
+    b.	A logo comprising of some text and a white hat
+
+2.	Short Bio text for the creator of Six Thinking Hats
+    a.	Background and credentials 
+
+3.	Video of the creator discussing the Six Thinking Hats
+    a.	The video is wrapped in a responsive container 
+
+4.	Another accordion to tuck neatly the grouped elements for convenience and allow the user to focus on one thing at a time 
+    a.	A speaker section with a button that takes the user to the official speaker booking page for Edward De Bono with testimonials 
+    b.	An email form that validates the inputs and returns a confirmation alert message – this uses the EmailJS API to send an email to my designated email address with the heading listed so that I can confirm the source (Six Thinking Hats General Inquiries) 
+    c.	Useful links section 
+
+5.	Footer
+    a.	Social media links 
+    b.	Disclaimer text 
+
+In addition, I leveraged Bootstrap to ensure that all elements were responsive across multiple devices. 
+
+
+#### Features Not Implemented
+Any obvious spacing, design or layout issues were tracked and either fixed immediately or de-scoped after alternative solution was found and successfully deployed.
 
 Note: 
 One quirk which I am aware of is that the final report layout looks different between the MS Edge browser, which prints exactly like the screena and the Google Chrome and Mobile browsers which applies responsive adjustment so the hats are not side by side in pairs, but on top of each other. 
-As the report looks good in both formats I do not consider this a defect and decided not to invest too much time trying to resolve this. 
+As the report looks good in both formats I do not consider this a defect and decided not to invest too much time trying to resolve this as there was no apparent user dis-satisfaction. 
+
 <INSERT EXAMPLE PICTURES >
 
+
+Cancelled features on the Trello board were part of the initial brainstorming and I judged to be either:
+- Unfeasible given my current coding expertise or 
+- Impractical to incorporate into the project due to limited connection with the core purpose to educated the user in Six Thinking Hats 
 
 
 ## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. 
-For each, provide its name, a link to its official site and a short sentence of why it was used.
+For each, provide its name, a link to its official site and a short sentence of why it was used
 
 ### Core Technologies: 
 The project uses: 
@@ -135,15 +211,17 @@ A particularly useful form for describing your testing process is via scenarios,
 - CSS validator
 - JSHint 
 
+
 ### Manual testing 
-1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) 
+1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
 2. Sent the webpage to my selected friends (work colleagues and LinkedIn contacts) and family (wife and brother) to test on their devices and provide feedback
 3. Posted my link via workflow on the Peer-Review SLACK group with the Code Institute for feedback (twice first at about 80% complete then a final review at 95% complete)
-4. Had my content and design reviewed by certain select people amongst my LinkedIn contacts for any changes neede.
-5. Tested all the links and features as I was coding to ensure that they worked as I was coding.
-6. Played the videos in the modals, texted the textareas multiple times to identify and resolve any problems. 
-7. Tested the print report on various devices. 
-8. Testing the email form in the "Contact" page
+4. Had my content and design reviewed by certain select people amongst my LinkedIn contacts for any changes needed
+5. Tested all the links and features as I was coding to ensure that they worked as I was coding and reperformed the checks multiple times 
+6. Played the videos in the modals, texted the textareas multiple times to identify and resolve any problems 
+7. Tested the print report on various devices 
+8. Did multiple end to end walkthroughs of the guided session 
+9. Testing the email form in the "Contact" page
 - Try to submit the empty form and verify that an error message about the required fields appears
 - Try to submit the form with an invalid email address and verify that a relevant error message appears
 - Try to submit the form with all inputs valid and verify that a success message appears.
@@ -159,7 +237,7 @@ A particularly useful form for describing your testing process is via scenarios,
 - Modal videos could be played at once if you play and exit because there was no pause - inserted an additional function to resolve this. 
 - Alejandra noted that the flashing hand icon on the landing page was too powerful and needed to be softened or completely removed - softened. 
 - Flip cards would benefit from some shading effects. 
-- EmailJS confirmation alert did not initially work and needed to be fixed. 
+- EmailJS confirmation alert did not initially work and the code needed to be resolved through a Gitpod refresh 
 
 
 
