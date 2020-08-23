@@ -7,7 +7,19 @@ Each hat is a metaphor for a different perspective which will support the to foc
 The Landing Page provides a brief overview video with a transcript at the bottom of the page and a call to action button that leads you to the guided session page. 
 At the footer are social media links plus a disclaimer text that says this is educational only and doesn't cover advice relating to emergency services. 
 
-The guided session page opens with another video about defining the specific problem with a text box to enter your problem. 
+## UX
+Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+
+As a user type, I want to perform an action, so that I can achieve a goal.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+
+### The Home page 
+
+### The "Guided Session" page 
+Ppens with another video about defining the specific problem with a text box to enter your problem. 
 The logic requires a string between 10 to 100 characters in length.
 Once the user submits their problem six hat images appear which are individual flip cards leading to a modal that guides the user though each Hat. 
 Within each modeal there is an instruction video and a texarea to enable the user to input their notes (the logic assumes between 20 - 400 characters of input).
@@ -17,7 +29,8 @@ Once all six hats are completed a print report button will appear that generates
 Once the report is generate a print button appears which allows the user to print the report from their browser. 
 As the inputs are not saved there are warning popup messages asking for confirmation before navigating out of the session. 
 
-In the contact session there is a bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
+### The "Contact" page 
+There is a short bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
 Below the video are two buttons: 
 - Speaker bookings which takes you to a page where you can book Edward De Bono for events and 
 - General Inquiries (The plan is to create a form that emails me as the creator of the webpage, but also refers to the Useful links for the Official Six Thinking Hats organisations)
@@ -27,34 +40,36 @@ There is also an accordion which contains:
 - General Inquiries: An explanation of the form that this is for the creator of the website. 
 - Useful links: Links to Edward De Bono's organisations and related Six Hats groups. 
 
+## Wireframes
+Final wireframe 
+
+### Home Page:
 
 
-## UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### Guided Session Page:
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### Contact Page:
+
+
+
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
 All features were defined and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
 
-
-
-## Existing Features
+### Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
+
+Feature X - Navbar logo position is switched to the right of the screen and travels with the menu when expanded in mobile view. 
 ...
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### Features Not Implemented
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 
 Note: 
 One quirk which I am aware of is that the final report layout looks different between the MS Edge browser, which prints exactly like the screena and the Google Chrome and Mobile browsers which applies responsive adjustment so the hats are not side by side in pairs, but on top of each other. 
@@ -62,60 +77,102 @@ As the report looks good in both formats I do not consider this a defect and dec
 <INSERT EXAMPLE PICTURES >
 
 
-### JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## Technologies Used
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. 
+For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### Core Technologies: 
+The project uses: 
+- HTML for structure 
+- CSS for styling 
+- JavaScript for interactive front end functionality 
+- Bootstrap for responsive images 
+- JQuery to simplify DOM manipulation. 
+- EmailJS API was used for sending emails via the contact form 
+- GitHub for hosting 
+- Git for version control and 
+- Gitpod for the IDE. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-## Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Supplemental technologies: 
+- Fontawesome for the icons 
+- Google fonts for the text styles 
+- Favicon.io for my favicon image
+- MS PowerPoint - for my homemade videos, cheat sheet and hat cards 
+- unsplash.com for my images 
+- youtube.com for the embedded video of Edward De Bono explaining his take on the Six Thinking Hats 
 
 
-## Testing 
+## Testing
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
+Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
+with the project providing an easy and straightforward way for the users to achieve their goals.
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, 
+link to the test file(s) and explain how to run them.
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
+A particularly useful form for describing your testing process is via scenarios, such as:
+
+
+### Testing methods and systems: 
+- Responsive image checker 
+- HTML validator 
+- CSS validator
+- JSHint 
+
+### Manual testing 
+Significant manual testing performed by myself. 
+Play the videos in the modals - resolve any problems. 
+Test the print report on various formats. 
+
+Testing the "Contact Us" page
+- Try to submit the empty form and verify that an error message about the required fields appears
+- Try to submit the form with an invalid email address and verify that a relevant error message appears
+- Try to submit the form with all inputs valid and verify that a success message appears.
+- In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+
+
+
+### Defects identified during testing: 
+- Errors and recommendations by Readri205
+- Ed B recommendation for a good overview document - inserted a cheat sheet on the landing page which is downloadable in pdf.  
+- The footer issue identified by SAML
+- Console log error in my logic when making the generate report button (applied simple boolean logic to avoid overcomplicating the built-in check)
+- Modal videos could be played at once if you play and exit because there was no pause - inserted an additional function to resolve this. 
+- Alejandra noted that the flashing hand icon on the landing page was too powerful and needed to be softened or completely removed - softened. 
+- Flip cards would benefit from some shading effects. 
+- EmailJS confirmation alert did not initially work and needed to be fixed. 
+
 
 
 
 ## Deployment
+The link to the deployed site: https://dantehealy.github.io/Thinking_Hats/index.html
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
 Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-The link to the published site: https://dantehealy.github.io/Thinking_Hats/index.html
+
 
 
 ## Credits
+### Acknowledgements
+I couldn't have made this webpage without the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
+- JoWings_alumna, gbenga_mentor, Readri205, Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical advice and feedback on peer review and 
+- My professional contacts on LinkedIn like Alejandra Huamán Ordóñez plus my friends and family for testing my web site and providing their critical feedback as general users. 
+
 ### Content
 
 
 ### Media
 The photos used in this site were obtained from ...
 - https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create videos for the webpage. 
-- https://snappa.com/app - Use snappa for background images and custom styles. 
+- https://unsplash.com/ - For images 
 
-
-### Acknowledgements
-I couldn't have made this webpage without the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
-gbenga_mentor, Readri205, Michaelstanden, michael_ci, JoWings_alumna and 
-
-
-References used: 
+### References used: 
 - https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono & https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/ - My initial inspirations for this project. 
 - https://getbootstrap.com/docs/4.5/getting-started/introduction/ - Use of Bootstrap generally for responsive styling and layouts. 
 - https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box - Styling the Text Box. 
@@ -142,7 +199,7 @@ References used:
 - https://www.geeksforgeeks.org/how-to-play-pause-video-using-jquery/#:~:text=The%20pause()%20method%20in,element%20to%20pause%20the%20video - Pause MP4 video on close to prevent multiple videos playing at the same time. 
 
 
-- Articles and websites for ideas: 
+- Articles and websites for ideas and concepts relating to the Six Thinking Hats concept: 
     1. https://www.debonogroup.com/services/core-programs/six-thinking-hats/ - The DeBono Group, concept owners
     2. https://josephjguerra.github.io/six-thinking-hats/#learn - Another similar project found on GitHub
     3. https://fourminutebooks.com/six-thinking-hats-summary/ - Some great ideas for summarising the book 
