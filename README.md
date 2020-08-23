@@ -156,22 +156,24 @@ A particularly useful form for describing your testing process is via scenarios,
 ## Deployment
 The link to the deployed site: https://dantehealy.github.io/Thinking_Hats/index.html
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. Established my own Github account by registering on https://github.com/ If you are reading this file you are already accessing my public profile which is https://github.com/DanteHealy
+2. Install https://www.gitpod.io/ which is an Integrated Development Environment (IDE) that provides me an integrated ready to code environment which is very convenient. Note: I recommend to use the Google Chrome browser to do all your coding based on my experience with Microsoft Edge.
+3. To set up the 'Thinking_Hats' repository I used the Code Institute template https://github.com/Code-Institute-Org/gitpod-full-template and click on the "Use this template" button.
+4. I set up my repository name and description and click on the "Create repository from template" button.
+5. With the necessary templates I can hit the "Gitpod" button on the top right hand corner to start coding.
+6. After initial commits I accessed the repository and checked settings.
+7. In the GitHub pages section I go to source and select Master branch.
+8. This created a URL and advised me that my site is now published.
+9. Further commits were reflected on to my site when pushed from Gitpod ('git commit origin master' in the command line interface).
 
-
+Due to the current limitations of my knowledge I will keep this second milestone project hosted on GitHub. 
 
 
 ## Credits
 ### Acknowledgements
-I couldn't have made this webpage without the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
+The quality of this website is testimony to the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
 - JoWings_alumna, gbenga_mentor, Readri205, Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical advice and feedback on peer review and 
-- My LinkedIn friend and professional tester Alejandra Huamán Ordóñez plus my friends and family for testing my web site and providing their critical feedback as general users. 
-
+- My LinkedIn friend and professional tester Alejandra Huamán Ordóñez plus my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
 
 ## Content
 ### Media
