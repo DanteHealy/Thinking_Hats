@@ -2,22 +2,26 @@
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
 ## UX
-As a user type, I want to learn how to apply effective thinking to a difficult problem so I can reach a satisfactory solution and make confident decisions.
-
 In the current Covid-impacted environment there are people who are faced with new uncertain challenges that they may be struggling with because they lack clarity. 
 This framework has proven effective in all areas of life because it guides people to think about any issue from multiple different angles. 
 People tend to have one dominant way of thinking and the Six Thinking Hats encourages people to exercise multiple perspective when looking at a problem. 
 Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
+
+The user story I envisaged is framed as follows: 
+As a person struggling with uncertainty, I want to learn how to apply effective thinking to difficult problems. 
+This is so that I can enhance my quality of life by finding clarity through comprehensive solutions enabling confident decisions.
 
 
 ## The Home page 
 The Landing Page provides a brief overview video at the top with an accordion at the bottom containing a nice visual cheat sheet and transcript.  
 In between the video and the accordion there is a call to action button that leads you to the guided session page. 
 
-At the bottom of all the pages there is a the footer with some social media links plus a disclaimer text stating this site is educational only and doesn't cover professional advice relating to emergency services. 
+At the bottom of all the pages there is a footer with some social media links plus a disclaimer text stating this site is educational only. 
 
 ### Wireframe
 The Home page: 
+
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe1.jpg)
 
 
@@ -34,14 +38,20 @@ As the inputs are not saved there are warning popup messages asking for confirma
 
 ### Wireframes
 The Guided Session page: 
+
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe2.jpg)
 
 
 The pop up modal with instruction video and input textarea for each hat: 
+
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe3.jpg)
 
 
 The final report and the end of the guided session: 
+
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe4.jpg)
 
 
@@ -54,6 +64,8 @@ Below the video is an accordion with three sections:
 
 ### Wireframe
 The Contact page: 
+
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe5.jpg)
 
 
