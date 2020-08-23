@@ -1,30 +1,28 @@
 # Six Thinking Hats
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
-In the current environment there are people who are faced with challenges that they may be struggling with because they lack clarity. 
-This framework has proven effective in all areas of life because it guides people to think about an issue from multiple different angles. 
-Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
-The Landing Page provides a brief overview video with a transcript at the bottom of the page and a call to action button that leads you to the guided session page. 
-At the footer are social media links plus a disclaimer text that says this is educational only and doesn't cover advice relating to emergency services. 
-
 ## UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+As a user type, I want to learn how to apply effective thinking to a difficult problem so I can reach a satisfactory solution and make confident decisions.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-
-======= TO DELETE
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory), 
-or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+In the current Covid-impacted environment there are people who are faced with new uncertain challenges that they may be struggling with because they lack clarity. 
+This framework has proven effective in all areas of life because it guides people to think about any issue from multiple different angles. 
+People tend to have one dominant way of thinking and the Six Thinking Hats encourages people to exercise multiple perspective when looking at a problem. 
+Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
 
 
-### The Home page 
+## The Home page 
+The Landing Page provides a brief overview video at the top with an accordion at the bottom containing a nice visual cheat sheet and transcript.  
+In between the video and the accordion there is a call to action button that leads you to the guided session page. 
+
+At the bottom of all the pages there is a the footer with some social media links plus a disclaimer text stating this site is educational only and doesn't cover professional advice relating to emergency services. 
+
+### Wireframe
+The Home page: 
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe1.jpg)
 
 
-### The "Guided Session" page 
-Ppens with another video about defining the specific problem with a text box to enter your problem. 
+## The "Guided Session" page 
+This page opens with another video about defining the specific problem with a text box to enter your problem. 
 The logic requires a string between 10 to 100 characters in length.
 Once the user submits their problem six hat images appear which are individual flip cards leading to a modal that guides the user though each Hat. 
 Within each modeal there is an instruction video and a texarea to enable the user to input their notes (the logic assumes between 20 - 400 characters of input).
@@ -34,33 +32,35 @@ Once all six hats are completed a print report button will appear that generates
 Once the report is generate a print button appears which allows the user to print the report from their browser. 
 As the inputs are not saved there are warning popup messages asking for confirmation before navigating out of the session. 
 
-### The "Contact" page 
-There is a short bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
-Below the video are two buttons: 
-- Speaker bookings which takes you to a page where you can book Edward De Bono for events and 
-- General Inquiries (The plan is to create a form that emails me as the creator of the webpage, but also refers to the Useful links for the Official Six Thinking Hats organisations)
+### Wireframes
+The Guided Session page: 
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe2.jpg)
 
-There is also an accordion which contains: 
-- Testimonlias: For Edward De Bono
-- General Inquiries: An explanation of the form that this is for the creator of the website. 
+
+The pop up modal with instruction video and input textarea for each hat: 
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe3.jpg)
+
+
+The final report and the end of the guided session: 
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe4.jpg)
+
+
+## The "Contact" page 
+There is a short bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
+Below the video is an accordion with three sections: 
+- Speaker bookings which takes you to a page where you can book Edward De Bono for events and testimonials for Edward De Bono
+- General Inquiries email form which enables the user to contact me for information about the website or other non-booking related inquiries 
 - Useful links: Links to Edward De Bono's organisations and related Six Hats groups. 
 
-## Wireframes
-Final wireframes outlined as below: 
-
-### Home Page:
-
-
-### Guided Session Page:
-
-
-### Contact Page:
-
+### Wireframe
+The Contact page: 
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe5.jpg)
 
 
 
 ## Features
 All features were defined and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
+
 
 ### Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
