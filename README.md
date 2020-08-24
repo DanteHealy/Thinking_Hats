@@ -224,16 +224,58 @@ link to the test file(s) and explain how to run them.
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
 A particularly useful form for describing your testing process is via scenarios, such as:
 
-
 ### Testing methods and systems: 
-- Responsive image checker 
-- HTML validator 
-- CSS validator
-- JSHint 
+- Responsive image checker (http://ami.responsivedesign.is/)
+
+See attached pdf ![alt text](#)
+
+
+### HTML validator 
+    1. index.html
+
+See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-index-html-validator.jpg)
+
+
+    2. hats.html 
+
+See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-hats-html-validator.jpg)
+
+
+    3. contact.html
+
+See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-contact-html-validator.jpg)
+
+
+### CSS validator
+
+See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-css-validator.jpg)
+
+
+
+### JSHint 
+
+#### main.js
+See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js1-jshint.JPG)
+
+See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js2-jshint.JPG)
+
+
+#### email.js
+See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-js-jshint.JPG)
+
+
+### Google Lighthouse
+
+See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse.jpg)
+
+
 
 
 ### Manual testing 
 1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
+
+See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/manual-testing-checklist.pdf) 
+
 2. Sent the webpage to my selected friends (work colleagues and LinkedIn contacts) and family (wife and brother) to test on their devices and provide feedback
 3. Posted my link via workflow on the Peer-Review SLACK group with the Code Institute for feedback (twice first at about 80% complete then a final review at 95% complete)
 4. Had my content and design reviewed by certain select people amongst my LinkedIn contacts for any changes needed
@@ -247,8 +289,6 @@ A particularly useful form for describing your testing process is via scenarios,
 - Try to submit the form with all inputs valid and verify that a success message appears.
 
 
-
-
 ### Defects identified during testing: 
 - Errors and recommendations by Readri205
 - Ed B recommendation for a good overview document - inserted a cheat sheet on the landing page which is downloadable in pdf.  
@@ -258,7 +298,6 @@ A particularly useful form for describing your testing process is via scenarios,
 - Alejandra noted that the flashing hand icon on the landing page was too powerful and needed to be softened or completely removed - softened. 
 - Flip cards would benefit from some shading effects. 
 - EmailJS confirmation alert did not initially work and the code needed to be resolved through a Gitpod refresh 
-
 
 
 ## Deployment
@@ -277,12 +316,12 @@ The link to the deployed site: https://dantehealy.github.io/Thinking_Hats/index.
 Due to the current limitations of my knowledge I will keep this second milestone project hosted on GitHub. 
 
 
-
 ## Credits
 ### Acknowledgements
 The quality of this website is testimony to the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
 - JoWings_alumna, gbenga_mentor, Readri205, Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical advice and feedback on peer review and 
 - My LinkedIn friend and professional tester Alejandra Huamán Ordóñez plus my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
+
 
 ## Content
 ### Media
