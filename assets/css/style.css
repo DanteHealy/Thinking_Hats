@@ -252,5 +252,19 @@ footer .row {
   100% { height: 0%;}
 }
 
+/* --- Fix an issue with the modals .navbar in hats.html adding padding and causing the screens to jerk right --- */
+
+.modal-open, 
+.fade {
+    padding-right: 0px !important;
+}
+
+.modal-open {
+    overflow: scroll;
+}
+
+.navbar {
+    padding-right: 0px !important;
+}
 
 
