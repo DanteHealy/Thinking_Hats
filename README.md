@@ -225,48 +225,64 @@ For any scenarios that have not been automated, test the user stories manually a
 A particularly useful form for describing your testing process is via scenarios, such as:
 
 ### Testing methods and systems: 
-- Responsive image checker (http://ami.responsivedesign.is/)
 
-See attached pdf ![alt text](#)
+### Responsive image checker 
+(http://ami.responsivedesign.is/)
+
+All passed: 
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-img-responsive.jpg)
 
 
 ### HTML validator 
-    1. index.html
 
-See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-index-html-validator.jpg)
+#### 1. index.html
+All passed: 
 
-
-    2. hats.html 
-
-See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-hats-html-validator.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-index-html-validator.jpg)
 
 
-    3. contact.html
+#### 2. hats.html 
+All passed: 
 
-See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-contact-html-validator.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-hats-html-validator.jpg)
+
+
+#### 3. contact.html
+All passed: 
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-contact-html-validator.jpg)
 
 
 ### CSS validator
+#### style.css
+All passed: 
 
-See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-css-validator.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-css-validator.jpg)
 
 
 
 ### JSHint 
 
 #### main.js
-See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js1-jshint.JPG)
+There were some warnings based on use of Let and JQuery ($) and one unused variabel which was being called when loading or reloading hats.html so I was okay with this:  
 
-See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js2-jshint.JPG)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js1-jshint.JPG)
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js2-jshint.JPG)
 
 
 #### email.js
-See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-js-jshint.JPG)
+Confrimed the javascript code was acceptable for jshint
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-js-jshint.JPG)
 
 
 ### Google Lighthouse
+A useful tool for checking the webpage's performance and making recommendations to improve. 
 
-See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse.jpg)
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse.jpg)
 
 
 
@@ -281,9 +297,10 @@ See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/ma
 4. Had my content and design reviewed by certain select people amongst my LinkedIn contacts for any changes needed
 5. Tested all the links and features as I was coding to ensure that they worked as I was coding and reperformed the checks multiple times 
 6. Played the videos in the modals, texted the textareas multiple times to identify and resolve any problems 
-7. Tested the print report on various devices 
-8. Did multiple end to end walkthroughs of the guided session 
-9. Testing the email form in the "Contact" page
+7. Confirmed that there were no console log errors in my JavaScript and JQuery code. 
+8. Tested the print report on various devices 
+9. Did multiple end to end walkthroughs of the guided session 
+10. Testing the email form in the "Contact" page
 - Try to submit the empty form and verify that an error message about the required fields appears
 - Try to submit the form with an invalid email address and verify that a relevant error message appears
 - Try to submit the form with all inputs valid and verify that a success message appears.
