@@ -113,27 +113,41 @@ The following are the features implemented by page:
     b.	A logo comprising of some text and a white hat 
 
 3.	Question section
+
     a.	Starts with a PowerPoint video that explains the importance of correctly framing the question before applying the six thinking hats
+
     b.	A text area with a submit button that uses JavaScript to validate that the input has more than 20 characters 
+
     c.	A submit button that then replace the textarea box with the entered question into fixed text and diplays the six thinking hat flip cards
 
 4.	Six Thinking Hat flip cards 
+
     a.	On hover the flip cards reveal a button that opens up a modal which takes the user through a guided explanation of the purpose and perspective of the hat and then allows the user to enter their thoughts into the box 
+
     b.	The textarea box uses JavaScript to check that the answers aren’t too short or too long (character limits are set between 20 – 300) 
+
     c.	Flashing icon encouraging the user to start the session 
+
     d.	There are buttons for closing the modal and submitting the users’ answers for each hat with some more JavaScript logic that pauses the video when the modal is closed to avoid multiple videos being played at the same time. 
+
     e.	There are two ticks once an answer is submitted – one within the modal and one outside the flip card to alert the user that an answer has been recognized 
+
     f.	Once all six cards are completed, a generate report button appears that replaces the six hat flip cards with a report that consolidates the inputs 
         - The report uses JavaScript to recognise any line breaks and spaces as entered by the user 
+
     g.	A print button appears after the report is generated. 
+
     h.	A reset button is available with an alert that warns the user they will lose any current work and requests confirmation that they want to proceed 
+
     i.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
 
 5.	Footer is the same on all pages
+
     a.	Social media links 
+
     b.	Disclaimer text 
 
-Contact page
+#### Contact page
 1.	Navbar 
     a.	Toggler with links to each page
     b.	A logo comprising of some text and a white hat
@@ -145,12 +159,17 @@ Contact page
     a.	The video is wrapped in a responsive container 
 
 4.	Another accordion to tuck neatly the grouped elements for convenience and allow the user to focus on one thing at a time 
+
     a.	A speaker section with a button that takes the user to the official speaker booking page for Edward De Bono with testimonials 
+
     b.	An email form that validates the inputs and returns a confirmation alert message – this uses the EmailJS API to send an email to my designated email address with the heading listed so that I can confirm the source (Six Thinking Hats General Inquiries) 
+
     c.	Useful links section 
 
 5.	Footer
+
     a.	Social media links 
+
     b.	Disclaimer text 
 
 In addition, I leveraged Bootstrap to ensure that all elements were responsive across multiple devices. 
@@ -297,7 +316,7 @@ The photos used in this site were obtained from ...
 - https://stackoverflow.com/questions/33477930/close-bootstrap-modal-on-form-submit - Dismiss modal on successful submit (for a more user friendly mobile experience) after peer review. 
 - https://www.youtube.com/watch?v=gttmqvZ4kYc - Transition animation load for the hats.html guided session page. 
 - https://www.geeksforgeeks.org/how-to-play-pause-video-using-jquery/#:~:text=The%20pause()%20method%20in,element%20to%20pause%20the%20video - Pause MP4 video on close to prevent multiple videos playing at the same time. 
-
+- https://css-tricks.com/fluid-width-video/ - Video fluid width in css. 
 
 - Articles and websites for ideas and concepts relating to the Six Thinking Hats concept: 
     1. https://www.debonogroup.com/services/core-programs/six-thinking-hats/ - The DeBono Group, concept owners

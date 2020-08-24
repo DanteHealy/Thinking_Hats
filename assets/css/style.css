@@ -71,6 +71,11 @@ input[type="text"] {
     border-color: black;
 }
 
+video {
+    width: 100% !important;
+    height: auto !important;
+}
+
 .navbar {
     padding: 0;
 }
@@ -118,6 +123,10 @@ footer {
 .social-media {       
     bottom: 0;    
     border: none;    
+}
+
+.hatfooter {
+    text-align: center;
 }
 
 .social-media i {        
@@ -205,8 +214,8 @@ footer .row {
 
 /* --- Print Six Hats report only and hide non-relevant elements --- */
 @media print {
-   #resetBtn *, #reportPrint *, #footNote * { display:none; };
-   #hatProblem, #hatReport *, #titleDiv * { display:block; };
+   #resetBtn *, #reportPrint *, #footNote * { display:none; }
+   #hatProblem, #hatReport *, #titleDiv * { display:block; }
 }
 
 
@@ -252,7 +261,7 @@ footer .row {
   100% { height: 0%;}
 }
 
-/* --- Fix an issue with the modals .navbar in hats.html adding padding and causing the screens to jerk right --- */
+/* --- Fix an issue with the modals in hats.html adding padding and causing the screens and navbar to jerk right --- */
 
 .modal-open, 
 .fade {

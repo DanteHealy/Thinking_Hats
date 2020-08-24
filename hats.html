@@ -13,7 +13,7 @@
 </head>
 
 <body onload="hideFunction()">
-<!--- Insert Navigation bar --->
+<!-- Insert Navigation bar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark"> 
         <div class="container-fluid">  
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
@@ -39,7 +39,7 @@
         </div> 
     </nav>
     
-<!--- Title section --->
+<!-- Title section -->
     <div class="container main-hat" id="titleDiv">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -48,11 +48,11 @@
         </div>
     </div>
 
-<!--- Insert instruction video for Clearly Defining your Question --->
+<!-- Insert instruction video for Clearly Defining your Question -->
     <div class="container video-div" id="problemVideo">
         <div class="row justify-content-around">
             <div class="col-lg-8 col-md-12">
-                <video width="100%" height="auto" controls class="hat-video">
+                <video controls class="hat-video">
                     <source src="assets/movie/video-problem.mp4" type="video/mp4">                
                     Your browser does not support the video tag.
                 </video>          
@@ -60,12 +60,12 @@
         </div>
     </div>
 
-<!--- Initial Prompt for Challenge Question --->
+<!-- Initial Prompt for Challenge Question -->
     <div class="container section-div text-center" id="problemBox">        
         <div class="row justify-content-center row-hat">
             <div class="col-lg-10 pb-2">
                 <form id="main-question" onsubmit="return false">
-                    <label for="">Enter your problem statement or question here (between 20 to 100 characters):</label><br>               
+                    <label for="question-problem">Enter your problem statement or question here (between 20 to 100 characters):</label><br>               
                     <textarea id="question-problem" name="question-problem" maxlength="100" cols="50" rows="10" wrap="hard" style="width:100%; height:80px;"></textarea><br>                 
                     <input type="submit" value="Submit Question" id="submit" class="btn-lg btn-primary">                
                 </form> 
@@ -73,7 +73,7 @@
         </div>
     </div>
 
-<!--- Report Template hosting the answers to the Six Hat questions -->
+<!-- Report Template hosting the answers to the Six Hat questions -->
     <div class="container report-div" id="hatProblem">
         <div class="row justify-content-around">
             <div class="col-lg-10 col-md-10 col-sm-12">        
@@ -82,18 +82,18 @@
         </div>
         <div class="row justify-content-around">
             <div class="col-lg-10 col-md-10 col-sm-12"> 
-                <h3 id="question-display"></h3>
+                <h3 id="question-display">Question</h3>
             </div>
         </div>
     </div>
 
-<!--- Create a set of Hat Cards that flip on Hover --> 
+<!-- Create a set of Hat Cards that flip on Hover --> 
     <div class="container section-div" id="sixHats">        
         <div class="row justify-content-center">
             <h3>Please Complete All Six Hats Below:</h3>
         </div>
         <div class="row justify-content-around">
-            <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
+            <div class="col-lg-4 col-md-6 col-sm-12 hat-card text-center">
                 <div class="flip-card" id="whiteFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -110,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
+            <div class="col-lg-4 col-md-6 col-sm-12 hat-card text-center">
                 <div class="flip-card" id="redFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -127,7 +127,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
+            <div class="col-lg-4 col-md-6 col-sm-12 hat-card text-center">
                 <div class="flip-card" id="yellowFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -144,7 +144,7 @@
                 </div>
             </div>
             
-            <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
+            <div class="col-lg-4 col-md-6 col-sm-12 hat-card text-center">
                 <div class="flip-card" id="blackFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -161,7 +161,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
+            <div class="col-lg-4 col-md-6 col-sm-12 hat-card text-center">
                 <div class="flip-card" id="greenFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -178,7 +178,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-12 hat-card" align="center">
+            <div class="col-lg-4 col-md-6 col-sm-12 hat-card text-center">
                 <div class="flip-card" id="blueFlip">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -197,22 +197,22 @@
         </div>
     </div>
 
-<!--- Define Various Hat modals -->
-    <!--- White Hat modal -->
+<!-- Define Various Hat modals -->
+    <!-- White Hat modal -->
     <div class="modal fade" id="white-modal">
         <div class="modal-dialog">
-        <!--- White Hat modal content -->
+        <!-- White Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">White Hat Session</h4>
                     <button type="button" class="close" onclick="pauseWhite();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video id="whiteVid" width="100%" height="auto" controls class="hat-video">
+                    <video id="whiteVid" controls class="hat-video">
                         <source src="assets/movie/video-white.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
-                    </video>         
-                    <label for="">What information do we need?<br>Please enter between 20 to 400 characters:</label><br>
+                    </video>
+                    <label for="answer-white">What information do we need?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-white" id="answer-white" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="whiteHat" class="btn btn-outline-dark" data-dismiss="modal">
                 </div>
@@ -224,21 +224,21 @@
         </div>
     </div>
 
-    <!--- Red Hat modal -->
+    <!-- Red Hat modal -->
     <div class="modal fade" id="red-modal">
         <div class="modal-dialog">
-        <!--- Red Hat modal content -->
+        <!-- Red Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Red Hat Session</h4>
                     <button type="button" class="close" onclick="pauseRed();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video id="redVid" width="100%" height="auto" controls class="hat-video">
+                    <video id="redVid" controls class="hat-video">
                         <source src="assets/movie/video-red.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
-                    <label for="">What emotions are you feeling?<br>Please enter between 20 to 400 characters:</label><br>
+                    <label for="answer-red">What emotions are you feeling?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-red" id="answer-red" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="redHat" class="btn btn-danger" data-dismiss="modal">
                 </div>
@@ -250,21 +250,21 @@
         </div>
     </div>
 
-    <!--- Yellow Hat modal -->
+    <!-- Yellow Hat modal -->
     <div class="modal fade" id="yellow-modal">
         <div class="modal-dialog">
-        <!--- Yellow Hat modal content -->
+        <!-- Yellow Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Yellow Hat Session</h4>
                     <button type="button" class="close" onclick="pauseYellow();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video id="yellowVid" width="100%" height="auto" controls class="hat-video">
+                    <video id="yellowVid" controls class="hat-video">
                         <source src="assets/movie/video-yellow.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>
-                    <label for="">What are your benefits and opportunites?<br>Please enter between 20 to 400 characters:</label><br>
+                    <label for="answer-yellow">What are your benefits and opportunites?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-yellow" id="answer-yellow" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="yellowHat" class="btn btn-warning" data-dismiss="modal">
                 </div>
@@ -276,21 +276,21 @@
         </div>
     </div>
 
-    <!--- Black Hat modal -->
+    <!-- Black Hat modal -->
     <div class="modal fade" id="black-modal">
         <div class="modal-dialog">
-        <!--- Black Hat modal content -->
+        <!-- Black Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Black Hat Session</h4>
                     <button type="button" class="close" onclick="pauseBlack();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video id="blackVid" width="100%" height="auto" controls class="hat-video">
+                    <video id="blackVid" controls class="hat-video">
                         <source src="assets/movie/video-black.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
-                    <label for="">What are your risks and weaknesses?<br>Please enter between 20 to 400 characters:</label><br>
+                    <label for="answer-black">What are your risks and weaknesses?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-black" id="answer-black" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="blackHat" class="btn btn-dark" data-dismiss="modal">
                 </div>
@@ -302,21 +302,21 @@
         </div>
     </div>
 
-    <!--- Green Hat modal -->
+    <!-- Green Hat modal -->
     <div class="modal fade" id="green-modal">
         <div class="modal-dialog">
-        <!--- Green Hat modal content -->
+        <!-- Green Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Green Hat Session</h4>
                     <button type="button" class="close" onclick="pauseGreen();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video id="greenVid" width="100%" height="auto" controls class="hat-video">
+                    <video id="greenVid" controls class="hat-video">
                         <source src="assets/movie/video-green.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>
-                    <label for="">What are your new ideas and alternatives?<br>Please enter between 20 to 400 characters:</label><br>
+                    <label for="answer-green">What are your new ideas and alternatives?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-green" id="answer-green" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="greenHat" class="btn btn-success" data-dismiss="modal">
                 </div>
@@ -328,21 +328,21 @@
         </div>
     </div>
 
-    <!--- Blue Hat modal -->
+    <!-- Blue Hat modal -->
     <div class="modal fade" id="blue-modal">
         <div class="modal-dialog">
-        <!--- Blue Hat modal content -->
+        <!-- Blue Hat modal content -->
             <div class="modal-content">
                 <div class="modal-header">                        
                     <h4 class="modal-title">Blue Hat Session</h4>
                     <button type="button" class="close" onclick="pauseBlue();" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <video id="blueVid" width="100%" height="auto" controls class="hat-video">
+                    <video id="blueVid" controls class="hat-video">
                         <source src="assets/movie/video-blue.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
                     </video>         
-                    <label for="">What are your conclusions?<br>Please enter between 20 to 400 characters:</label><br>
+                    <label for="answer-blue">What are your conclusions?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea name="answer-blue" id="answer-blue" maxlength="400" cols="50" rows="10" wrap="hard" style="width:100%; height:240px;"></textarea>                        
                     <input type="submit" value="Submit" id="blueHat" class="btn btn-primary" data-dismiss="modal">
                 </div>
@@ -354,7 +354,7 @@
         </div>
     </div>
 
-<!--- Report Template hosting the answers to the Six Hat questions -->
+<!-- Report Template hosting the answers to the Six Hat questions -->
     <div class="container report-div" id="hatReport">        
         <div class="row justify-content-center mt-2 mb-2">
             <div class="col-lg-10 col-md-10 col-sm-12">        
@@ -365,41 +365,41 @@
             <div class="col-lg-5 col-md-5 col-sm-5">
                 <img src="assets/images/white-hat.jpg" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">
                 <h3><u>Information and Data:</u></h3> 
-                <h3 id="whiteAnswer"></h3>
+                <h3 id="whiteAnswer">Your information</h3>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5">
                 <img src="assets/images/red-hat.jpg" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">
                 <h3><u>Your Emotions:</u></h3> 
-                <h3 id="redAnswer"></h3>
+                <h3 id="redAnswer">Your emotions</h3>
             </div>
         </div> 
         <div class="row justify-content-around mt-2 mb-2">
             <div class="col-lg-5 col-md-5 col-sm-5">
                 <img src="assets/images/yellow-hat.jpg" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">        
                 <h3><u>Opportunities and Benefits:</u></h3>
-                <h3 id="yellowAnswer"></h3>
+                <h3 id="yellowAnswer">Your benefits</h3>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5">
                 <img src="assets/images/black-hat.jpg" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">        
                 <h3><u>Risks and Weaknesses:</u></h3> 
-                <h3 id="blackAnswer"></h3>
+                <h3 id="blackAnswer">Your weaknesses</h3>
             </div>
         </div>
         <div class="row justify-content-around mt-2 mb-2">
             <div class="col-lg-5 col-md-5 col-sm-5">
                 <img src="assets/images/green-hat.jpg" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">
                 <h3><u>New Ideas and Alternatives:</u></h3> 
-                <h3 id="greenAnswer"></h3>
+                <h3 id="greenAnswer">Your ideas</h3>
             </div>        
             <div class="col-lg-5 col-md-5 col-sm-5">
                 <img src="assets/images/blue-hat.jpg" alt="Avatar" class="img-fluid rounded" style="width:50px;height:50px;">
                 <h3><u>Your Conclusions:</u></h3> 
-                <h3 id="blueAnswer"></h3>
+                <h3 id="blueAnswer">Your decisions</h3>
             </div>
         </div>
     </div>
 
-<!--- Add a button to activate report generation once all the boxes are complete --> 
+<!-- Add a button to activate report generation once all the boxes are complete --> 
     <div class="container section-div" id="reportProduce">
         <div class="row justify-content-center row-hat">
             <form>
@@ -408,7 +408,7 @@
         </div>
     </div>
 
-<!--- Add a button to print report once ready --> 
+<!-- Add a button to print report once ready --> 
     <div class="container section-div" id="reportPrint">
         <div class="row justify-content-center row-hat">
             <form>
@@ -417,7 +417,7 @@
         </div>
     </div>
 
-<!--- Insert Reset Option If User wants to restart the exercise --> 
+<!-- Insert Reset Option If User wants to restart the exercise --> 
     <div class="container" id="resetBtn">        
         <div class="row justify-content-center row-hat"> 
             <form>                
@@ -426,10 +426,10 @@
         </div> 
     </div>
 
-<!--- Add a footer to the bottom of the page -->
-    <footer class="social-media" id="footNote">
-        <div class="row justify-content-center">
-            <div class="col-md-6" align="center">
+<!-- Add a footer to the bottom of the page -->
+    <footer class="social-media">
+        <div class="row justify-content-around">
+            <div class="col-md-6 text-center">
                 <a href="https://twitter.com/edward_debono?lang=en" target="_blank">
                     <i class="fab fa-twitter fa-3x"></i>
                 </a> 
@@ -441,8 +441,8 @@
                 </a> 
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-8" align="center">
+        <div class="row justify-content-around">
+            <div class="col-lg-8 text-center">
                 <h4>Disclaimer:</h4>
                 <p>The tool on this site is for information and education purposes only. It should not be considered any form of professional advice.<br>
                 If you think you need immediate assistance, call your local emergency number or the mental health crisis hotline listed in your local Government's pages.</p>            
@@ -450,7 +450,7 @@
         </div>
     </footer>
 
-<!--- Add a load animation for the Hats page -->
+<!-- Add a load animation for the Hats page -->
     <div class="loader-wrapper">
       <span class="loader"><span class="loader-inner"></span></span>
     </div>
