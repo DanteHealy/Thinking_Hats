@@ -62,7 +62,7 @@ let submitWhite = document.getElementById('whiteHat');
 let whiteAnswer = document.getElementById('whiteAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
-whiteHat.addEventListener("click",function(){                 
+submitWhite.addEventListener("click",function(){                 
     let whiteanswervalue = encodeURI(answerWhite.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     whiteAnswer.innerHTML = whiteanswervalue;
     var strW = $('#answer-white').val().length;
@@ -84,7 +84,7 @@ let submitRed = document.getElementById('redHat');
 let redAnswer = document.getElementById('redAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
-redHat.addEventListener("click",function(){
+submitRed.addEventListener("click",function(){
     let redanswervalue = encodeURI(answerRed.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     redAnswer.innerHTML = redanswervalue;    
     var strR = $('#answer-red').val().length;
@@ -106,7 +106,7 @@ let submitYellow = document.getElementById('yellowHat');
 let yellowAnswer = document.getElementById('yellowAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
-yellowHat.addEventListener("click",function(){
+submitYellow.addEventListener("click",function(){
     let yellowanswervalue = encodeURI(answerYellow.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     yellowAnswer.innerHTML = yellowanswervalue;    
     var strY = $('#answer-yellow').val().length;
@@ -128,7 +128,7 @@ let submitBlack = document.getElementById('blackHat');
 let blackAnswer = document.getElementById('blackAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
-blackHat.addEventListener("click",function(){
+submitBlack.addEventListener("click",function(){
     let blackanswervalue = encodeURI(answerBlack.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     blackAnswer.innerHTML = blackanswervalue;    
     var strB = $('#answer-black').val().length;
@@ -150,7 +150,7 @@ let submitGreen = document.getElementById('greenHat');
 let greenAnswer = document.getElementById('greenAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
-greenHat.addEventListener("click",function(){
+submitGreen.addEventListener("click",function(){
     let greenanswervalue = encodeURI(answerGreen.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     greenAnswer.innerHTML = greenanswervalue;    
     var strG = $('#answer-green').val().length;
@@ -172,7 +172,7 @@ let submitBlue = document.getElementById('blueHat');
 let blueAnswer = document.getElementById('blueAnswer');
 
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
-blueHat.addEventListener("click",function(){
+submitBlue.addEventListener("click",function(){
     let blueanswervalue = encodeURI(answerBlue.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     blueAnswer.innerHTML = blueanswervalue;    
     var strB = $('#answer-blue').val().length;
