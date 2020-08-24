@@ -261,8 +261,6 @@ A particularly useful form for describing your testing process is via scenarios,
 
 
 
-
-
 ## Deployment
 The link to the deployed site: https://dantehealy.github.io/Thinking_Hats/index.html
 
@@ -277,6 +275,7 @@ The link to the deployed site: https://dantehealy.github.io/Thinking_Hats/index.
 9. Further commits were reflected on to my site when pushed from Gitpod ('git commit origin master' in the command line interface).
 
 Due to the current limitations of my knowledge I will keep this second milestone project hosted on GitHub. 
+
 
 
 ## Credits
