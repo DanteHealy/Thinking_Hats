@@ -387,6 +387,8 @@ The photos used in this site were obtained from ...
 - https://www.youtube.com/watch?v=gttmqvZ4kYc - Transition animation load for the hats.html guided session page. 
 - https://www.geeksforgeeks.org/how-to-play-pause-video-using-jquery/#:~:text=The%20pause()%20method%20in,element%20to%20pause%20the%20video - Pause MP4 video on close to prevent multiple videos playing at the same time. 
 - https://css-tricks.com/fluid-width-video/ - Video fluid width in css. 
+- https://getbootstrap.com/docs/4.4/utilities/text/ - center text in flip card back vertically 
+- https://www.w3.org/Style/Examples/007/center.en.html - center flip card horizontally 
 
 - Articles and websites for ideas and concepts relating to the Six Thinking Hats concept: 
     1. https://www.debonogroup.com/services/core-programs/six-thinking-hats/ - The DeBono Group, concept owners
