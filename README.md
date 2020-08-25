@@ -1,64 +1,66 @@
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/slide1.jpg)
 
-![# Six Thinking Hats](https://dantehealy.github.io/Thinking_Hats/index.html)
+![Six Thinking Hats Website](https://dantehealy.github.io/Thinking_Hats/index.html)
+
+
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
 ## Contents:
-[01 UX](##-ux)
+[01 UX](#ux)
 
-[02 The Home page](##-the-home-page)
+[02 The Home page](#the-home-page)
 
-[03 The Guided Session page](##-the-guided-session-page)
+[03 The Guided Session page](#the-guided-session-page)
 
-[04 The Contact page](##-the-contact-page) 
+[04 The Contact page](#the-contact-page) 
 
-[05 Features](##-features)
+[05 Features](#features)
 
-[051 Existing Features](###-existing-features)
+[051 Existing Features](#existing-features)
 
-[0511 Home Page - Features](####-home-page)
+[0511 Home Page - Features](#home-page)
 
-[0512 Guided session page - Features](####-guided-session-page)
+[0512 Guided session page - Features](#guided-session-page)
 
-[0521 Contact page - Features](####-contact-page)
+[0521 Contact page - Features](#contact-page)
 
-[052 Features Not Implemented](###-features-not-implemented)
+[052 Features Not Implemented](#features-not-implemented)
 
-[06 Technologies Used](##-technologies-used)
+[06 Technologies Used](#technologies-used)
 
-[061 Core Technologies](###-core-technologies)
+[061 Core Technologies](#core-technologies)
 
-[062 Supplemental technologies](###-supplemental-technologies)
+[062 Supplemental technologies](#supplemental-technologies)
 
-[07 Testing](##-testing)
+[07 Testing](#testing)
 
-[071 Testing methods and systems](###-testing-methods-and-systems)
+[071 Testing methods and systems](#testing-methods-and-systems)
 
-[0711 Responsive image checker](####-responsive-image-checker)
+[0711 Responsive image checker](#responsive-image-checker)
 
-[0712 HTML validator](####-html-validator)
+[0712 HTML validator](#html-validator)
 
-[0713 CSS validator](####-css-validator)
+[0713 CSS validator](#css-validator)
 
-[0714 JSHint](####jshint)
+[0714 JSHint](#jshint)
 
-[0715 Google Lighthouse](####-google-lighthouse)
+[0715 Google Lighthouse](#google-lighthouse)
 
-[0716 Manual testing](####-manual-testing)
+[0716 Manual testing](#manual-testing)
 
-[0717 Defects identified during testing](####-defects-identified-during-testing)
+[0717 Defects identified during testing](#defects-identified-during-testing)
 
-[08 Deployment](##-deployment)
+[08 Deployment](#deployment)
 
-[09 Credits](##-credits)
+[09 Credits](#credits)
 
-[091 Acknowledgements](###-acknowledgements)
+[091 Acknowledgements](#acknowledgements)
 
-[10 Content](##-content)
+[10 Content](#content)
 
-[101 Media](###-media)
+[101 Media](#media)
 
-[102 References used](###-references-used)
+[102 References used](#references-used)
 
 
 ## UX
