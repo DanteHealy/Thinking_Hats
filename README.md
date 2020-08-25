@@ -1,7 +1,42 @@
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/slide1.jpg)
 
-# Six Thinking Hats
+![# Six Thinking Hats](https://dantehealy.github.io/Thinking_Hats/index.html)
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
+
+## Contents
+
+[## 1 UX](##-ux)
+[## The Home page](##-the-home-page)
+[## The Guided Session page](##-the-guided-session-page)
+[## The Contact page](##-the-contact-page) 
+[## Features](##-features)
+[### Existing Features](###-existing-features)
+#### Home Page
+#### Guided session page 
+#### Contact page
+### Features Not Implemented
+## Technologies Used
+### Core Technologies
+### Supplemental technologies 
+## Testing
+### Testing methods and systems
+#### Responsive image checker 
+#### HTML validator 
+#### CSS validator
+#### JSHint
+#### Google Lighthouse
+#### Manual testing 
+#### Defects identified during testing: 
+## Deployment
+## Credits
+### Acknowledgements
+## Content
+### Media
+### References used 
+
+
+
+==
 
 ## UX
 There are numerous people who are struggling with uncertainty due to new challenges brought about by the current Covid-impacted environment causing distress from lack of clarity. 
@@ -28,7 +63,7 @@ The Home page:
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe1.jpg)
 
 
-## The "Guided Session" page 
+## The Guided Session page 
 This page opens with another video about defining the specific problem with a text box to enter your problem. 
 The logic requires a string between 10 to 100 characters in length.
 Once the user submits their problem six hat images appear which are individual flip cards leading to a modal that guides the user though each Hat. 
@@ -58,7 +93,7 @@ The final report and the end of the guided session:
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe4.jpg)
 
 
-## The "Contact" page 
+## The Contact page 
 There is a short bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
 Below the video is an accordion with three sections: 
 - Speaker bookings which takes you to a page where you can book Edward De Bono for events and testimonials for Edward De Bono
@@ -86,7 +121,7 @@ The following are the features implemented by page:
 <Insert example pictures>
 
 
-#### Home page
+#### Home Page
 1.	Navbar - Allows the User fast and convenient navigation between the pages: 
     a.	Toggler with links to each page
     b.	A logo comprising of some text and a white hat
@@ -95,8 +130,7 @@ The following are the features implemented by page:
     a.	Overview of the Six Thinking Hats framework
 
 3.	Call to action encourages the users to start a problem solving exercise: 
-    a.	Button to guided session page 
-    b.	Flashing icon encouraging the user to start the session 
+    a.	Button to guided session page     
 
 4.	Accordion which tucks away further information content neatly and icons indicating the drop down functionlity. Includes: 
     a.	A fast start cheat sheet as an infographic with a button to download the pdf 
@@ -209,7 +243,7 @@ Cancelled features on the Trello board were part of the initial brainstorming an
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. 
 For each, provide its name, a link to its official site and a short sentence of why it was used
 
-### Core Technologies: 
+### Core Technologies
 The project uses: 
 - HTML for structure 
 - CSS for styling 
@@ -221,7 +255,7 @@ The project uses:
 - Git for version control and 
 - Gitpod for the IDE. 
 
-### Supplemental technologies: 
+### Supplemental technologies 
 - Fontawesome for the icons 
 - Google fonts for the text styles 
 - Favicon.io for my favicon image
@@ -239,9 +273,9 @@ link to the test file(s) and explain how to run them.
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
 A particularly useful form for describing your testing process is via scenarios, such as:
 
-### Testing methods and systems: 
+### Testing methods and systems
 
-### Responsive image checker 
+#### Responsive image checker 
 (http://ami.responsivedesign.is/)
 
 All passed: 
@@ -249,37 +283,37 @@ All passed:
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-img-responsive.jpg)
 
 
-### HTML validator 
+#### HTML validator 
 
-#### 1. index.html
+##### 1. index.html
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-index-html-validator.jpg)
 
 
-#### 2. hats.html 
+##### 2. hats.html 
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-hats-html-validator.jpg)
 
 
-#### 3. contact.html
+##### 3. contact.html
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-contact-html-validator.jpg)
 
 
-### CSS validator
-#### style.css
+#### CSS validator
+##### style.css
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-css-validator.jpg)
 
 
 
-### JSHint 
+#### JSHint 
 
-#### main.js
+##### main.js
 There were some warnings based on use of Let and JQuery ($) and one unused variabel which was being called when loading or reloading hats.html so I was okay with this:  
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js1-jshint.JPG)
@@ -287,13 +321,13 @@ There were some warnings based on use of Let and JQuery ($) and one unused varia
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js2-jshint.JPG)
 
 
-#### email.js
+##### email.js
 Confrimed the javascript code was acceptable for jshint
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-js-jshint.JPG)
 
 
-### Google Lighthouse
+#### Google Lighthouse
 A useful tool for checking the webpage's performance and making recommendations to improve. 
 
 
@@ -302,7 +336,7 @@ A useful tool for checking the webpage's performance and making recommendations 
 
 
 
-### Manual testing 
+#### Manual testing 
 1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
 
 See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/manual-testing-checklist.pdf) 
@@ -321,7 +355,7 @@ See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/ma
 - Try to submit the form with all inputs valid and verify that a success message appears.
 
 
-### Defects identified during testing: 
+#### Defects identified during testing: 
 - Errors and recommendations by Readri205
 - Ed B recommendation for a good overview document - inserted a cheat sheet on the landing page which is downloadable in pdf.  
 - The footer issue identified by SAML
@@ -361,7 +395,7 @@ The photos used in this site were obtained from ...
 - https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create custom videos for the web site. 
 - https://unsplash.com/ - For images 
 
-### References used: 
+### References used
 - https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono & https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/ - My initial inspirations for this project. 
 - https://getbootstrap.com/docs/4.5/getting-started/introduction/ - Use of Bootstrap generally for responsive styling and layouts. 
 - https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box - Styling the Text Box. 
