@@ -3,40 +3,37 @@
 ![# Six Thinking Hats](https://dantehealy.github.io/Thinking_Hats/index.html)
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
-## Contents
-
-[## 1 UX](##-ux)
+## Contents:
+[## UX](##-ux)
 [## The Home page](##-the-home-page)
 [## The Guided Session page](##-the-guided-session-page)
 [## The Contact page](##-the-contact-page) 
 [## Features](##-features)
 [### Existing Features](###-existing-features)
-#### Home Page
-#### Guided session page 
-#### Contact page
-### Features Not Implemented
-## Technologies Used
-### Core Technologies
-### Supplemental technologies 
-## Testing
-### Testing methods and systems
-#### Responsive image checker 
-#### HTML validator 
-#### CSS validator
-#### JSHint
-#### Google Lighthouse
-#### Manual testing 
-#### Defects identified during testing: 
-## Deployment
-## Credits
-### Acknowledgements
-## Content
-### Media
-### References used 
+[#### Home Page](####-home-page)
+[#### Guided session page](####-guided-session-page)
+[#### Contact page](####-contact-page)
+[### Features Not Implemented](###-features-not-implemented)
+[## Technologies Used](##-technologies-used)
+[### Core Technologies](###-core-technologies)
+[### Supplemental technologies](###-supplemental-technologies)
+[## Testing](##-testing)
+[### Testing methods and systems](###-testing-methods-and-systems)
+[#### Responsive image checker](####-responsive-image-checker)
+[#### HTML validator](####-html-validator)
+[#### CSS validator](####-css-validator)
+[#### JSHint](####jshint)
+[#### Google Lighthouse](####-google-lighthouse)
+[#### Manual testing](####-manual-testing)
+[#### Defects identified during testing](####-defects-identified-during-testing)
+[## Deployment](##-deployment)
+[## Credits](##-credits)
+[### Acknowledgements](###-acknowledgements)
+[## Content](##-content)
+[### Media](###-media)
+[### References used](###-references-used)
 
 
-
-==
 
 ## UX
 There are numerous people who are struggling with uncertainty due to new challenges brought about by the current Covid-impacted environment causing distress from lack of clarity. 
@@ -50,7 +47,7 @@ This is so that I can enhance my quality of life by finding clarity through comp
 I want to be guided through an effective process, be able to record my ideas and produce a report that gives me a record of my thoughts. 
 
 
-## The Home page 
+## The Home page
 The Landing Page provides a brief overview video at the top with an accordion at the bottom containing a nice visual cheat sheet and transcript.  
 In between the video and the accordion there is a call to action button that leads you to the guided session page. 
 
@@ -63,7 +60,7 @@ The Home page:
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe1.jpg)
 
 
-## The Guided Session page 
+## The Guided Session page
 This page opens with another video about defining the specific problem with a text box to enter your problem. 
 The logic requires a string between 10 to 100 characters in length.
 Once the user submits their problem six hat images appear which are individual flip cards leading to a modal that guides the user though each Hat. 
@@ -93,7 +90,7 @@ The final report and the end of the guided session:
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe4.jpg)
 
 
-## The Contact page 
+## The Contact page
 There is a short bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
 Below the video is an accordion with three sections: 
 - Speaker bookings which takes you to a page where you can book Edward De Bono for events and testimonials for Edward De Bono
@@ -141,7 +138,7 @@ The following are the features implemented by page:
     b.	Disclaimer text 
 
 
-#### Guided session page 
+#### Guided session page
 1.  There is a page load feature that guides the user to wait whilst certain elements are being hidden in the background using JavaScript to make the interactive experience more intuitive.
     To make sure that the user does't perform the process out of sequence the Question video and input section is the only elements presented initially.
     Then as the user goes through the process other elements are unhidden with the previous elements being hidden to focus the user on the process.     
@@ -255,7 +252,7 @@ The project uses:
 - Git for version control and 
 - Gitpod for the IDE. 
 
-### Supplemental technologies 
+### Supplemental technologies
 - Fontawesome for the icons 
 - Google fonts for the text styles 
 - Favicon.io for my favicon image
@@ -275,7 +272,7 @@ A particularly useful form for describing your testing process is via scenarios,
 
 ### Testing methods and systems
 
-#### Responsive image checker 
+#### Responsive image checker
 (http://ami.responsivedesign.is/)
 
 All passed: 
@@ -283,7 +280,7 @@ All passed:
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-img-responsive.jpg)
 
 
-#### HTML validator 
+#### HTML validator
 
 ##### 1. index.html
 All passed: 
@@ -291,7 +288,7 @@ All passed:
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-index-html-validator.jpg)
 
 
-##### 2. hats.html 
+##### 2. hats.html
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-hats-html-validator.jpg)
@@ -311,7 +308,7 @@ All passed:
 
 
 
-#### JSHint 
+#### JSHint
 
 ##### main.js
 There were some warnings based on use of Let and JQuery ($) and one unused variabel which was being called when loading or reloading hats.html so I was okay with this:  
@@ -336,7 +333,7 @@ A useful tool for checking the webpage's performance and making recommendations 
 
 
 
-#### Manual testing 
+#### Manual testing
 1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
 
 See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/manual-testing-checklist.pdf) 
@@ -355,7 +352,7 @@ See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/ma
 - Try to submit the form with all inputs valid and verify that a success message appears.
 
 
-#### Defects identified during testing: 
+#### Defects identified during testing
 - Errors and recommendations by Readri205
 - Ed B recommendation for a good overview document - inserted a cheat sheet on the landing page which is downloadable in pdf.  
 - The footer issue identified by SAML
