@@ -22,7 +22,7 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 
 [0512 Guided session page - Features](#guided-session-page)
 
-[0521 Contact page - Features](#contact-page)
+[0513 Contact page - Features](#contact-page)
 
 [052 Features Not Implemented](#features-not-implemented)
 
