@@ -4,35 +4,61 @@
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
 ## Contents:
-[## UX](##-ux)
-[## The Home page](##-the-home-page)
-[## The Guided Session page](##-the-guided-session-page)
-[## The Contact page](##-the-contact-page) 
-[## Features](##-features)
-[### Existing Features](###-existing-features)
-[#### Home Page](####-home-page)
-[#### Guided session page](####-guided-session-page)
-[#### Contact page](####-contact-page)
-[### Features Not Implemented](###-features-not-implemented)
-[## Technologies Used](##-technologies-used)
-[### Core Technologies](###-core-technologies)
-[### Supplemental technologies](###-supplemental-technologies)
-[## Testing](##-testing)
-[### Testing methods and systems](###-testing-methods-and-systems)
-[#### Responsive image checker](####-responsive-image-checker)
-[#### HTML validator](####-html-validator)
-[#### CSS validator](####-css-validator)
-[#### JSHint](####jshint)
-[#### Google Lighthouse](####-google-lighthouse)
-[#### Manual testing](####-manual-testing)
-[#### Defects identified during testing](####-defects-identified-during-testing)
-[## Deployment](##-deployment)
-[## Credits](##-credits)
-[### Acknowledgements](###-acknowledgements)
-[## Content](##-content)
-[### Media](###-media)
-[### References used](###-references-used)
+[01 UX](##-ux)
 
+[02 The Home page](##-the-home-page)
+
+[03 The Guided Session page](##-the-guided-session-page)
+
+[04 The Contact page](##-the-contact-page) 
+
+[05 Features](##-features)
+
+[051 Existing Features](###-existing-features)
+
+[0511 Home Page - Features](####-home-page)
+
+[0512 Guided session page - Features](####-guided-session-page)
+
+[0521 Contact page - Features](####-contact-page)
+
+[052 Features Not Implemented](###-features-not-implemented)
+
+[06 Technologies Used](##-technologies-used)
+
+[061 Core Technologies](###-core-technologies)
+
+[062 Supplemental technologies](###-supplemental-technologies)
+
+[07 Testing](##-testing)
+
+[071 Testing methods and systems](###-testing-methods-and-systems)
+
+[0711 Responsive image checker](####-responsive-image-checker)
+
+[0712 HTML validator](####-html-validator)
+
+[0713 CSS validator](####-css-validator)
+
+[0714 JSHint](####jshint)
+
+[0715 Google Lighthouse](####-google-lighthouse)
+
+[0716 Manual testing](####-manual-testing)
+
+[0717 Defects identified during testing](####-defects-identified-during-testing)
+
+[08 Deployment](##-deployment)
+
+[09 Credits](##-credits)
+
+[091 Acknowledgements](###-acknowledgements)
+
+[10 Content](##-content)
+
+[101 Media](###-media)
+
+[102 References used](###-references-used)
 
 
 ## UX
@@ -419,7 +445,8 @@ The photos used in this site were obtained from ...
 - https://www.geeksforgeeks.org/how-to-play-pause-video-using-jquery/#:~:text=The%20pause()%20method%20in,element%20to%20pause%20the%20video - Pause MP4 video on close to prevent multiple videos playing at the same time. 
 - https://css-tricks.com/fluid-width-video/ - Video fluid width in css. 
 - https://getbootstrap.com/docs/4.4/utilities/text/ - center text in flip card back vertically 
-- https://www.w3.org/Style/Examples/007/center.en.html - center flip card horizontally 
+- https://www.w3.org/Style/Examples/007/center.en.html - center flip card horizontally
+- https://www.w3schools.com/howto/howto_css_image_responsive.asp - Responsive image without Bootstrap for 404.html 
 
 - Articles and websites for ideas and concepts relating to the Six Thinking Hats concept: 
     1. https://www.debonogroup.com/services/core-programs/six-thinking-hats/ - The DeBono Group, concept owners

@@ -278,4 +278,9 @@ footer .row {
     padding-right: 0px !important;
 }
 
-
+/* --- create a responsive image class for 404.html --- */
+.responsive {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
