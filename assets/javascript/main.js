@@ -55,7 +55,6 @@ clearButton.addEventListener("click", function(){
 
 
 /* Create six variables from element ids for the main question: */
-
 // Create response variables from element ids for the answer to the White Hat question 
 let answerWhite = document.getElementById('answer-white');
 let submitWhite = document.getElementById('whiteHat');
@@ -215,7 +214,6 @@ function pauseBlue() {
 
 
 /* Show Generate Report Button when all boxes are completed: */
-
 // Establish the necessary variables to count when each box has been completed: 
 var cWhite = 0;
 var cRed = 0;
@@ -263,13 +261,3 @@ $(document).ready(function(){
         $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
     });
 });
-
-
-
- 
-
-
-
-
-
-
