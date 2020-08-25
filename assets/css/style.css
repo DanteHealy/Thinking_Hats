@@ -200,7 +200,7 @@ footer .row {
   height: 300px;
   background-color: #53548A;
   color: white;  
-  transform: rotateY(180deg); 
+  transform: rotateY(180deg);   
 }
 
 /* --- Establish Accordion --- */
