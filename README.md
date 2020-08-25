@@ -447,6 +447,7 @@ The photos used in this site were obtained from ...
 - https://getbootstrap.com/docs/4.4/utilities/text/ - center text in flip card back vertically 
 - https://www.w3.org/Style/Examples/007/center.en.html - center flip card horizontally
 - https://www.w3schools.com/howto/howto_css_image_responsive.asp - Responsive image without Bootstrap for 404.html 
+- https://github.com/11ty/eleventy/issues/466 - Thanks to Karina on the SLACK channel for sharing this tip for elegently handling broken links 
 
 - Articles and websites for ideas and concepts relating to the Six Thinking Hats concept: 
     1. https://www.debonogroup.com/services/core-programs/six-thinking-hats/ - The DeBono Group, concept owners
