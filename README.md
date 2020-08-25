@@ -1,6 +1,6 @@
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/slide1.jpg)
 
-![Six Thinking Hats Website](https://dantehealy.github.io/Thinking_Hats/index.html)
+![# Six Thinking Hats](https://dantehealy.github.io/Thinking_Hats/index.html)
 
 
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
