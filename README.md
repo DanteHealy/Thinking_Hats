@@ -1,3 +1,5 @@
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/slide1.jpg)
+
 # Six Thinking Hats
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
@@ -81,6 +83,8 @@ All features were listed, organised and tracked on Trello: https://trello.com/b/
 
 ### Existing Features
 The following are the features implemented by page: 
+<Insert example pictures>
+
 
 #### Home page
 1.	Navbar - Allows the User fast and convenient navigation between the pages: 
@@ -109,7 +113,9 @@ The following are the features implemented by page:
     Then as the user goes through the process other elements are unhidden with the previous elements being hidden to focus the user on the process.     
 
 2.	Navbar same as the home page, but with alerts
+
     a.	Toggler with links to each page, but the navigation away from this page comes up with an alert message warning that the information already entered will be lost and does the user still wish to proceed? 
+
     b.	A logo comprising of some text and a white hat 
 
 3.	Question section
@@ -149,13 +155,17 @@ The following are the features implemented by page:
 
 #### Contact page
 1.	Navbar 
+
     a.	Toggler with links to each page
+
     b.	A logo comprising of some text and a white hat
 
 2.	Short Bio text for the creator of Six Thinking Hats
+
     a.	Background and credentials 
 
 3.	Video of the creator discussing the Six Thinking Hats
+
     a.	The video is wrapped in a responsive container 
 
 4.	Another accordion to tuck neatly the grouped elements for convenience and allow the user to focus on one thing at a time 
@@ -182,12 +192,17 @@ Note:
 One quirk which I am aware of is that the final report layout looks different between the MS Edge browser, which prints exactly like the screena and the Google Chrome and Mobile browsers which applies responsive adjustment so the hats are not side by side in pairs, but on top of each other. 
 As the report looks good in both formats I do not consider this a defect and decided not to invest too much time trying to resolve this as there was no apparent user dis-satisfaction. 
 
-<INSERT EXAMPLE PICTURES >
+
 
 
 Cancelled features on the Trello board were part of the initial brainstorming and I judged to be either:
-- Unfeasible given my current coding expertise or 
-- Impractical to incorporate into the project due to limited connection with the core purpose to educated the user in Six Thinking Hats 
+
+- Impractical to incorporate into the project due to limited connection with the core purpose to educated the user in Six Thinking Hats or 
+
+- Not worth the delays to completion versus the perceived benefit. 
+
+
+
 
 
 ## Technologies Used
