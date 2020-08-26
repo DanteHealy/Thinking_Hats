@@ -145,10 +145,11 @@ All features were listed, organised and tracked on Trello: https://trello.com/b/
 
 ### Existing Features
 The following are the features implemented by page: 
-<Insert example pictures>
-
 
 #### Home Page
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/index-html.jpg)
+
 1.	Navbar - Allows the User fast and convenient navigation between the pages: 
     a.	Toggler with links to each page
     b.	A logo comprising of some text and a white hat
@@ -169,15 +170,25 @@ The following are the features implemented by page:
 
 
 #### Guided session page
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-1.jpg)
+
 1.  There is a page load feature that guides the user to wait whilst certain elements are being hidden in the background using JavaScript to make the interactive experience more intuitive.
     To make sure that the user does't perform the process out of sequence the Question video and input section is the only elements presented initially.
     Then as the user goes through the process other elements are unhidden with the previous elements being hidden to focus the user on the process.     
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-load.jpg)
+
 
 2.	Navbar same as the home page, but with alerts
 
     a.	Toggler with links to each page, but the navigation away from this page comes up with an alert message warning that the information already entered will be lost and does the user still wish to proceed? 
 
     b.	A logo comprising of some text and a white hat 
+
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-nav-alert.jpg)
+
 
 3.	Question section
 
@@ -187,26 +198,33 @@ The following are the features implemented by page:
 
     c.	A submit button that then replace the textarea box with the entered question into fixed text and diplays the six thinking hat flip cards
 
+
 4.	Six Thinking Hat flip cards 
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2a.jpg)
 
     a.	On hover the flip cards reveal a button that opens up a modal which takes the user through a guided explanation of the purpose and perspective of the hat and then allows the user to enter their thoughts into the box 
 
-    b.	The textarea box uses JavaScript to check that the answers aren’t too short or too long (character limits are set between 20 – 300) 
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2b.jpg)
 
-    c.	Flashing icon encouraging the user to start the session 
+    b.	The textarea box uses JavaScript to validate that the answers aren’t too short or too long (character limits are set between 20 – 300) 
 
-    d.	There are buttons for closing the modal and submitting the users’ answers for each hat with some more JavaScript logic that pauses the video when the modal is closed to avoid multiple videos being played at the same time. 
+    c.	There are buttons for closing the modal and submitting the users’ answers for each hat with some more JavaScript logic that pauses the video when the modal is closed to avoid multiple videos being played at the same time. 
 
-    e.	There are two ticks once an answer is submitted – one within the modal and one outside the flip card to alert the user that an answer has been recognized 
+    d.	There are two ticks once an answer is submitted – one within the modal and one outside the flip card to alert the user that an answer has been recognized 
 
-    f.	Once all six cards are completed, a generate report button appears that replaces the six hat flip cards with a report that consolidates the inputs 
+    e.	Once all six cards are completed, a generate report button appears that replaces the six hat flip cards with a report that consolidates the inputs 
         - The report uses JavaScript to recognise any line breaks and spaces as entered by the user 
 
-    g.	A print button appears after the report is generated. 
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2c.jpg)
 
-    h.	A reset button is available with an alert that warns the user they will lose any current work and requests confirmation that they want to proceed 
+    f.	A print button appears after the report is generated. 
 
-    i.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
+    g.	A reset button is available with an alert that warns the user they will lose any current work and requests confirmation that they want to proceed 
+
+    h.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-3.jpg)
 
 5.	Footer is the same on all pages
 
@@ -215,6 +233,9 @@ The following are the features implemented by page:
     b.	Disclaimer text 
 
 #### Contact page
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-1.jpg)
+
 1.	Navbar 
 
     a.	Toggler with links to each page
@@ -233,7 +254,11 @@ The following are the features implemented by page:
 
     a.	A speaker section with a button that takes the user to the official speaker booking page for Edward De Bono with testimonials 
 
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-2a.jpg)
+
     b.	An email form that validates the inputs and returns a confirmation alert message – this uses the EmailJS API to send an email to my designated email address with the heading listed so that I can confirm the source (Six Thinking Hats General Inquiries) 
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-2b.jpg)
 
     c.	Useful links section 
 
@@ -247,7 +272,7 @@ In addition, I leveraged Bootstrap to ensure that all elements are responsive ac
 
 There is also a custom 404 error message in case any of the links become broken in the future. 
 
-![alt text](#)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-404-html-screen.jpg)
 
 
 
