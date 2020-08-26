@@ -435,17 +435,19 @@ A useful tool for checking the webpage's performance and making recommendations 
 
 #### Defects identified during testing
 The following were the errors identified during the multiple testing sessions: 
-- Multiple spacing and layout issues 
-- Hat modal doesn't disappear on submit - I was advised by mentor that this is preferred as user might want to see the text acceptance. I have a tick next to the close button at the bottom to alert the user their input is accepted. 
-- Reorder the hats to be consistent with the expected order as per the source material. 
-- Add more punchy text explaining the purpose of the website on the landing page to entice the user to want to click on the session button.
-- Needs a good overview document - - inserted a cheat sheet on the landing page which is also downloadable in pdf. 
-- A footer issue was identified in Peer review which was resolved 
-- Console log error in my logic when making the generate report button (applied simple boolean logic to avoid overcomplicating the built-in check)
-- Modal videos could be played at once if you play and exit because there was no pause - inserted an additional function to resolve this. 
-- Alejandra noted that the flashing hand icon on the landing page was too powerful and needed to be softened or completely removed - Removed. 
-- Flip cards would benefit from some shading effects. 
-- EmailJS confirmation alert did not initially work and the code needed to be resolved through a Gitpod refresh 
+- Multiple spacing and layout issues - done
+- Hat modal doesn't disappear on submit - I was advised by mentor that this is preferred as user might want to see the text acceptance. 
+    I have a tick next to the close button at the bottom to alert the user their input is accepted - resolved
+- Reorder the hats to be consistent with the expected order as per the source material - done
+- Add more punchy text explaining the purpose of the website on the landing page to entice the user to want to click on the session button - done
+- Needs a good overview document - - inserted a cheat sheet on the landing page which is also downloadable in pdf - done
+- A footer issue was identified in Peer review which was resolved - done
+- Console log error in my logic when making the generate report button (applied simple boolean logic to avoid overcomplicating the built-in check) - fixed
+- Modal videos could be played at once if you play and exit because there was no pause - inserted an additional function to resolve this - fixed
+- Alejandra noted that the flashing hand icon on the landing page was too powerful and needed to be softened or completely removed - done, removed 
+- Flip cards would benefit from some shading effects - done
+- EmailJS confirmation alert did not initially work and the code needed to be resolved through a Gitpod refresh - fixed
+- Add a favicon - done. 
 
 
 ## Deployment
