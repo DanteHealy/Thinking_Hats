@@ -1,6 +1,8 @@
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/slide1.jpg)
 
-![# Six Thinking Hats](https://dantehealy.github.io/Thinking_Hats/index.html)
+# Six Thinking Hats
+
+Link to site: https://dantehealy.github.io/Thinking_Hats/index.html
 
 
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
@@ -16,70 +18,70 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 
 [05 Features](#features)
 
-[051 Existing Features](#existing-features)
+[05.1 Existing Features](#existing-features)
 
-[0511 Home Page - Features](#home-page)
+[05.1.1 Home Page - Features](#home-page)
 
-[0512 Guided session page - Features](#guided-session-page)
+[05.1.2 Guided session page - Features](#guided-session-page)
 
-[0513 Contact page - Features](#contact-page)
+[05.1.3 Contact page - Features](#contact-page)
 
-[052 Features Not Implemented](#features-not-implemented)
+[05.2 Features Not Implemented](#features-not-implemented)
 
 [06 Technologies Used](#technologies-used)
 
-[061 Core Technologies](#core-technologies)
+[06.1 Core Technologies](#core-technologies)
 
-[062 Supplemental technologies](#supplemental-technologies)
+[06.2 Supplemental technologies](#supplemental-technologies)
 
 [07 Testing](#testing)
 
-[071 Testing methods and systems](#testing-methods-and-systems)
+[07.1 Testing methods and systems](#testing-methods-and-systems)
 
-[0711 Responsive image checker](#responsive-image-checker)
+[07.1.1 Responsive image checker](#responsive-image-checker)
 
-[0712 HTML validator](#html-validator)
+[07.1.2 HTML validator](#html-validator)
 
-[0713 CSS validator](#css-validator)
+[07.1.3 CSS validator](#css-validator)
 
-[0714 JSHint](#jshint)
+[07.1.4 JSHint](#jshint)
 
-[0715 Google Lighthouse](#google-lighthouse)
+[07.1.5 Google Lighthouse](#google-lighthouse)
 
-[0716 Manual testing](#manual-testing)
+[07.1.6 Manual testing](#manual-testing)
 
-[0717 Defects identified during testing](#defects-identified-during-testing)
+[07.1.7 Defects identified during testing](#defects-identified-during-testing)
 
 [08 Deployment](#deployment)
 
 [09 Credits](#credits)
 
-[091 Acknowledgements](#acknowledgements)
+[09.1 Acknowledgements](#acknowledgements)
 
 [10 Content](#content)
 
-[101 Media](#media)
+[10.1 Media](#media)
 
-[102 References used](#references-used)
+[10.2 References used](#references-used)
 
 
 ## UX
 There are numerous people who are struggling with uncertainty due to new challenges brought about by the current Covid-impacted environment causing distress from lack of clarity. 
 This framework has proven effective in all areas of life because it guides people to think holistically about their problems from multiple different angles when attempting to solve their problems. 
-Most people tend to have one dominant way of thinking and the Six Thinking Hats encourages people to exercise multiple perspective when looking at a problem. 
+Most people tend to have one dominant way of thinking, but the Six Thinking Hats method encourages people to exercise multiple perspective when looking at a problem. 
 Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
 
-The user story I envisage is framed as follows: 
-As a person struggling with uncertainty, I want to learn how to think effectively and apply this to difficult problems I encounter. 
-This is so that I can enhance my quality of life by finding clarity through comprehensive solutions enabling confident decisions which I can take action on. 
-I want to be guided through an effective process, be able to record my ideas and produce a report that gives me a record of my thoughts. 
+The user story envisaged is framed as follows: 
+As a person struggling with uncertainty, I want to learn how to think effectively and apply this to solve any difficult problems I encounter. 
+I want to enhance my quality of life by finding clarity through creating comprehensive solutions to enable decisions which I can confidently take action on. 
+I want to be guided through an effective process, be able to record my ideas and get a report that gives me a record of my thought process at the end. 
 
 
 ## The Home page
-The Landing Page provides a brief overview video at the top with an accordion at the bottom containing a nice visual cheat sheet and transcript.  
+The Landing Page provides a brief overview video at the top with an accordion at the bottom containing a visual cheat sheet and transcript.  
 In between the video and the accordion there is a call to action button that leads you to the guided session page. 
-
 At the bottom of all the pages there is a footer with some social media links plus a disclaimer text stating this site is educational only. 
+
 
 ### Wireframe
 The Home page: 
@@ -90,14 +92,14 @@ The Home page:
 
 ## The Guided Session page
 This page opens with another video about defining the specific problem with a text box to enter your problem. 
-The logic requires a string between 10 to 100 characters in length.
-Once the user submits their problem six hat images appear which are individual flip cards leading to a modal that guides the user though each Hat. 
-Within each modeal there is an instruction video and a texarea to enable the user to input their notes (the logic assumes between 20 - 400 characters of input).
-Once each hat is completed a tick will appear on the modal next to the close button at the bottom and each hat will have a tick when completed. 
+The logic in the problem textarea requires a string between 20 to 100 characters in length.
+Once the user submits their problem six flip cards appear representing the six hats leading to a modal that guides the user though the process for each hat. 
+Within each modal there is an instruction video and a texarea to enable the user to input their notes (the logic assumes between 20 - 400 characters of input).
+Once each hat is completed a tick will appear on the modal next to the close button at the bottom of the modal and each flip card will have a tick when completed. 
 Throughout this process there is a reset button which allows the user to reload the page and clear everything to start again. 
-Once all six hats are completed a print report button will appear that generates a user friendly report. 
-Once the report is generate a print button appears which allows the user to print the report from their browser. 
-As the inputs are not saved there are warning popup messages asking for confirmation before navigating out of the session. 
+Once all six hats are completed a generate report button will appear that generates a user friendly report. 
+Once the report is generated a print button appears which allows the user to print the report from their browser. 
+As the inputs are not saved there are validation and warning popup messages asking for confirmation before navigating out of the session. 
 
 ### Wireframes
 The Guided Session page: 
@@ -162,7 +164,7 @@ The following are the features implemented by page:
     b.	A transcript of the overview video 
 
 5.	Footer
-    a.	Social media links 
+    a.	Social media icon with links 
     b.	Disclaimer text 
 
 
@@ -208,7 +210,7 @@ The following are the features implemented by page:
 
 5.	Footer is the same on all pages
 
-    a.	Social media links 
+    a.	Social media icons with links 
 
     b.	Disclaimer text 
 
@@ -237,11 +239,16 @@ The following are the features implemented by page:
 
 5.	Footer
 
-    a.	Social media links 
+    a.	Social media icons with links 
 
     b.	Disclaimer text 
 
-In addition, I leveraged Bootstrap to ensure that all elements were responsive across multiple devices. 
+In addition, I leveraged Bootstrap to ensure that all elements are responsive across multiple devices. 
+
+There is also a custom 404 error message in case any of the links become broken in the future. 
+
+![alt text](#)
+
 
 
 #### Features Not Implemented
@@ -260,6 +267,7 @@ Cancelled features on the Trello board were part of the initial brainstorming an
 
 - Not worth the delays to completion versus the perceived benefit. 
 
+- Tried having the background change color relevat to the color hat card on hover. I managed to achieve this, but I found it was too distracting so I removed it. 
 
 
 
