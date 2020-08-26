@@ -201,22 +201,30 @@ The following are the features implemented by page:
 
 4.	Six Thinking Hat flip cards 
 
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2a.jpg)
 
-    a.	On hover the flip cards reveal a button that opens up a modal which takes the user through a guided explanation of the purpose and perspective of the hat and then allows the user to enter their thoughts into the box 
+
+    a.	On hover the flip cards reveal a button that opens up a modal which takes the user through a guided explanation of the purpose 
+    and perspective of the hat and then allows the user to enter their thoughts into the box 
+
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2b.jpg)
 
+
     b.	The textarea box uses JavaScript to validate that the answers aren’t too short or too long (character limits are set between 20 – 300) 
 
-    c.	There are buttons for closing the modal and submitting the users’ answers for each hat with some more JavaScript logic that pauses the video when the modal is closed to avoid multiple videos being played at the same time. 
+    c.	There are buttons for closing the modal and submitting the users’ answers for each hat with some more JavaScript logic that pauses the video when the modal 
+    is closed to avoid multiple videos being played at the same time. 
 
     d.	There are two ticks once an answer is submitted – one within the modal and one outside the flip card to alert the user that an answer has been recognized 
 
     e.	Once all six cards are completed, a generate report button appears that replaces the six hat flip cards with a report that consolidates the inputs 
         - The report uses JavaScript to recognise any line breaks and spaces as entered by the user 
 
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2c.jpg)
+
 
     f.	A print button appears after the report is generated. 
 
@@ -224,7 +232,9 @@ The following are the features implemented by page:
 
     h.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
 
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-3.jpg)
+
 
 5.	Footer is the same on all pages
 
@@ -232,9 +242,11 @@ The following are the features implemented by page:
 
     b.	Disclaimer text 
 
+
 #### Contact page
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-1.jpg)
+
 
 1.	Navbar 
 
@@ -254,11 +266,15 @@ The following are the features implemented by page:
 
     a.	A speaker section with a button that takes the user to the official speaker booking page for Edward De Bono with testimonials 
 
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-2a.jpg)
+
 
     b.	An email form that validates the inputs and returns a confirmation alert message – this uses the EmailJS API to send an email to my designated email address with the heading listed so that I can confirm the source (Six Thinking Hats General Inquiries) 
 
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-2b.jpg)
+
 
     c.	Useful links section 
 
@@ -270,31 +286,36 @@ The following are the features implemented by page:
 
 In addition, I leveraged Bootstrap to ensure that all elements are responsive across multiple devices. 
 
-There is also a custom 404 error message in case any of the links become broken in the future. 
+There is also a custom 404 error message in case any broken links emerge. 
+
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-404-html-screen.jpg)
 
+
+There is also a favicon in all the tabs. 
+
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/images/favicon.png)
 
 
 #### Features Not Implemented
 Any obvious spacing, design or layout issues were tracked and either fixed immediately or de-scoped after alternative solution was found and successfully deployed.
 
 Note: 
-One quirk which I am aware of is that the final report layout looks different between the MS Edge browser, which prints exactly like the screena and the Google Chrome and Mobile browsers which applies responsive adjustment so the hats are not side by side in pairs, but on top of each other. 
-As the report looks good in both formats I do not consider this a defect and decided not to invest too much time trying to resolve this as there was no apparent user dis-satisfaction. 
+Cancelled features are noted on the Trello project board which were part of my initial brainstorming and I judged to be either:
+
+1. Impractical to incorporate into the project due to limited connection with the core purpose to educated the user in Six Thinking Hats or 
+    - Experimented with having the background change color relevant to the color hat card on card flip hover in hats.html. I managed to achieve this, but I found it was too distracting so I removed it 
+    - A Tableau data dashboard didn't make sense as I didn't really have a backend 
+    - SEO Optimisation: I did some limited optimisation using the html tags (emphasising Six Hats)
+    - Map API - would be too busy and just putting a map for the sake of it 
 
 
-
-
-Cancelled features on the Trello board were part of the initial brainstorming and I judged to be either:
-
-- Impractical to incorporate into the project due to limited connection with the core purpose to educated the user in Six Thinking Hats or 
-
-- Not worth the delays to completion versus the perceived benefit. 
-
-- Tried having the background change color relevat to the color hat card on hover. I managed to achieve this, but I found it was too distracting so I removed it. 
-
-
+2. Not worth the effort versus the perceived benefit. 
+    - Print to pdf API: explored a few alternatives, but there was a cost after the free cap limit so I avoided this solution 
+    - Heroku deployment: not aiming for full deployment for this project yet until I build personal website to host this as part of my portfolio
+    - JavaScript local storage: surplus to requirements and don't want to risk collecting personal data on people 
+    - Subtitles for videos: Tried to do this, but the free tool required online hosting of my mp4's and the effort was very cumbersome, if this tool proves popular I could look into getting subtitles produced
 
 
 ## Technologies Used
@@ -303,38 +324,34 @@ For each, provide its name, a link to its official site and a short sentence of 
 
 ### Core Technologies
 The project uses: 
-- HTML for structure 
-- CSS for styling 
-- JavaScript for interactive front end functionality 
-- Bootstrap for responsive images 
-- JQuery to simplify DOM manipulation. 
-- EmailJS API was used for sending emails via the contact form 
-- GitHub for hosting 
-- Git for version control and 
-- Gitpod for the IDE. 
+- [HTML5 for structure](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS for styling](https://www.w3.org/Style/CSS/Overview.en.html)
+- [JavaScript for interactive front end functionality](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Bootstrap for responsive images](https://getbootstrap.com/)
+- [JQuery to simplify DOM manipulation](https://jquery.com/)
+- [EmailJS API was used for sending emails via the contact form](https://www.emailjs.com/)
+- [GitHub for hosting](https://github.com/)
+- [Git for version control](https://git-scm.com/)
+- [Gitpod for the IDE](https://community.gitpod.io/)
+
 
 ### Supplemental technologies
-- Fontawesome for the icons 
-- Google fonts for the text styles 
-- Favicon.io for my favicon image
-- MS PowerPoint - for my homemade videos, cheat sheet and hat cards 
-- unsplash.com for my images 
-- youtube.com for the embedded video of Edward De Bono explaining his take on the Six Thinking Hats 
+- [Balsamiq for wireframes](https://balsamiq.com/)
+- [Fontawesome for the icons](https://fontawesome.com/)
+- [Google fonts for the text styles](https://fonts.google.com/)
+- [Favicon.io for my favicon image](https://favicon.io/)
+- [MS PowerPoint - for my homemade videos, cheat sheet and hat cards](https://www.microsoft.com/en-gb/microsoft-365/p/powerpoint/cfq7ttc0k7c6?=&ef_id=CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE%3aG%3as&OCID=AID2100139_SEM_CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE%3aG%3as&lnkd=Google_O365SMB_App&gclid=CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE&activetab=pivot%3aoverviewtab)
+- [unsplash.com for my images](https://unsplash.com/)
+- [youtube.com for the embedded video of Edward De Bono explaining his perspective on the Six Thinking Hats ](https://www.youtube.com/)
 
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
-Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
-with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, 
-link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
-A particularly useful form for describing your testing process is via scenarios, such as:
+The majority of the testing was manual and 
 
 ### Testing methods and systems
 
 #### Responsive image checker
-(http://ami.responsivedesign.is/)
+[Link](http://ami.responsivedesign.is/)
 
 All passed: 
 
@@ -388,16 +405,16 @@ Confrimed the javascript code was acceptable for jshint
 #### Google Lighthouse
 A useful tool for checking the webpage's performance and making recommendations to improve. 
 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse.jpg)
-
 
 
 
 #### Manual testing
 1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
 
-See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/manual-testing-checklist.pdf) 
+
+[See attached pdf](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/manual-testing-checklist.pdf) 
+
 
 2. Sent the webpage to my selected friends (work colleagues and LinkedIn contacts) and family (wife and brother) to test on their devices and provide feedback
 3. Posted my link via workflow on the Peer-Review SLACK group with the Code Institute for feedback (twice first at about 80% complete then a final review at 95% complete)
@@ -411,21 +428,28 @@ See attached pdf ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/ma
 - Try to submit the empty form and verify that an error message about the required fields appears
 - Try to submit the form with an invalid email address and verify that a relevant error message appears
 - Try to submit the form with all inputs valid and verify that a success message appears.
+11. Create broken links to confirm custom 404 error message works
+
+![Create broken link](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-404-html.jpg) 
 
 
 #### Defects identified during testing
-- Errors and recommendations by Readri205
-- Ed B recommendation for a good overview document - inserted a cheat sheet on the landing page which is downloadable in pdf.  
-- The footer issue identified by SAML
+The following were the errors identified during the multiple testing sessions: 
+- Multiple spacing and layout issues 
+- Hat modal doesn't disappear on submit - I was advised by mentor that this is preferred as user might want to see the text acceptance. I have a tick next to the close button at the bottom to alert the user their input is accepted. 
+- Reorder the hats to be consistent with the expected order as per the source material. 
+- Add more punchy text explaining the purpose of the website on the landing page to entice the user to want to click on the session button.
+- Needs a good overview document - - inserted a cheat sheet on the landing page which is also downloadable in pdf. 
+- A footer issue was identified in Peer review which was resolved 
 - Console log error in my logic when making the generate report button (applied simple boolean logic to avoid overcomplicating the built-in check)
 - Modal videos could be played at once if you play and exit because there was no pause - inserted an additional function to resolve this. 
-- Alejandra noted that the flashing hand icon on the landing page was too powerful and needed to be softened or completely removed - softened. 
+- Alejandra noted that the flashing hand icon on the landing page was too powerful and needed to be softened or completely removed - Removed. 
 - Flip cards would benefit from some shading effects. 
 - EmailJS confirmation alert did not initially work and the code needed to be resolved through a Gitpod refresh 
 
 
 ## Deployment
-The link to the deployed site: https://dantehealy.github.io/Thinking_Hats/index.html
+The link to the deployed site: (https://dantehealy.github.io/Thinking_Hats/index.html)
 
 1. Established my own Github account by registering on https://github.com/ If you are reading this file you are already accessing my public profile which is https://github.com/DanteHealy
 2. Install https://www.gitpod.io/ which is an Integrated Development Environment (IDE) that provides me an integrated ready to code environment which is very convenient. Note: I recommend to use the Google Chrome browser to do all your coding based on my experience with Microsoft Edge.
@@ -443,7 +467,8 @@ Due to the current limitations of my knowledge I will keep this second milestone
 ## Credits
 ### Acknowledgements
 The quality of this website is testimony to the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
-- JoWings_alumna, gbenga_mentor, Readri205, Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical advice and feedback on peer review and 
+- Special thanks to gbenga_mentor, JoWings_alumna and Readri205 for their particular focused attention to my problem 
+- Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical advice and feedback on peer review and 
 - My LinkedIn friend and professional tester Alejandra Huamán Ordóñez plus my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
 
 
@@ -451,7 +476,7 @@ The quality of this website is testimony to the help and support from my mentor 
 ### Media
 The photos used in this site were obtained from ...
 - https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create custom videos for the web site. 
-- https://unsplash.com/ - For images 
+- https://unsplash.com/ - For royalty free images 
 
 ### References used
 - https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono & https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/ - My initial inspirations for this project. 
