@@ -70,7 +70,7 @@ Most people tend to have one dominant way of thinking, but the Six Thinking Hats
 Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
 All the videos which guide the user are as brief whilst being comprehensive as possible and are between 1-3 minutes in duration. 
 
-##### The user story envisaged is ss follows: 
+##### The user story envisaged is as follows: 
 As a person struggling with uncertainty, I want to learn how to think effectively and apply this to solve any difficult problems I encounter. 
 I want to enhance my quality of life by finding clarity through creating comprehensive solutions to enable decisions which I can confidently take action on. 
 I want to be guided through an effective process, be able to record my ideas and get a report that gives me a record of my thoughts and conclusions at the end. 
@@ -390,9 +390,10 @@ All pased or issues identified were fixed/resolved prior to launch.
 - Try to submit the form with all inputs valid and verify that a success message appears.
 - Ensure that email alerts user once message is sent. 
 
-[Confirm email form works](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/emailjs-test.pdf) 
+[Link to pdf confirming email contact form works](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/emailjs-test.pdf) 
 
 Confirm email alert works
+
 ![Confirm email alert works](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-alert.jpg) 
 
 11. Create broken links to confirm custom 404 error message works
