@@ -188,6 +188,10 @@ submitBlue.addEventListener("click",function(){
 
 
 // Pause the videos when modals are closed to avoid multiple video voices played at the same time. Defect discovered during testing! 
+function pauseProblem() { 
+   $('#problemVid').get(0).pause();  /* Pause video when problem is submitted */
+} 
+
 function pauseWhite() { 
    $('#whiteVid').get(0).pause();  /* Pause video when white modal closes */
 } 

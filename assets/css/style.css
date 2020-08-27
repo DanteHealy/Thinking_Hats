@@ -1,7 +1,7 @@
 /* -------------------------- styling for main body elements and text*/
 body {
     font-family: 'Lato', sans-serif;
-    color: darkblue;
+    color: #53548A;
     background-color: #f1f1f1;
     transition-duration: 1s;
 }
@@ -51,9 +51,9 @@ body h2 {
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;    
-    border: 5px solid black;
+    border: 5px solid #000;
     background-color: white;
-    color: black;
+    color: #000;
 }
 
 input[type="text"] {
@@ -68,7 +68,7 @@ input[type="text"] {
 
 .hat-video {
     border: 5px;
-    border-color: black;
+    border-color: #000;
 }
 
 video {
@@ -164,7 +164,7 @@ footer {
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: #f1f1f1;
-  color: black;  
+  color: #000;
 }
 
 /* Remove a gap on the right of the footer appearing in mobile view */
