@@ -66,14 +66,15 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 ## UX
 There are numerous people who are struggling with uncertainty due to new challenges. Brought about in part by the current Covid-impacted environment and causing distress from lack of clarity. 
 This framework has proven to be effective in all areas of life because it guides people to think holistically about their problems from multiple different angles when attempting to solve their problems. 
-Most people tend to have one dominant way of thinking, but the Six Thinking Hats method encourages people to exercise multiple perspective when looking at a problem. 
+Most people tend to have one dominant way of thinking, but the Six Thinking Hats method encourages people to exercise multiple views when looking at a problem. 
 Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
-All videos guiding the user are as brief as possible whilst being comprehensive and are between 1-3 minutes in duration. 
+All the videos which guide the user are as brief whilst being comprehensive as possible and are between 1-3 minutes in duration. 
 
-The user story envisaged is framed as follows: 
+##### The user story envisaged is ss follows: 
 As a person struggling with uncertainty, I want to learn how to think effectively and apply this to solve any difficult problems I encounter. 
 I want to enhance my quality of life by finding clarity through creating comprehensive solutions to enable decisions which I can confidently take action on. 
-I want to be guided through an effective process, be able to record my ideas and get a report that gives me a record of my thought process at the end. 
+I want to be guided through an effective process, be able to record my ideas and get a report that gives me a record of my thoughts and conclusions at the end. 
+
 
 ## The Home page
 The Landing Page provides a brief overview video at the top with an accordion at the bottom containing a visual cheat sheet and transcript.  
@@ -134,8 +135,8 @@ The following are the features implemented by page:
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/index-html.jpg)
 
 1.	Navbar - Allows the User fast and convenient navigation between the pages: 
-    a.	Toggler with links to each page
-    b.	A logo comprising of some text and a white hat
+    a.	Responsive toggler with links to each page
+    b.	A logo comprising of some text and a white hat, when in mobile mode the icon moves with the menu (this is a deliberate design feature)
 
 2.	PowerPoint instruction video allows the user to get an immediate overview of the purpose of the Six Thinking Hats framework: 
     a.	Overview of the Six Thinking Hats framework
@@ -163,9 +164,9 @@ The following are the features implemented by page:
 
 2.	Navbar same as the home page, but with alerts
 
-a.	Toggler with links to each page, but the navigation away from this page comes up with an alert message warning that the information already entered will be lost and does the user still wish to proceed? 
+a.	Responsive toggler with links to each page, but the navigation away from this page comes up with an alert message warning that the information already entered will be lost and does the user still wish to proceed? 
 
-b.	A logo comprising of some text and a white hat 
+b.	A logo comprising of some text and a white hat, when in mobile mode the icon moves with the menu (this is a deliberate design feature)
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-nav-alert.jpg)
 
@@ -218,9 +219,9 @@ b.	Disclaimer text
 
 1.	Navbar 
 
-a.	Toggler with links to each page
+a.	Responsive toggler with links to each page
 
-b.	A logo comprising of some text and a white hat
+b.	A logo comprising of some text and a white hat, when in mobile mode the icon moves with the menu (this is a deliberate design feature)
 
 2.	Short Bio text for the creator of Six Thinking Hats
 
@@ -259,7 +260,8 @@ There is also a favicon in all the tabs.
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/images/favicon.png)
 
 #### Features Not Implemented
-Any obvious spacing, design or layout issues were tracked and either fixed immediately or de-scoped after alternative solution was found and successfully deployed.
+Any obvious spacing, design or layout issues were tracked and fixed immediately. 
+Excessively complex requirements not implemented were de-scoped only after alternative solution was found and successfully deployed.
 
 Note: 
 Cancelled features are noted on the Trello project board which were part of my initial brainstorming and I judged to be either:
@@ -386,8 +388,12 @@ All pased or issues identified were fixed/resolved prior to launch.
 - Try to submit the empty form and verify that an error message about the required fields appears
 - Try to submit the form with an invalid email address and verify that a relevant error message appears
 - Try to submit the form with all inputs valid and verify that a success message appears.
+- Ensure that email alerts user once message is sent. 
 
 [Confirm email form works](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/emailjs-test.pdf) 
+
+Confirm email alert works
+![Confirm email alert works](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-alert.jpg) 
 
 11. Create broken links to confirm custom 404 error message works
 
@@ -416,7 +422,7 @@ The following were the errors identified during the multiple testing sessions:
 [Example post-session report avoiding page breaks inside each hat section](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example-report-fix-page-breaks.pdf)
 
 ## Deployment
-The link to the deployed site: (https://dantehealy.github.io/Thinking_Hats/index.html)
+[Link to the deployed site](https://dantehealy.github.io/Thinking_Hats/index.html)
 
 1. Established my own Github account by registering on https://github.com/ If you are reading this file you are already accessing my public profile which is https://github.com/DanteHealy
 2. Install https://www.gitpod.io/ which is an Integrated Development Environment (IDE) that provides me an integrated ready to code environment which is very convenient. Note: I recommend to use the Google Chrome browser to do all your coding based on my experience with Microsoft Edge.
@@ -432,10 +438,12 @@ Until I have developed my own personal website where I can link to my portfolio 
 
 ## Credits
 ### Acknowledgements
-The quality of this website is testimony to the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
+The quality of this website is testimony to the help and support from my mentor and code institute colleagues. 
+Though there are many of people who contributed to the project I would like to mention: 
 - Special thanks to gbenga_mentor, JoWings_alumna and Readri205 for their particular focused attention and superb guidance when helping me to develop my website.  
 - Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical inputs and feedback on peer review and 
 - My LinkedIn friend and professional tester Alejandra Huamán Ordóñez 
+- Edward De Bono and Jim Kwik for the source material and inspiration 
 - Finally many thanks to my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
 
 ## Content
