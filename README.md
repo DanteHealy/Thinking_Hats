@@ -166,9 +166,9 @@ The following are the features implemented by page:
 
 a.	Responsive toggler with links to each page, but the navigation away from this page comes up with an alert message warning that the information already entered will be lost and does the user still wish to proceed? 
 
-b.	A logo comprising of some text and a white hat, when in mobile mode the icon moves with the menu (this is a deliberate design feature)
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-nav-alert.jpg)
+
+b.	A logo comprising of some text and a white hat, when in mobile mode the icon moves with the menu (this is a deliberate design feature)
 
 3.	Question section
 
