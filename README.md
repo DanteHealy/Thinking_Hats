@@ -64,10 +64,11 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 [10.2 References used](#references-used)
 
 ## UX
-There are numerous people who are struggling with uncertainty due to new challenges brought about by the current Covid-impacted environment causing distress from lack of clarity. 
-This framework has proven effective in all areas of life because it guides people to think holistically about their problems from multiple different angles when attempting to solve their problems. 
+There are numerous people who are struggling with uncertainty due to new challenges. Brought about in part by the current Covid-impacted environment and causing distress from lack of clarity. 
+This framework has proven to be effective in all areas of life because it guides people to think holistically about their problems from multiple different angles when attempting to solve their problems. 
 Most people tend to have one dominant way of thinking, but the Six Thinking Hats method encourages people to exercise multiple perspective when looking at a problem. 
 Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
+All videos guiding the user are as brief as possible whilst being comprehensive and are between 1-3 minutes in duration. 
 
 The user story envisaged is framed as follows: 
 As a person struggling with uncertainty, I want to learn how to think effectively and apply this to solve any difficult problems I encounter. 
@@ -203,7 +204,7 @@ g.	A reset button is available with an alert that warns the user they will lose 
 
 h.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
 
-[Example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example%20report.pdf)
+[Example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example-report.pdf)
 
 5.	Footer is the same on all pages
 
@@ -265,8 +266,7 @@ Cancelled features are noted on the Trello project board which were part of my i
 
 1. Impractical to incorporate into the project due to limited connection with the core purpose to educated the user in Six Thinking Hats or 
     - Experimented with having the background change color relevant to the color hat card on card flip hover in hats.html. I managed to achieve this, but I found it was too distracting so I removed it 
-    - A Tableau data dashboard didn't make sense as I didn't really have a backend 
-    - SEO Optimisation: I did some limited optimisation using the html tags (emphasising Six Hats)
+    - A Tableau data dashboard didn't make sense as I didn't really have a backend     
     - Map API - would be too busy and just putting a map for the sake of it 
 
 2. Not worth the effort versus the perceived benefit. 
@@ -276,8 +276,6 @@ Cancelled features are noted on the Trello project board which were part of my i
     - Subtitles for videos: Tried to do this, but the free tool required online hosting of my mp4's and the effort was very cumbersome, if this tool proves popular I could look into getting subtitles produced
 
 ## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. 
-For each, provide its name, a link to its official site and a short sentence of why it was used
 
 ### Core Technologies
 The project uses: 
@@ -301,7 +299,7 @@ The project uses:
 - [youtube.com for the embedded video of Edward De Bono explaining his perspective on the Six Thinking Hats ](https://www.youtube.com/)
 
 ## Testing
-The majority of the testing was manual and 
+The majority of the testing was manual combined with the appropriate online validation tools outlined below to ensure that my code met the required standards. 
 
 ### Testing methods and systems
 
@@ -338,19 +336,19 @@ All passed:
 #### JSHint
 
 ##### main.js
-There were some warnings based on use of Let and JQuery ($) and one unused variable which was being called when loading or reloading hats.html i.e. is actually being used, so I was okay with this:  
+All passed. There were some warnings based on use of Let and JQuery ($) and one unused variable which was being called when loading or reloading hats.html i.e. is actually being used, so I was okay with this:  
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js1-jshint.JPG)
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js2-jshint.JPG)
 
 ##### email.js
-Confrimed the javascript code was acceptable for jshint
+Confirmed the javascript code was acceptable for jshint
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-js-jshint.JPG)
 
 #### Google Lighthouse
-A useful tool for checking the webpage's performance and making recommendations to improve. 
+All passed. A useful tool for checking the webpage's performance and making recommendations to improve. 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse.jpg)
 
 The performance is high and regarding the other aspects: 
@@ -365,12 +363,13 @@ However, as this is a requirement for any external links I will aim to minimise 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse2a.jpg)
 
 SEO performance is acceptable for me, but I have now added meta descriptions to the header tags after this analysis to hopefully improve the overall SEO score. 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse2a.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse3.jpg)
 
 
 #### Manual testing
-1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
+All pased or issues identified were fixed/resolved prior to launch. 
 
+1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
 [See attached pdf](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/manual-testing-checklist.pdf) 
 
 2. Sent the webpage to my selected friends (work colleagues and LinkedIn contacts) and family (wife and brother) to test on their devices and provide feedback
@@ -380,7 +379,7 @@ SEO performance is acceptable for me, but I have now added meta descriptions to 
 6. Played the videos in the modals, texted the textareas multiple times to identify and resolve any problems 
 7. Confirmed that there were no console log errors in my JavaScript and JQuery code. 
 8. Tested the print report on various devices 
-[See example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example%20report.pdf)
+[See example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example-report.pdf)
 
 9. Did multiple end to end walkthroughs of the guided session 
 10. Testing the email form in the "Contact" page
@@ -413,7 +412,8 @@ The following were the errors identified during the multiple testing sessions:
 - Flip cards would benefit from some shading effects - done
 - EmailJS confirmation alert did not initially work and the code needed to be resolved through a Gitpod refresh - fixed
 - Add a favicon - done. 
-- If the report spans more than a single page the page break may ############# TBD ##############
+- If the report spans more than a single page the page break may break up a particular hat section. This defect is now fixed (see below):
+[Example post-session report avoiding page breaks inside each hat section](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example-report-fix-page-breaks.pdf)
 
 ## Deployment
 The link to the deployed site: (https://dantehealy.github.io/Thinking_Hats/index.html)
@@ -428,18 +428,19 @@ The link to the deployed site: (https://dantehealy.github.io/Thinking_Hats/index
 8. This created a URL and advised me that my site is now published.
 9. Further commits were reflected on to my site when pushed from Gitpod ('git commit origin master' in the command line interface).
 
-Due to the current limitations of my knowledge I will keep this second milestone project hosted on GitHub. 
+Until I have developed my own personal website where I can link to my portfolio I will continue to host this page on GitHub.  
 
 ## Credits
 ### Acknowledgements
 The quality of this website is testimony to the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
-- Special thanks to gbenga_mentor, JoWings_alumna and Readri205 for their particular focused attention to my problem 
-- Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical advice and feedback on peer review and 
-- My LinkedIn friend and professional tester Alejandra Huamán Ordóñez plus my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
+- Special thanks to gbenga_mentor, JoWings_alumna and Readri205 for their particular focused attention and superb guidance when helping me to develop my website.  
+- Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical inputs and feedback on peer review and 
+- My LinkedIn friend and professional tester Alejandra Huamán Ordóñez 
+- Finally many thanks to my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
 
 ## Content
 ### Media
-The photos used in this site were obtained from ...
+The photos used in this site were obtained from:
 - https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create custom videos for the web site. 
 - https://unsplash.com/ - For royalty free images 
 
@@ -473,6 +474,8 @@ The photos used in this site were obtained from ...
 - https://www.w3.org/Style/Examples/007/center.en.html - center flip card horizontally
 - https://www.w3schools.com/howto/howto_css_image_responsive.asp - Responsive image without Bootstrap for 404.html 
 - https://github.com/11ty/eleventy/issues/466 - Thanks to Karina on the SLACK channel for sharing this tip for elegently handling broken links 
+- https://www.youtube.com/watch?v=o3Gfsc6kihk - Insert meta tag description for better SEO 
+- https://www.w3schools.com/cssref/pr_print_pagebi.asp - Fix page breaks 
 
 - Articles and websites for ideas and concepts relating to the Six Thinking Hats concept: 
     1. https://www.debonogroup.com/services/core-programs/six-thinking-hats/ - The DeBono Group, concept owners
