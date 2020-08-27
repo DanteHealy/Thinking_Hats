@@ -4,7 +4,6 @@
 
 Link to site: https://dantehealy.github.io/Thinking_Hats/index.html
 
-
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
 ## Contents:
@@ -64,7 +63,6 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 
 [10.2 References used](#references-used)
 
-
 ## UX
 There are numerous people who are struggling with uncertainty due to new challenges brought about by the current Covid-impacted environment causing distress from lack of clarity. 
 This framework has proven effective in all areas of life because it guides people to think holistically about their problems from multiple different angles when attempting to solve their problems. 
@@ -76,19 +74,15 @@ As a person struggling with uncertainty, I want to learn how to think effectivel
 I want to enhance my quality of life by finding clarity through creating comprehensive solutions to enable decisions which I can confidently take action on. 
 I want to be guided through an effective process, be able to record my ideas and get a report that gives me a record of my thought process at the end. 
 
-
 ## The Home page
 The Landing Page provides a brief overview video at the top with an accordion at the bottom containing a visual cheat sheet and transcript.  
 In between the video and the accordion there is a call to action button that leads you to the guided session page. 
 At the bottom of all the pages there is a footer with some social media links plus a disclaimer text stating this site is educational only. 
 
-
 ### Wireframe
 The Home page: 
 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe1.jpg)
-
 
 ## The Guided Session page
 This page opens with another video about defining the specific problem with a text box to enter your problem. 
@@ -104,21 +98,15 @@ As the inputs are not saved there are validation and warning popup messages aski
 ### Wireframes
 The Guided Session page: 
 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe2.jpg)
-
 
 The pop up modal with instruction video and input textarea for each hat: 
 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe3.jpg)
-
 
 The final report and the end of the guided session: 
 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe4.jpg)
-
 
 ## The Contact page
 There is a short bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
@@ -130,18 +118,12 @@ Below the video is an accordion with three sections:
 ### Wireframe
 The Contact page: 
 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe5.jpg)
-
-
 
 ## Features
 All features were listed, organised and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/trello.jpg)
-
-
 
 ### Existing Features
 The following are the features implemented by page: 
@@ -168,7 +150,6 @@ The following are the features implemented by page:
     a.	Social media icon with links 
     b.	Disclaimer text 
 
-
 #### Guided session page
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-1.jpg)
@@ -179,124 +160,102 @@ The following are the features implemented by page:
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-load.jpg)
 
-
 2.	Navbar same as the home page, but with alerts
 
-    a.	Toggler with links to each page, but the navigation away from this page comes up with an alert message warning that the information already entered will be lost and does the user still wish to proceed? 
+a.	Toggler with links to each page, but the navigation away from this page comes up with an alert message warning that the information already entered will be lost and does the user still wish to proceed? 
 
-    b.	A logo comprising of some text and a white hat 
-
+b.	A logo comprising of some text and a white hat 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-nav-alert.jpg)
 
-
 3.	Question section
 
-    a.	Starts with a PowerPoint video that explains the importance of correctly framing the question before applying the six thinking hats
+a.	Starts with a PowerPoint video that explains the importance of correctly framing the question before applying the six thinking hats
 
-    b.	A text area with a submit button that uses JavaScript to validate that the input has more than 20 characters 
+b.	A text area with a submit button that uses JavaScript to validate that the input has more than 20 characters 
 
-    c.	A submit button that then replace the textarea box with the entered question into fixed text and diplays the six thinking hat flip cards
-
+c.	A submit button that then replace the textarea box with the entered question into fixed text and diplays the six thinking hat flip cards
 
 4.	Six Thinking Hat flip cards 
 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2a.jpg)
 
-
-    a.	On hover the flip cards reveal a button that opens up a modal which takes the user through a guided explanation of the purpose 
+a.	On hover the flip cards reveal a button that opens up a modal which takes the user through a guided explanation of the purpose 
     and perspective of the hat and then allows the user to enter their thoughts into the box 
-
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2b.jpg)
 
+b.	The textarea box uses JavaScript to validate that the answers aren’t too short or too long (character limits are set between 20 – 300) 
 
-    b.	The textarea box uses JavaScript to validate that the answers aren’t too short or too long (character limits are set between 20 – 300) 
-
-    c.	There are buttons for closing the modal and submitting the users’ answers for each hat with some more JavaScript logic that pauses the video when the modal 
+c.	There are buttons for closing the modal and submitting the users’ answers for each hat with some more JavaScript logic that pauses the video when the modal 
     is closed to avoid multiple videos being played at the same time. 
 
-    d.	There are two ticks once an answer is submitted – one within the modal and one outside the flip card to alert the user that an answer has been recognized 
+d.	There are two ticks once an answer is submitted – one within the modal and one outside the flip card to alert the user that an answer has been recognized 
 
-    e.	Once all six cards are completed, a generate report button appears that replaces the six hat flip cards with a report that consolidates the inputs 
-        - The report uses JavaScript to recognise any line breaks and spaces as entered by the user 
-
+e.	Once all six cards are completed, a generate report button appears that replaces the six hat flip cards with a report that consolidates the inputs 
+    - The report uses JavaScript to recognise any line breaks and spaces as entered by the user 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2c.jpg)
 
+f.	A print button appears after the report is generated. 
 
-    f.	A print button appears after the report is generated. 
+g.	A reset button is available with an alert that warns the user they will lose any current work and requests confirmation that they want to proceed 
 
-    g.	A reset button is available with an alert that warns the user they will lose any current work and requests confirmation that they want to proceed 
+h.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
 
-    h.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
-
-
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-3.jpg)
-
+[Example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example%20report.pdf)
 
 5.	Footer is the same on all pages
 
-    a.	Social media icons with links 
+a.	Social media icons with links 
 
-    b.	Disclaimer text 
-
+b.	Disclaimer text 
 
 #### Contact page
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-1.jpg)
 
-
 1.	Navbar 
 
-    a.	Toggler with links to each page
+a.	Toggler with links to each page
 
-    b.	A logo comprising of some text and a white hat
+b.	A logo comprising of some text and a white hat
 
 2.	Short Bio text for the creator of Six Thinking Hats
 
-    a.	Background and credentials 
+a.	Background and credentials 
 
 3.	Video of the creator discussing the Six Thinking Hats
 
-    a.	The video is wrapped in a responsive container 
+a.	The video is wrapped in a responsive container 
 
 4.	Another accordion to tuck neatly the grouped elements for convenience and allow the user to focus on one thing at a time 
 
-    a.	A speaker section with a button that takes the user to the official speaker booking page for Edward De Bono with testimonials 
-
+a.	A speaker section with a button that takes the user to the official speaker booking page for Edward De Bono with testimonials 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-2a.jpg)
 
-
-    b.	An email form that validates the inputs and returns a confirmation alert message – this uses the EmailJS API to send an email to my designated email address with the heading listed so that I can confirm the source (Six Thinking Hats General Inquiries) 
-
+b.	An email form that validates the inputs and returns a confirmation alert message – this uses the EmailJS API to send an email to my designated email address with the heading listed so that I can confirm the source (Six Thinking Hats General Inquiries) 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-2b.jpg)
 
-
-    c.	Useful links section 
+c.	Useful links section 
 
 5.	Footer
 
-    a.	Social media icons with links 
+a.	Social media icons with links 
 
-    b.	Disclaimer text 
+b.	Disclaimer text 
 
 In addition, I leveraged Bootstrap to ensure that all elements are responsive across multiple devices. 
 
 There is also a custom 404 error message in case any broken links emerge. 
 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-404-html-screen.jpg)
-
 
 There is also a favicon in all the tabs. 
 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/images/favicon.png)
-
 
 #### Features Not Implemented
 Any obvious spacing, design or layout issues were tracked and either fixed immediately or de-scoped after alternative solution was found and successfully deployed.
@@ -310,13 +269,11 @@ Cancelled features are noted on the Trello project board which were part of my i
     - SEO Optimisation: I did some limited optimisation using the html tags (emphasising Six Hats)
     - Map API - would be too busy and just putting a map for the sake of it 
 
-
 2. Not worth the effort versus the perceived benefit. 
     - Print to pdf API: explored a few alternatives, but there was a cost after the free cap limit so I avoided this solution 
     - Heroku deployment: not aiming for full deployment for this project yet until I build personal website to host this as part of my portfolio
     - JavaScript local storage: surplus to requirements and don't want to risk collecting personal data on people 
     - Subtitles for videos: Tried to do this, but the free tool required online hosting of my mp4's and the effort was very cumbersome, if this tool proves popular I could look into getting subtitles produced
-
 
 ## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. 
@@ -334,16 +291,14 @@ The project uses:
 - [Git for version control](https://git-scm.com/)
 - [Gitpod for the IDE](https://community.gitpod.io/)
 
-
 ### Supplemental technologies
-- [Balsamiq for wireframes](https://balsamiq.com/)
+- [Balsamiq for my wireframes](https://balsamiq.com/)
 - [Fontawesome for the icons](https://fontawesome.com/)
 - [Google fonts for the text styles](https://fonts.google.com/)
 - [Favicon.io for my favicon image](https://favicon.io/)
 - [MS PowerPoint - for my homemade videos, cheat sheet and hat cards](https://www.microsoft.com/en-gb/microsoft-365/p/powerpoint/cfq7ttc0k7c6?=&ef_id=CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE%3aG%3as&OCID=AID2100139_SEM_CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE%3aG%3as&lnkd=Google_O365SMB_App&gclid=CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE&activetab=pivot%3aoverviewtab)
 - [unsplash.com for my images](https://unsplash.com/)
 - [youtube.com for the embedded video of Edward De Bono explaining his perspective on the Six Thinking Hats ](https://www.youtube.com/)
-
 
 ## Testing
 The majority of the testing was manual and 
@@ -357,7 +312,6 @@ All passed:
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-img-responsive.jpg)
 
-
 #### HTML validator
 
 ##### 1. index.html
@@ -365,18 +319,15 @@ All passed:
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-index-html-validator.jpg)
 
-
 ##### 2. hats.html
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-hats-html-validator.jpg)
 
-
 ##### 3. contact.html
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-contact-html-validator.jpg)
-
 
 #### CSS validator
 ##### style.css
@@ -384,37 +335,43 @@ All passed:
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-css-validator.jpg)
 
-
-
 #### JSHint
 
 ##### main.js
-There were some warnings based on use of Let and JQuery ($) and one unused variabel which was being called when loading or reloading hats.html so I was okay with this:  
+There were some warnings based on use of Let and JQuery ($) and one unused variable which was being called when loading or reloading hats.html i.e. is actually being used, so I was okay with this:  
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js1-jshint.JPG)
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js2-jshint.JPG)
-
 
 ##### email.js
 Confrimed the javascript code was acceptable for jshint
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-js-jshint.JPG)
 
-
 #### Google Lighthouse
 A useful tool for checking the webpage's performance and making recommendations to improve. 
-
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse.jpg)
 
+The performance is high and regarding the other aspects: 
+
+The button referred to is the nabar and the links are the social media links (naming the twitter, facebook and instagram icons should not detract from user experience)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse1.jpg)
+
+Regarding best practice - lighthouse doesn't recommend opening up links to external sites on target="_blank". 
+However, as this is a requirement for any external links I will aim to minimise the number of external links and accept this trade-off. 
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse2.jpg)
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse2a.jpg)
+
+SEO performance is acceptable for me, but I have now added meta descriptions to the header tags after this analysis to hopefully improve the overall SEO score. 
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse2a.jpg)
 
 
 #### Manual testing
 1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
 
-
 [See attached pdf](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/manual-testing-checklist.pdf) 
-
 
 2. Sent the webpage to my selected friends (work colleagues and LinkedIn contacts) and family (wife and brother) to test on their devices and provide feedback
 3. Posted my link via workflow on the Peer-Review SLACK group with the Code Institute for feedback (twice first at about 80% complete then a final review at 95% complete)
@@ -423,15 +380,23 @@ A useful tool for checking the webpage's performance and making recommendations 
 6. Played the videos in the modals, texted the textareas multiple times to identify and resolve any problems 
 7. Confirmed that there were no console log errors in my JavaScript and JQuery code. 
 8. Tested the print report on various devices 
+[See example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example%20report.pdf)
+
 9. Did multiple end to end walkthroughs of the guided session 
 10. Testing the email form in the "Contact" page
 - Try to submit the empty form and verify that an error message about the required fields appears
 - Try to submit the form with an invalid email address and verify that a relevant error message appears
 - Try to submit the form with all inputs valid and verify that a success message appears.
+
+[Confirm email form works](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/emailjs-test.pdf) 
+
 11. Create broken links to confirm custom 404 error message works
 
 ![Create broken link](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-404-html.jpg) 
 
+As a final check I cross referenced the website to ensure that I met the necessary course requirements: 
+
+[Check to course requirements](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/ci-marking-requirements-check.pdf) 
 
 #### Defects identified during testing
 The following were the errors identified during the multiple testing sessions: 
@@ -448,7 +413,7 @@ The following were the errors identified during the multiple testing sessions:
 - Flip cards would benefit from some shading effects - done
 - EmailJS confirmation alert did not initially work and the code needed to be resolved through a Gitpod refresh - fixed
 - Add a favicon - done. 
-
+- If the report spans more than a single page the page break may ############# TBD ##############
 
 ## Deployment
 The link to the deployed site: (https://dantehealy.github.io/Thinking_Hats/index.html)
@@ -465,14 +430,12 @@ The link to the deployed site: (https://dantehealy.github.io/Thinking_Hats/index
 
 Due to the current limitations of my knowledge I will keep this second milestone project hosted on GitHub. 
 
-
 ## Credits
 ### Acknowledgements
 The quality of this website is testimony to the help and support from my mentor and code institute colleagues. Though there are many of people who contributed to the project I would like to mention: 
 - Special thanks to gbenga_mentor, JoWings_alumna and Readri205 for their particular focused attention to my problem 
 - Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical advice and feedback on peer review and 
 - My LinkedIn friend and professional tester Alejandra Huamán Ordóñez plus my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
-
 
 ## Content
 ### Media

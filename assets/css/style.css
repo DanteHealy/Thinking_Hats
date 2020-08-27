@@ -218,6 +218,7 @@ footer .row {
 @media print {
    #resetBtn *, #reportPrint *, #footNote * { display:none; }
    #hatProblem, #hatReport *, #titleDiv * { display:block; }
+   .colrep {page-break-inside: avoid;}
 }
 
 
