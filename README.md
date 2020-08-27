@@ -419,6 +419,7 @@ The following were the errors identified during the multiple testing sessions:
 - Add a favicon - done. 
 - If the report spans more than a single page the page break may break up a particular hat section. This defect is now fixed (see below):
 [Example post-session report avoiding page breaks inside each hat section](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example-report-fix-page-breaks.pdf)
+- Late bug where the first question video on the guided session still plays if not completed before the problem is submitted. 
 
 ## Deployment
 [Link to the deployed site](https://dantehealy.github.io/Thinking_Hats/index.html)
@@ -440,7 +441,7 @@ Until I have developed my own personal website where I can link to my portfolio 
 The quality of this website is testimony to the help and support from my mentor and code institute colleagues. 
 Though there are many of people who contributed to the project I would like to mention: 
 - Special thanks to gbenga_mentor, JoWings_alumna, [Readri205](https://github.com/Readri205) for their particular focused attention and superb guidance when helping me to develop my website.  
-- [Neringa](https://github.com/neringabickmore) [Michaelstanden](https://github.com/Michaelstanden), michael_ci, [SamL](https://github.com/samlaubscher), Ed B and Sean MC for their technical inputs and feedback on peer review and 
+- [Neringa](https://github.com/neringabickmore), [Michaelstanden](https://github.com/Michaelstanden), michael_ci, [SamL](https://github.com/samlaubscher), Ed B and Sean MC for their technical inputs and feedback on peer review and 
 - My LinkedIn friend and professional tester Alejandra Huamán Ordóñez 
 - Edward De Bono and Jim Kwik for the source material and inspiration 
 - Finally many thanks to my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
