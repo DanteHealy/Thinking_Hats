@@ -1,4 +1,4 @@
-/*--------------------------- main body and text*/
+/* -------------------------- styling for main body elements and text*/
 body {
     font-family: 'Lato', sans-serif;
     color: darkblue;
@@ -86,25 +86,6 @@ video {
   display: inline;
 }
 
-
-/* ---------------------------------------- Insert-flashing-arrow-icon */
-.flash-hand i {
-    font-size: 50px;
-    color: #53548A;
-    text-shadow: 5px 5px 5px darkgray;
-    padding-top: 10px;
-    margin-bottom: 10px;
-}
-
-.blink {
-    animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-
-@keyframes blinker {  
-  from { opacity: 1; }
-  to { opacity: 0.6; }
-}
-
 /* ----- Image overlay for card */
 .card-container {
     margin: auto;    
@@ -112,7 +93,7 @@ video {
     text-align: center;
 }
 
-/* ---------------------------------------- Footer-Social-Media */
+/* -------------------------- Footer-Social-Media */
 footer {
     margin-top: 10px;    
     width: 100%;
@@ -144,8 +125,7 @@ footer {
     transition-timing-function: ease-in-out;
 }
 
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* --- Style the flip card container */
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -153,7 +133,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px; 
 }
 
 /* This container is needed to position the front and back side */
@@ -166,7 +146,7 @@ footer {
   transform-style: preserve-3d;  
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+/* Do a horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
   box-shadow: 3px 4px 3px 4px #888888;
@@ -195,7 +175,6 @@ footer .row {
     margin-left: 0px;
 }
 
-
 /* Style the back side */
 .flip-card-back {
   width: 300px;
@@ -214,13 +193,12 @@ footer .row {
     margin-right: 0.5rem;
 }
 
-/* --- Print Six Hats report only and hide non-relevant elements --- */
+/* --- Print Six Hats report only, hide non-relevant elements and eliminate page breaks inside report sections --- */
 @media print {
    #resetBtn *, #reportPrint *, #footNote * { display:none; }
    #hatProblem, #hatReport *, #titleDiv * { display:block; }
    .colrep {page-break-inside: avoid;}
 }
-
 
 /* --- Page load animation for a smoother opening transition for hats.html whilst certain elements are being hidden --- */
 .loader-wrapper {
@@ -265,7 +243,6 @@ footer .row {
 }
 
 /* --- Fix an issue with the modals in hats.html adding padding and causing the screens and navbar to jerk right --- */
-
 .modal-open, 
 .fade {
     padding-right: 0px !important;
