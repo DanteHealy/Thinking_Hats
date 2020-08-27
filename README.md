@@ -452,7 +452,8 @@ The photos used in this site were obtained from:
 - [For royalty free images](https://unsplash.com/)  
 
 ### References used
-- [My initial inspiration for this project](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono & https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/)
+- [My initial inspiration for this project](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono) 
+    [further reference](https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/)
 - [Use of Bootstrap generally for responsive styling and layouts](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 - [Styling the Text Box](https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box)
 - [Use of a flip card to introduce each of the six thinking hats](https://www.w3schools.com/howto/howto_css_flip_card.asp)
@@ -460,7 +461,8 @@ The photos used in this site were obtained from:
 - [Hiding certain HTML elements upon loading the exercise page.](https://stackoverflow.com/questions/3961422/conditional-display-of-html-element-forms)
 - [Hiding and showing HTML elements upon a JavaScript event](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_hide_show)
 - [Background color change on hover of hat cards](https://www.youtube.com/watch?v=10tXgw-0myA)
-- [Color schemes](https://hookagency.com/website-color-schemes/ - https://www.colorcombos.com/color-schemes/137/ColorCombo137.html)  
+- [Color schemes](https://hookagency.com/website-color-schemes/) 
+    [Additional color references](https://www.colorcombos.com/color-schemes/137/ColorCombo137.html)  
 - [Check if you need to exit the Guided Exercise page](https://stackoverflow.com/questions/10462839/how-to-display-a-confirmation-dialog-when-clicking-an-a-link)  
 - [Check to confirm before doing a full reset on the exercise page](https://stackoverflow.com/questions/6457750/form-confirm-before-submit)  
 - [Include accordion as per milestone 1 feedback for any overly verbose sections](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-accordion.php)
