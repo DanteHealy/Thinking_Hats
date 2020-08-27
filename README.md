@@ -2,7 +2,7 @@
 
 # Six Thinking Hats
 
-Link to site: https://dantehealy.github.io/Thinking_Hats/index.html
+[Link to the deployed site](https://dantehealy.github.io/Thinking_Hats/index.html)
 
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
@@ -84,7 +84,7 @@ At the bottom of all the pages there is a footer with some social media links pl
 ### Wireframe
 The Home page: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe1.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/wireframe1.jpg)
 
 ## The Guided Session page
 This page opens with another video about defining the specific problem with a text box to enter your problem. 
@@ -100,15 +100,15 @@ As the inputs are not saved there are validation and warning popup messages aski
 ### Wireframes
 The Guided Session page: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe2.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/wireframe2.jpg)
 
 The pop up modal with instruction video and input textarea for each hat: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe3.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/wireframe3.jpg)
 
 The final report and the end of the guided session: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe4.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/wireframe4.jpg)
 
 ## The Contact page
 There is a short bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
@@ -120,19 +120,19 @@ Below the video is an accordion with three sections:
 ### Wireframe
 The Contact page: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/wireframe5.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/wireframe5.jpg)
 
 ## Features
 All features were listed, organised and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/trello.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/trello.jpg)
 
 ### Existing Features
 The following are the features implemented by page: 
 
 #### Home Page
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/index-html.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/index-html.jpg)
 
 1.	Navbar - Allows the User fast and convenient navigation between the pages: 
     a.	Responsive toggler with links to each page
@@ -154,19 +154,19 @@ The following are the features implemented by page:
 
 #### Guided session page
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-1.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/hats-html-1.jpg)
 
 1.  There is a page load feature that guides the user to wait whilst certain elements are being hidden in the background using JavaScript to make the interactive experience more intuitive.
     To make sure that the user does't perform the process out of sequence the Question video and input section is the only elements presented initially.
     Then as the user goes through the process other elements are unhidden with the previous elements being hidden to focus the user on the process.     
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-load.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/hats-html-load.jpg)
 
 2.	Navbar same as the home page, but with alerts
 
 a.	Responsive toggler with links to each page, but the navigation away from this page comes up with an alert message warning that the information already entered will be lost and does the user still wish to proceed? 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-nav-alert.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/hats-html-nav-alert.jpg)
 
 b.	A logo comprising of some text and a white hat, when in mobile mode the icon moves with the menu (this is a deliberate design feature)
 
@@ -180,12 +180,12 @@ c.	A submit button that then replace the textarea box with the entered question 
 
 4.	Six Thinking Hat flip cards 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2a.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/hats-html-2a.jpg)
 
 a.	On hover the flip cards reveal a button that opens up a modal which takes the user through a guided explanation of the purpose 
     and perspective of the hat and then allows the user to enter their thoughts into the box 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2b.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/hats-html-2b.jpg)
 
 b.	The textarea box uses JavaScript to validate that the answers aren’t too short or too long (character limits are set between 20 – 300) 
 
@@ -197,7 +197,7 @@ d.	There are two ticks once an answer is submitted – one within the modal and 
 e.	Once all six cards are completed, a generate report button appears that replaces the six hat flip cards with a report that consolidates the inputs 
     - The report uses JavaScript to recognise any line breaks and spaces as entered by the user 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/hats-html-2c.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/hats-html-2c.jpg)
 
 f.	A print button appears after the report is generated. 
 
@@ -205,7 +205,7 @@ g.	A reset button is available with an alert that warns the user they will lose 
 
 h.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
 
-[Example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example-report.pdf)
+[Example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/example-report.pdf)
 
 5.	Footer is the same on all pages
 
@@ -215,7 +215,7 @@ b.	Disclaimer text
 
 #### Contact page
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-1.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/contact-html-1.jpg)
 
 1.	Navbar 
 
@@ -235,11 +235,11 @@ a.	The video is wrapped in a responsive container
 
 a.	A speaker section with a button that takes the user to the official speaker booking page for Edward De Bono with testimonials 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-2a.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/contact-html-2a.jpg)
 
 b.	An email form that validates the inputs and returns a confirmation alert message – this uses the EmailJS API to send an email to my designated email address with the heading listed so that I can confirm the source (Six Thinking Hats General Inquiries) 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/contact-html-2b.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/contact-html-2b.jpg)
 
 c.	Useful links section 
 
@@ -253,7 +253,7 @@ In addition, I leveraged Bootstrap to ensure that all elements are responsive ac
 
 There is also a custom 404 error message in case any broken links emerge. 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-404-html-screen.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-404-html-screen.jpg)
 
 There is also a favicon in all the tabs. 
 
@@ -439,8 +439,8 @@ Until I have developed my own personal website where I can link to my portfolio 
 ### Acknowledgements
 The quality of this website is testimony to the help and support from my mentor and code institute colleagues. 
 Though there are many of people who contributed to the project I would like to mention: 
-- Special thanks to gbenga_mentor, JoWings_alumna and Readri205 for their particular focused attention and superb guidance when helping me to develop my website.  
-- Michaelstanden, michael_ci, SamL, Ed B and Sean MC for their technical inputs and feedback on peer review and 
+- Special thanks to gbenga_mentor, JoWings_alumna, [Readri205](https://github.com/Readri205) for their particular focused attention and superb guidance when helping me to develop my website.  
+- [Neringa](https://github.com/neringabickmore) [Michaelstanden](https://github.com/Michaelstanden), michael_ci, [SamL](https://github.com/samlaubscher), Ed B and Sean MC for their technical inputs and feedback on peer review and 
 - My LinkedIn friend and professional tester Alejandra Huamán Ordóñez 
 - Edward De Bono and Jim Kwik for the source material and inspiration 
 - Finally many thanks to my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
@@ -448,52 +448,53 @@ Though there are many of people who contributed to the project I would like to m
 ## Content
 ### Media
 The photos used in this site were obtained from:
-- https://www.youtube.com/watch?v=D8JV3w4TOVw - Using PowerPoint to create custom videos for the web site. 
-- https://unsplash.com/ - For royalty free images 
+- [Using PowerPoint to create custom videos for the web site](https://www.youtube.com/watch?v=D8JV3w4TOVw) 
+- [For royalty free images](https://unsplash.com/)  
 
 ### References used
-- https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono & https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/ - My initial inspirations for this project. 
-- https://getbootstrap.com/docs/4.5/getting-started/introduction/ - Use of Bootstrap generally for responsive styling and layouts. 
-- https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box - Styling the Text Box. 
-- https://www.w3schools.com/howto/howto_css_flip_card.asp Use of a flip card to introduce each of the six thinking hats. 
-- https://getbootstrap.com/docs/4.5/components/modal/ - Use of Bootstrap modal forms. 
-- https://stackoverflow.com/questions/3961422/conditional-display-of-html-element-forms - Hiding certain HTML elements upon loading the exercise page. 
-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_hide_show - Hiding and showing HTML elements upon a JavaScript event. 
-- https://www.youtube.com/watch?v=10tXgw-0myA - background color change on hover of hat cards. 
-- https://hookagency.com/website-color-schemes/ - https://www.colorcombos.com/color-schemes/137/ColorCombo137.html - background color schemes. 
-- https://stackoverflow.com/questions/10462839/how-to-display-a-confirmation-dialog-when-clicking-an-a-link - Check if you need to exit the Guided Exercise page. 
-- https://stackoverflow.com/questions/6457750/form-confirm-before-submit - Check to confirm before doing a full reset on the exercise page. 
-- https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-accordion.php - Include accordion as per milestone 1 feedback for any overly verbose sections. ;-) 
-- https://favicon.io/ - Favicon generator. 
-- https://www.youtube.com/watch?v=kEf1xSwX5D8 - How to add favicon video. 
-- https://speaking.com/speakers/edward-de-bono/ - References to Edward De Bono's services and Testimonials. 
-- https://www.debono.com/ - More background. 
-- https://www.w3schools.com/jsref/met_win_print.asp - Add a print report button and avoid refreshing the page by setting type="button" https://stackoverflow.com/questions/1878264/how-do-i-make-an-html-button-not-reload-the-page
-- https://stackoverflow.com/questions/20364212/limit-print-area-to-a-div - Specify the print area to be displayed on the page. 
-- https://debonoconsulting.com/training-courses/six-thinking-hats/six-thinking-hats-as-applied-in-six-sigma/ 
-- http://reusableforms.com/d/p/bootstrap-popup-email-form - Bootstrap popup email form! 
+- [My initial inspiration for this project](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono & https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/)
+- [Use of Bootstrap generally for responsive styling and layouts](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [Styling the Text Box](https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box)
+- [Use of a flip card to introduce each of the six thinking hats](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+- [Use of Bootstrap modal forms](https://getbootstrap.com/docs/4.5/components/modal/)
+- [Hiding certain HTML elements upon loading the exercise page.](https://stackoverflow.com/questions/3961422/conditional-display-of-html-element-forms)
+- [Hiding and showing HTML elements upon a JavaScript event](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_hide_show)
+- [Background color change on hover of hat cards](https://www.youtube.com/watch?v=10tXgw-0myA)
+- [Color schemes](https://hookagency.com/website-color-schemes/ - https://www.colorcombos.com/color-schemes/137/ColorCombo137.html)  
+- [Check if you need to exit the Guided Exercise page](https://stackoverflow.com/questions/10462839/how-to-display-a-confirmation-dialog-when-clicking-an-a-link)  
+- [Check to confirm before doing a full reset on the exercise page](https://stackoverflow.com/questions/6457750/form-confirm-before-submit)  
+- [Include accordion as per milestone 1 feedback for any overly verbose sections](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-accordion.php)
+- [Favicon generator](https://favicon.io/)
+- [How to add favicon video](https://www.youtube.com/watch?v=kEf1xSwX5D8)  
+- [References to Edward De Bono's services and Testimonials](https://speaking.com/speakers/edward-de-bono/)  
+- [More background](https://www.debono.com/)
+- [Add a print report button and avoid refreshing the page by setting type="button"](https://www.w3schools.com/jsref/met_win_print.asp) 
+    [More guidance](https://stackoverflow.com/questions/1878264/how-do-i-make-an-html-button-not-reload-the-page)
+- [Specify the print area to be displayed on the page](https://stackoverflow.com/questions/20364212/limit-print-area-to-a-div)  
+- [Content ideas](https://debonoconsulting.com/training-courses/six-thinking-hats/six-thinking-hats-as-applied-in-six-sigma/)
+- [Bootstrap popup email form!](http://reusableforms.com/d/p/bootstrap-popup-email-form) 
 - Use of the Code Institute Resume Course for my email form - Module "Sending Emails using EmailJS" 
-- https://stackoverflow.com/questions/33477930/close-bootstrap-modal-on-form-submit - Dismiss modal on successful submit (for a more user friendly mobile experience) after peer review. 
-- https://www.youtube.com/watch?v=gttmqvZ4kYc - Transition animation load for the hats.html guided session page. 
-- https://www.geeksforgeeks.org/how-to-play-pause-video-using-jquery/#:~:text=The%20pause()%20method%20in,element%20to%20pause%20the%20video - Pause MP4 video on close to prevent multiple videos playing at the same time. 
-- https://css-tricks.com/fluid-width-video/ - Video fluid width in css. 
-- https://getbootstrap.com/docs/4.4/utilities/text/ - center text in flip card back vertically 
-- https://www.w3.org/Style/Examples/007/center.en.html - center flip card horizontally
-- https://www.w3schools.com/howto/howto_css_image_responsive.asp - Responsive image without Bootstrap for 404.html 
-- https://github.com/11ty/eleventy/issues/466 - Thanks to Karina on the SLACK channel for sharing this tip for elegently handling broken links 
-- https://www.youtube.com/watch?v=o3Gfsc6kihk - Insert meta tag description for better SEO 
-- https://www.w3schools.com/cssref/pr_print_pagebi.asp - Fix page breaks 
+- [Dismiss modal on successful submit (for a more user friendly mobile experience) after peer review.](https://stackoverflow.com/questions/33477930/close-bootstrap-modal-on-form-submit) 
+- [Transition animation load for the hats.html guided session page](https://www.youtube.com/watch?v=gttmqvZ4kYc)
+- [Pause MP4 video on close to prevent multiple videos playing at the same time](https://www.geeksforgeeks.org/how-to-play-pause-video-using-jquery/#:~:text=The%20pause()%20method%20in,element%20to%20pause%20the%20video)  
+- [Video fluid width in css](https://css-tricks.com/fluid-width-video/)
+- [Centre text in flip card back vertically](https://getbootstrap.com/docs/4.4/utilities/text/)  
+- [Center flip card horizontally](https://www.w3.org/Style/Examples/007/center.en.html)
+- [Responsive image without Bootstrap for 404.html](https://www.w3schools.com/howto/howto_css_image_responsive.asp) 
+- [Thanks to Karina on the SLACK channel for sharing this tip for elegently handling broken links](https://github.com/11ty/eleventy/issues/466)  
+- [Insert meta tag description for better SEO](https://www.youtube.com/watch?v=o3Gfsc6kihk)  
+- [Fix page breaks](https://www.w3schools.com/cssref/pr_print_pagebi.asp) 
 
 - Articles and websites for ideas and concepts relating to the Six Thinking Hats concept: 
-    1. https://www.debonogroup.com/services/core-programs/six-thinking-hats/ - The DeBono Group, concept owners
-    2. https://josephjguerra.github.io/six-thinking-hats/#learn - Another similar project found on GitHub
-    3. https://fourminutebooks.com/six-thinking-hats-summary/ - Some great ideas for summarising the book 
-    4. https://improvement.nhs.uk/resources/six-thinking-hats/ - Useful resource from the NHS website 
-    5. https://readingraphics.com/book-summary-six-thinking-hats/ - Useful resources 
-    6. https://github.com/Frozenaught/homechopped - Use this example as the inspiration for my Readme file. 
-    7. https://hbr.org/2012/09/are-you-solving-the-right-problem - Defining the problem by HBR 
-    8. https://transformationacademy.com/2019/10/thoughts-101-how-thoughts-create-emotions-and-stuff/ - Red Hat Thinking
+    1. [The DeBono Group, concept owners](https://www.debonogroup.com/services/core-programs/six-thinking-hats/)
+    2. [Another similar project found on GitHub](https://josephjguerra.github.io/six-thinking-hats/#learn)
+    3. [Some great ideas for summarising the book](https://fourminutebooks.com/six-thinking-hats-summary/)
+    4. [Useful resource from the NHS website](https://improvement.nhs.uk/resources/six-thinking-hats/)
+    5. [Useful resources](https://readingraphics.com/book-summary-six-thinking-hats/)
+    6. [Use this example as the inspiration for my Readme file](https://github.com/Frozenaught/homechopped)
+    7. [Defining the problem by HBR](https://hbr.org/2012/09/are-you-solving-the-right-problem)
+    8. [Red Hat Thinking](https://transformationacademy.com/2019/10/thoughts-101-how-thoughts-create-emotions-and-stuff/ )
 
 Special dedication to 
-- Edward De Bono and his book Six Thinking Hats https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono/dp/0241257530/ref=sr_1_1?crid=1EEDOQZKPKSVG&dchild=1&keywords=six+thinking+hats&qid=1598200811&sprefix=six+thinking%2Caps%2C149&sr=8-1
-- Jim Kwik for bringing the value of this concept to my attention through his thinking courses and book https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/dp/1401958230/ref=sr_1_1?crid=3RJUP8CP6I5ET&dchild=1&keywords=limitless+jim+kwik&qid=1598200888&sprefix=limitless%2Caps%2C152&sr=8-1
+- [Edward De Bono and his book Six Thinking Hats](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono/dp/0241257530/ref=sr_1_1?crid=1EEDOQZKPKSVG&dchild=1&keywords=six+thinking+hats&qid=1598200811&sprefix=six+thinking%2Caps%2C149&sr=8-1) 
+- [Jim Kwik for bringing the value of this concept to my attention through his thinking courses and book](https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/dp/1401958230/ref=sr_1_1?crid=3RJUP8CP6I5ET&dchild=1&keywords=limitless+jim+kwik&qid=1598200888&sprefix=limitless%2Caps%2C152&sr=8-1)
