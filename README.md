@@ -400,9 +400,7 @@ Confirm email alert works
 
 ![Create broken link](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-404-html.jpg) 
 
-As a final check I cross referenced the website to ensure that I met the necessary course requirements: 
-
-[Check to course requirements](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/ci-marking-requirements-check.pdf) 
+The website was personally reviewed on multiple devices for functionality (laptop, tablet and mobile) as a final check before submission. 
 
 #### Defects identified during testing
 The following were the errors identified during the multiple testing sessions: 
