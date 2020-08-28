@@ -302,7 +302,7 @@ The project uses:
 - [Git for version control](https://git-scm.com/)
 - [Gitpod for the IDE](https://community.gitpod.io/)
 
-### 6.2 Supplemental technologies
+### 6.2 Supplemental tools
 - [Balsamiq for my wireframes](https://balsamiq.com/)
 - [Fontawesome for the icons](https://fontawesome.com/)
 - [Google fonts for the text styles](https://fonts.google.com/)
@@ -369,21 +369,17 @@ Confirmed the javascript code was acceptable for jshint
 
 #### 7.1.5 Google Lighthouse
 All passed. A useful tool for checking the webpage's performance and making recommendations to improve. 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse.jpg)
 
-The performance is high and regarding the other aspects: 
+##### index.html
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse-index.jpg)
 
-The button referred to is the nabar and the links are the social media links (naming the twitter, facebook and instagram icons should not detract from user experience)
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse1.jpg)
+##### hats.html
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse-hats.jpg)
 
-Regarding best practice - lighthouse doesn't recommend opening up links to external sites on target="_blank". 
-However, as this is a requirement for any external links I will aim to minimise the number of external links and accept this trade-off. 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse2.jpg)
+##### contact.html
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse-contact.jpg)
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse2a.jpg)
-
-SEO performance is acceptable for me, but I have now added meta descriptions to the header tags after this analysis to hopefully improve the overall SEO score. 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse3.jpg)
+The overall performance is acceptable.  
 
 [Back to table of contents](#contents)
 
