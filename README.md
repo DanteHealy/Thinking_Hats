@@ -71,10 +71,29 @@ Most people tend to have one dominant way of thinking, but the Six Thinking Hats
 Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
 All the videos which guide the user are as brief whilst being comprehensive as possible and are between 1-3 minutes in duration. 
 
-#####  The user story envisaged is as follows: 
-As a person struggling with uncertainty, I want to learn how to think effectively and apply this to solve any difficult problems I encounter. 
-I want to enhance my quality of life by finding clarity through creating comprehensive solutions to enable decisions which I can confidently take action on. 
-I want to be guided through an effective process, be able to record my ideas and get a report that gives me a record of my thoughts and conclusions at the end. 
+### 1.1 Site owner goals
+
+
+### 1.2 User Goals
+#### The user story envisaged is as follows: 
+As a person struggling with uncertainty, I want to learn how to think effectively and apply this to solve any difficult problems I encounter 
+- I want to enhance my quality of life by finding clarity through creating comprehensive solutions to enable decisions which I can confidently take action on 
+- I want to be guided through an effective process, be able to record my ideas 
+- I want to be able to access a quick start guide in order to understand the process quickly 
+- I want to get a report at the end that gives me a record of my thoughts and conclusions at the end of the session
+
+### 1.3 Design Process
+
+#### Font
+When looking at fonts I decided on Lato sans-serif. 
+It is considered to be a transparent colour, but also emits warmth and friendliness whilst also providing structure and seriousness which I wanted to convey with this website. 
+
+#### Colour scheme 
+I selected purple in my colour scheme that was separate from the six hats which could convey royalty, nobility, luxury, power and ambition. 
+It is also associated spirituality, the sacred, higher self, passion, third eye, fulfillment, and vitality. Purple helps align oneself with the whole of the universe. 
+By contrast grey is a cool and neutral colour providing balancing contrast to purple. 
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/color-scheme.jpg)
 
 
 ## 2 The Home page
@@ -446,16 +465,14 @@ The following were the errors identified during the multiple testing sessions:
 
 ## 8 Deployment
 [Link to the deployed site](https://dantehealy.github.io/Thinking_Hats/index.html)
+I used GitHub pages to deploy this website. The steps required to do this are as follows: 
 
-1. Established my own Github account by registering on https://github.com/ If you are reading this file you are already accessing my public profile which is https://github.com/DanteHealy
-2. Install https://www.gitpod.io/ which is an Integrated Development Environment (IDE) that provides me an integrated ready to code environment which is very convenient. Note: I recommend to use the Google Chrome browser to do all your coding based on my experience with Microsoft Edge.
-3. To set up the 'Thinking_Hats' repository I used the Code Institute template https://github.com/Code-Institute-Org/gitpod-full-template and click on the "Use this template" button.
-4. I set up my repository name and description and click on the "Create repository from template" button.
-5. With the necessary templates I can hit the "Gitpod" button on the top right hand corner to start coding.
-6. After initial commits I accessed the repository and checked settings.
-7. In the GitHub pages section I go to source and select Master branch.
-8. This created a URL and advised me that my site is now published.
-9. Further commits were reflected on to my site when pushed from Gitpod ('git commit origin master' in the command line interface).
+1. Established my own Github account by registering on https://github.com/ 
+2. I selected this repository "DanteHealy / Thinking_Hats"
+3. I click on the 'settings' tab in the top right hand corner of the repository
+4. Scroll down to the GitHub Pages section
+5. In the GitHub pages section I go to source and select Master branch.
+6. This created a URL and advised me that my site is now published. 
 
 Until I have developed my own personal website where I can link to my portfolio I will continue to host this page on GitHub.  
 
