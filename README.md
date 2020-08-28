@@ -126,7 +126,7 @@ The Contact page:
 [Back to table of contents](#contents)
 
 ## 5 Features
-All features were listed, organised and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
+All features were listed, organised and tracked on [Trello](https://trello.com/b/RhaoyvZJ/milestone-project-2)
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/trello.jpg)
 
@@ -307,9 +307,6 @@ The project uses:
 - [Fontawesome for the icons](https://fontawesome.com/)
 - [Google fonts for the text styles](https://fonts.google.com/)
 - [Favicon.io for my favicon image](https://favicon.io/)
-- [MS PowerPoint - for my homemade videos, cheat sheet and hat cards](https://www.microsoft.com/en-gb/microsoft-365/p/powerpoint/cfq7ttc0k7c6?=&ef_id=CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE%3aG%3as&OCID=AID2100139_SEM_CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE%3aG%3as&lnkd=Google_O365SMB_App&gclid=CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE&activetab=pivot%3aoverviewtab)
-- [unsplash.com for my images](https://unsplash.com/)
-- [youtube.com for the embedded video of Edward De Bono explaining his perspective on the Six Thinking Hats ](https://www.youtube.com/)
 
 [Back to table of contents](#contents)
 
@@ -319,7 +316,7 @@ The majority of the testing was manual combined with the appropriate online vali
 ### 7.1 Testing methods and systems
 
 #### 7.1.1 Responsive design checker
-[Link](http://ami.responsivedesign.is/)
+[am I responsive](http://ami.responsivedesign.is/)
 
 All passed: 
 
@@ -359,9 +356,9 @@ All passed:
 ##### main.js
 All passed. There were some warnings based on use of Let and JQuery ($) and one unused variable which was being called when loading or reloading hats.html i.e. is actually being used, so I was okay with this:  
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-main-js1-jshint.JPG)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-main-js1-jshint.jpg)
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-main-js2-jshint.JPG)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-main-js2-jshint.jpg)
 
 ##### email.js
 Confirmed the javascript code was acceptable for jshint
@@ -483,8 +480,9 @@ Though there are many of people who contributed to the project I would like to m
 ## 10 Content
 ### 10.1 Media
 The photos used in this site were obtained from:
-- [Using PowerPoint to create custom videos for the web site](https://www.youtube.com/watch?v=D8JV3w4TOVw) 
-- [For royalty free images](https://unsplash.com/)  
+- [MS PowerPoint - for my homemade videos, cheat sheet and hat cards](https://www.microsoft.com/en-gb/microsoft-365/p/powerpoint/cfq7ttc0k7c6?=&ef_id=CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE%3aG%3as&OCID=AID2100139_SEM_CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE%3aG%3as&lnkd=Google_O365SMB_App&gclid=CjwKCAjwkJj6BRA-EiwA0ZVPVhHn9z5zJe90QZFBtWDrSo-CmHz2O9J4mF15aED_iJ_TmCxDoKM3WxoCtHEQAvD_BwE&activetab=pivot%3aoverviewtab)
+- [unsplash.com for my royalty free images](https://unsplash.com/)
+- [youtube.com for the embedded video of Edward De Bono explaining his perspective on the Six Thinking Hats ](https://www.youtube.com/)
 
 ### 10.2 References used
 - [My initial inspiration for this project](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono) 
