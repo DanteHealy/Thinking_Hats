@@ -530,8 +530,8 @@ The photos used in this site were obtained from:
     7. [Defining the problem by HBR](https://hbr.org/2012/09/are-you-solving-the-right-problem)
     8. [Red Hat Thinking](https://transformationacademy.com/2019/10/thoughts-101-how-thoughts-create-emotions-and-stuff/ )
 
-[Back to table of contents](#contents)
-
 Special dedication to 
 - [Edward De Bono and his book Six Thinking Hats](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono/dp/0241257530/ref=sr_1_1?crid=1EEDOQZKPKSVG&dchild=1&keywords=six+thinking+hats&qid=1598200811&sprefix=six+thinking%2Caps%2C149&sr=8-1) 
 - [Jim Kwik for bringing the value of this concept to my attention through his thinking courses and book](https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/dp/1401958230/ref=sr_1_1?crid=3RJUP8CP6I5ET&dchild=1&keywords=limitless+jim+kwik&qid=1598200888&sprefix=limitless%2Caps%2C152&sr=8-1)
+
+[Back to table of contents](#contents)

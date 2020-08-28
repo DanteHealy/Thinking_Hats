@@ -23,7 +23,6 @@ function hideFunction() {
     document.getElementById("blueTick2").style.display="none";
 }
 
-
 // Create two variables from element ids for the main question and submit button: 
 let questionInput = document.getElementById('question-problem');
 let submitButton = document.getElementById('submit');
@@ -53,7 +52,6 @@ clearButton.addEventListener("click", function(){
     }
 });
 
-
 /* Create six variables from element ids for the main question: */
 // Create response variables from element ids for the answer to the White Hat question 
 let answerWhite = document.getElementById('answer-white');
@@ -70,12 +68,11 @@ submitWhite.addEventListener("click",function(){
     } else {        
         document.getElementById("whiteTick").style.display="block";
         document.getElementById("whiteTick2").style.display="block";        
-        cWhite = 1;
+        countWhite = 1;
         showRptBtn();
         pauseWhite();
     }
 }); 
-
 
 // Create response variables from element ids for the answer to the Red Hat question 
 let answerRed = document.getElementById('answer-red');
@@ -92,12 +89,11 @@ submitRed.addEventListener("click",function(){
     } else {        
         document.getElementById("redTick").style.display="block";
         document.getElementById("redTick2").style.display="block";        
-        cRed =1;
+        countRed =1;
         showRptBtn();
         pauseRed();
     }
 }); 
-
 
 // Create response variables from element ids for the answer to the Yellow Hat question 
 let answerYellow = document.getElementById('answer-yellow');
@@ -114,12 +110,11 @@ submitYellow.addEventListener("click",function(){
     } else {        
         document.getElementById("yellowTick").style.display="block";
         document.getElementById("yellowTick2").style.display="block";        
-        cYellow = 1;
+        countYellow = 1;
         showRptBtn();
         pauseYellow();
     }
 }); 
-
 
 // Create response variables from element ids for the answer to the Black Hat question 
 let answerBlack = document.getElementById('answer-black');
@@ -136,12 +131,11 @@ submitBlack.addEventListener("click",function(){
     } else {        
         document.getElementById("blackTick").style.display="block";
         document.getElementById("blackTick2").style.display="block";        
-        cBlack = 1;    
+        countBlack = 1;    
         showRptBtn();
         pauseBlack();
     }
 }); 
-
 
 // Create response variables from element ids for the answer to the Green Hat question 
 let answerGreen = document.getElementById('answer-green');
@@ -158,12 +152,11 @@ submitGreen.addEventListener("click",function(){
     } else {        
         document.getElementById("greenTick").style.display="block";
         document.getElementById("greenTick2").style.display="block";        
-        cGreen = 1;
+        countGreen = 1;
         showRptBtn();
         pauseGreen();
     }
 }); 
-
 
 // Create response variables from element ids for the answer to the Blue Hat question 
 let answerBlue = document.getElementById('answer-blue');
@@ -180,12 +173,11 @@ submitBlue.addEventListener("click",function(){
     } else {        
         document.getElementById("blueTick").style.display="block";
         document.getElementById("blueTick2").style.display="block";        
-        cBlue = 1;
+        countBlue = 1;
         showRptBtn();
         pauseBlue();
     }
 }); 
-
 
 // Pause the videos when modals are closed to avoid multiple video voices played at the same time. Defect discovered during testing! 
 function pauseProblem() { 
@@ -216,24 +208,21 @@ function pauseBlue() {
    $('#blueVid').get(0).pause();  /* Pause video when blue modal closes */
 } 
 
-
 /* Show Generate Report Button when all boxes are completed: */
 // Establish the necessary variables to count when each box has been completed: 
-var cWhite = 0;
-var cRed = 0;
-var cYellow = 0;
-var cBlack = 0;
-var cGreen = 0; 
-var cBlue = 0;
-
+var countWhite = 0;
+var countRed = 0;
+var countYellow = 0;
+var countBlack = 0;
+var countGreen = 0; 
+var countBlue = 0;
 
 //Reveal the generate report box when the hCount variable equals 6 (or all the Hat boxes are completed)
 function showRptBtn() {
-    if (cWhite && cRed && cYellow && cBlack && cGreen && cBlue) {    
-    document.getElementById("reportProduce").style.display="block";        
+    if (countWhite && countRed && countYellow && countBlack && countGreen && countBlue) {    
+    document.getElementById("reportProduce").style.display="block"; 
     }  
 }
-
 
 /* Create a function that reveals the report when the Genrate report button is pressed */
 
@@ -249,7 +238,6 @@ generateReport.addEventListener("click",function(){
         document.getElementById("reportPrint").style.display="block";
     }
 });
-
 
 /* Inclusion of an Accordion */
 $(document).ready(function(){
