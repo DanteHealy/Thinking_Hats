@@ -7,8 +7,7 @@
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
 
-
-## Contents:
+## Contents
 [01 UX](#ux)
 
 [02 The Home page](#the-home-page)
@@ -124,7 +123,7 @@ The Contact page:
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe5.jpg)
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 ## Features
 All features were listed, organised and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
@@ -156,7 +155,7 @@ The following are the features implemented by page:
     a.	Social media icon with links 
     b.	Disclaimer text 
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 #### Guided session page
 
@@ -219,7 +218,7 @@ a.	Social media icons with links
 
 b.	Disclaimer text 
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 #### Contact page
 
@@ -267,7 +266,7 @@ There is also a favicon in all the tabs.
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/images/favicon.png)
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 #### Features Not Implemented
 Any obvious spacing, design or layout issues were tracked and fixed immediately. 
@@ -287,7 +286,7 @@ Cancelled features are noted on the Trello project board which were part of my i
     - JavaScript local storage: surplus to requirements and don't want to risk collecting personal data on people 
     - Subtitles for videos: Tried to do this, but the free tool required online hosting of my mp4's and the effort was very cumbersome, if this tool proves popular I could look into getting subtitles produced
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 ## Technologies Used
 
@@ -312,7 +311,7 @@ The project uses:
 - [unsplash.com for my images](https://unsplash.com/)
 - [youtube.com for the embedded video of Edward De Bono explaining his perspective on the Six Thinking Hats ](https://www.youtube.com/)
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 ## Testing
 The majority of the testing was manual combined with the appropriate online validation tools outlined below to ensure that my code met the required standards. 
@@ -324,78 +323,78 @@ The majority of the testing was manual combined with the appropriate online vali
 
 All passed: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-img-responsive.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-img-responsive.jpg)
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 #### HTML validator
 
 ##### 1. index.html
 All passed: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-index-html-validator.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-index-html-validator.jpg)
 
 ##### 2. hats.html
 All passed: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-hats-html-validator.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-hats-html-validator.jpg)
 
 ##### 3. contact.html
 All passed: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-contact-html-validator.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-contact-html-validator.jpg)
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 #### CSS validator
 ##### style.css
 All passed: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-css-validator.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-css-validator.jpg)
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 #### JSHint
 
 ##### main.js
 All passed. There were some warnings based on use of Let and JQuery ($) and one unused variable which was being called when loading or reloading hats.html i.e. is actually being used, so I was okay with this:  
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js1-jshint.JPG)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-main-js1-jshint.JPG)
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-main-js2-jshint.JPG)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-main-js2-jshint.JPG)
 
 ##### email.js
 Confirmed the javascript code was acceptable for jshint
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-js-jshint.JPG)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-email-js-jshint.JPG)
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 #### Google Lighthouse
 All passed. A useful tool for checking the webpage's performance and making recommendations to improve. 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse.jpg)
 
 The performance is high and regarding the other aspects: 
 
 The button referred to is the nabar and the links are the social media links (naming the twitter, facebook and instagram icons should not detract from user experience)
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse1.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse1.jpg)
 
 Regarding best practice - lighthouse doesn't recommend opening up links to external sites on target="_blank". 
 However, as this is a requirement for any external links I will aim to minimise the number of external links and accept this trade-off. 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse2.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse2.jpg)
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse2a.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse2a.jpg)
 
 SEO performance is acceptable for me, but I have now added meta descriptions to the header tags after this analysis to hopefully improve the overall SEO score. 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse3.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse3.jpg)
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 #### Manual testing
 All pased or issues identified were fixed/resolved prior to launch. 
 
 1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
-[See attached pdf](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/manual-testing-checklist.pdf) 
+[See attached pdf](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/manual-testing-checklist.pdf) 
 
 2. Sent the webpage to my selected friends (work colleagues and LinkedIn contacts) and family (wife and brother) to test on their devices and provide feedback
 3. Posted my link via workflow on the Peer-Review SLACK group with the Code Institute for feedback (twice first at about 80% complete then a final review at 95% complete)
@@ -404,7 +403,7 @@ All pased or issues identified were fixed/resolved prior to launch.
 6. Played the videos in the modals, texted the textareas multiple times to identify and resolve any problems 
 7. Confirmed that there were no console log errors in my JavaScript and JQuery code. 
 8. Tested the print report on various devices 
-[See example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example-report.pdf)
+[See example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/example-report.pdf)
 
 9. Did multiple end to end walkthroughs of the guided session 
 10. Testing the email form in the "Contact" page
@@ -413,19 +412,19 @@ All pased or issues identified were fixed/resolved prior to launch.
 - Try to submit the form with all inputs valid and verify that a success message appears.
 - Ensure that email alerts user once message is sent. 
 
-[Link to pdf confirming email contact form works](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/emailjs-test.pdf) 
+[Link to pdf confirming email contact form works](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/emailjs-test.pdf) 
 
 Confirm email alert works
 
-![Confirm email alert works](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-alert.jpg) 
+![Confirm email alert works](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-email-alert.jpg) 
 
 11. Create broken links to confirm custom 404 error message works
 
-![Create broken link](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-404-html.jpg) 
+![Create broken link](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-404-html.jpg) 
 
 The website was personally reviewed on multiple devices for functionality (laptop, tablet and mobile) as a final check before submission. 
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 #### Defects identified during testing
 The following were the errors identified during the multiple testing sessions: 
@@ -443,10 +442,10 @@ The following were the errors identified during the multiple testing sessions:
 - EmailJS confirmation alert did not initially work and the code needed to be resolved through a Gitpod refresh - fixed
 - Add a favicon - done. 
 - If the report spans more than a single page the page break may break up a particular hat section. This defect is now fixed (see below):
-[Example post-session report avoiding page breaks inside each hat section](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example-report-fix-page-breaks.pdf)
+[Example post-session report avoiding page breaks inside each hat section](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/example-report-fix-page-breaks.pdf)
 - Late bug where the first question video on the guided session still plays if not completed before the problem is submitted. 
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 ## Deployment
 [Link to the deployed site](https://dantehealy.github.io/Thinking_Hats/index.html)
@@ -463,7 +462,7 @@ The following were the errors identified during the multiple testing sessions:
 
 Until I have developed my own personal website where I can link to my portfolio I will continue to host this page on GitHub.  
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 ## Credits
 ### Acknowledgements
@@ -475,7 +474,7 @@ Though there are many of people who contributed to the project I would like to m
 - Edward De Bono and Jim Kwik for the source material and inspiration 
 - Finally many thanks to my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 ## Content
 ### Media
@@ -529,7 +528,7 @@ The photos used in this site were obtained from:
     7. [Defining the problem by HBR](https://hbr.org/2012/09/are-you-solving-the-right-problem)
     8. [Red Hat Thinking](https://transformationacademy.com/2019/10/thoughts-101-how-thoughts-create-emotions-and-stuff/ )
 
-[Back to table of contents](#Contents:)
+[Back to table of contents](#contents)
 
 Special dedication to 
 - [Edward De Bono and his book Six Thinking Hats](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono/dp/0241257530/ref=sr_1_1?crid=1EEDOQZKPKSVG&dchild=1&keywords=six+thinking+hats&qid=1598200811&sprefix=six+thinking%2Caps%2C149&sr=8-1) 
