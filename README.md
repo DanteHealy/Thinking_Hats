@@ -6,6 +6,8 @@
 
 The Six Thinking Hats framework is a lateral thinking technique used to help empower people to solve their problems and make effective decisions. 
 
+
+
 ## Contents:
 [01 UX](#ux)
 
@@ -84,7 +86,7 @@ At the bottom of all the pages there is a footer with some social media links pl
 ### Wireframe
 The Home page: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/wireframe1.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe1.jpg)
 
 ## The Guided Session page
 This page opens with another video about defining the specific problem with a text box to enter your problem. 
@@ -100,15 +102,15 @@ As the inputs are not saved there are validation and warning popup messages aski
 ### Wireframes
 The Guided Session page: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/wireframe2.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe2.jpg)
 
 The pop up modal with instruction video and input textarea for each hat: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/wireframe3.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe3.jpg)
 
 The final report and the end of the guided session: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/wireframe4.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe4.jpg)
 
 ## The Contact page
 There is a short bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
@@ -120,12 +122,14 @@ Below the video is an accordion with three sections:
 ### Wireframe
 The Contact page: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/wireframe5.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe5.jpg)
+
+[Back to table of contents](#Contents:)
 
 ## Features
 All features were listed, organised and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/documentation/trello.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/trello.jpg)
 
 ### Existing Features
 The following are the features implemented by page: 
@@ -151,6 +155,8 @@ The following are the features implemented by page:
 5.	Footer
     a.	Social media icon with links 
     b.	Disclaimer text 
+
+[Back to table of contents](#Contents:)
 
 #### Guided session page
 
@@ -213,6 +219,8 @@ a.	Social media icons with links
 
 b.	Disclaimer text 
 
+[Back to table of contents](#Contents:)
+
 #### Contact page
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/contact-html-1.jpg)
@@ -259,6 +267,8 @@ There is also a favicon in all the tabs.
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/images/favicon.png)
 
+[Back to table of contents](#Contents:)
+
 #### Features Not Implemented
 Any obvious spacing, design or layout issues were tracked and fixed immediately. 
 Excessively complex requirements not implemented were de-scoped only after alternative solution was found and successfully deployed.
@@ -276,6 +286,8 @@ Cancelled features are noted on the Trello project board which were part of my i
     - Heroku deployment: not aiming for full deployment for this project yet until I build personal website to host this as part of my portfolio
     - JavaScript local storage: surplus to requirements and don't want to risk collecting personal data on people 
     - Subtitles for videos: Tried to do this, but the free tool required online hosting of my mp4's and the effort was very cumbersome, if this tool proves popular I could look into getting subtitles produced
+
+[Back to table of contents](#Contents:)
 
 ## Technologies Used
 
@@ -300,17 +312,21 @@ The project uses:
 - [unsplash.com for my images](https://unsplash.com/)
 - [youtube.com for the embedded video of Edward De Bono explaining his perspective on the Six Thinking Hats ](https://www.youtube.com/)
 
+[Back to table of contents](#Contents:)
+
 ## Testing
 The majority of the testing was manual combined with the appropriate online validation tools outlined below to ensure that my code met the required standards. 
 
 ### Testing methods and systems
 
-#### Responsive image checker
+#### Responsive design checker
 [Link](http://ami.responsivedesign.is/)
 
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-img-responsive.jpg)
+
+[Back to table of contents](#Contents:)
 
 #### HTML validator
 
@@ -329,11 +345,15 @@ All passed:
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-contact-html-validator.jpg)
 
+[Back to table of contents](#Contents:)
+
 #### CSS validator
 ##### style.css
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-css-validator.jpg)
+
+[Back to table of contents](#Contents:)
 
 #### JSHint
 
@@ -348,6 +368,8 @@ All passed. There were some warnings based on use of Let and JQuery ($) and one 
 Confirmed the javascript code was acceptable for jshint
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-email-js-jshint.JPG)
+
+[Back to table of contents](#Contents:)
 
 #### Google Lighthouse
 All passed. A useful tool for checking the webpage's performance and making recommendations to improve. 
@@ -367,6 +389,7 @@ However, as this is a requirement for any external links I will aim to minimise 
 SEO performance is acceptable for me, but I have now added meta descriptions to the header tags after this analysis to hopefully improve the overall SEO score. 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/test-lighthouse3.jpg)
 
+[Back to table of contents](#Contents:)
 
 #### Manual testing
 All pased or issues identified were fixed/resolved prior to launch. 
@@ -402,6 +425,8 @@ Confirm email alert works
 
 The website was personally reviewed on multiple devices for functionality (laptop, tablet and mobile) as a final check before submission. 
 
+[Back to table of contents](#Contents:)
+
 #### Defects identified during testing
 The following were the errors identified during the multiple testing sessions: 
 - Multiple spacing and layout issues - done
@@ -421,6 +446,8 @@ The following were the errors identified during the multiple testing sessions:
 [Example post-session report avoiding page breaks inside each hat section](https://github.com/DanteHealy/Thinking_Hats/blob/master/assets/documentation/test/example-report-fix-page-breaks.pdf)
 - Late bug where the first question video on the guided session still plays if not completed before the problem is submitted. 
 
+[Back to table of contents](#Contents:)
+
 ## Deployment
 [Link to the deployed site](https://dantehealy.github.io/Thinking_Hats/index.html)
 
@@ -436,6 +463,8 @@ The following were the errors identified during the multiple testing sessions:
 
 Until I have developed my own personal website where I can link to my portfolio I will continue to host this page on GitHub.  
 
+[Back to table of contents](#Contents:)
+
 ## Credits
 ### Acknowledgements
 The quality of this website is testimony to the help and support from my mentor and code institute colleagues. 
@@ -445,6 +474,8 @@ Though there are many of people who contributed to the project I would like to m
 - My LinkedIn friend and professional tester Alejandra Huamán Ordóñez 
 - Edward De Bono and Jim Kwik for the source material and inspiration 
 - Finally many thanks to my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
+
+[Back to table of contents](#Contents:)
 
 ## Content
 ### Media
@@ -497,6 +528,8 @@ The photos used in this site were obtained from:
     6. [Use this example as the inspiration for my Readme file](https://github.com/Frozenaught/homechopped)
     7. [Defining the problem by HBR](https://hbr.org/2012/09/are-you-solving-the-right-problem)
     8. [Red Hat Thinking](https://transformationacademy.com/2019/10/thoughts-101-how-thoughts-create-emotions-and-stuff/ )
+
+[Back to table of contents](#Contents:)
 
 Special dedication to 
 - [Edward De Bono and his book Six Thinking Hats](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono/dp/0241257530/ref=sr_1_1?crid=1EEDOQZKPKSVG&dchild=1&keywords=six+thinking+hats&qid=1598200811&sprefix=six+thinking%2Caps%2C149&sr=8-1) 
