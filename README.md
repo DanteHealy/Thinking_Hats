@@ -10,6 +10,12 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 ## Contents
 - [**1 UX**](#1-ux)
 
+    - [**1.1 Site Owner Goals**](#1.1-site-owner-goals)
+
+    - [**1.2 User Goals**](#1.2-user-goals)
+
+    - [**1.3 Design Process**](#1.3-design-process)
+
 - [**2 The Home page**](#2-the-home-page)
 
 - [**3 The Guided Session page**](#3-the-guided-session-page)
@@ -72,7 +78,8 @@ Each hat is a metaphor for a different perspective which will support the to foc
 All the videos which guide the user are as brief whilst being comprehensive as possible and are between 1-3 minutes in duration. 
 
 ### 1.1 Site owner goals
-
+The purpose of this project was to provide an interactive online training experience which guides the user to complete the process in the correct order. 
+The intention of the videos is to provide the user with clear instructions guiding them through the process whilst they record their thoughts. 
 
 ### 1.2 User Goals
 #### The user story envisaged is as follows: 
@@ -92,6 +99,7 @@ It is considered to be a transparent colour, but also emits warmth and friendlin
 I selected purple in my colour scheme that was separate from the six hats which could convey royalty, nobility, luxury, power and ambition. 
 It is also associated spirituality, the sacred, higher self, passion, third eye, fulfillment, and vitality. Purple helps align oneself with the whole of the universe. 
 By contrast grey is a cool and neutral colour providing balancing contrast to purple. 
+White is also used representing clarity and new beginnings. 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/color-scheme.jpg)
 
