@@ -8,76 +8,76 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 
 
 ## Contents
-[01 UX](#ux)
+- [**1 UX**](#1-ux)
 
-[02 The Home page](#the-home-page)
+- [**2 The Home page**](#2-the-home-page)
 
-[03 The Guided Session page](#the-guided-session-page)
+- [**3 The Guided Session page**](#3-the-guided-session-page)
 
-[04 The Contact page](#the-contact-page) 
+- [**4 The Contact page**](#4-the-contact-page) 
 
-[05 Features](#features)
+- [**5 Features**](#5-features)
 
-[05.1 Existing Features](#existing-features)
+    - [**5.1 Existing Features**](#5.1-existing-features)
 
-[05.1.1 Home Page - Features](#home-page)
+        - [**5.1.1 Home Page - Features**](#5.1.1-home-page)
 
-[05.1.2 Guided session page - Features](#guided-session-page)
+        - [**5.1.2 Guided session page - Features**](#5.1.2-guided-session-page)
 
-[05.1.3 Contact page - Features](#contact-page)
+        - [**5.1.3 Contact page - Features**](#5.1.3-contact-page)
 
-[05.2 Features Not Implemented](#features-not-implemented)
+    - [**5.2 Features Not Implemented**](#5.2-features-not-implemented)
 
-[06 Technologies Used](#technologies-used)
+- [**6 Technologies Used**](#6-technologies-used)
 
-[06.1 Core Technologies](#core-technologies)
+    - [**6.1 Core Technologies**](#6.1-core-technologies)
 
-[06.2 Supplemental technologies](#supplemental-technologies)
+    - [**6.2 Supplemental technologies**](#6.2-supplemental-technologies)
 
-[07 Testing](#testing)
+- [**7 Testing**](#7-testing)
 
-[07.1 Testing methods and systems](#testing-methods-and-systems)
+    - [**7.1 Testing methods and systems**](#7.1-testing-methods-and-systems)
 
-[07.1.1 Responsive image checker](#responsive-image-checker)
+        - [**7.1.1 Responsive image checker**](#7.1.1-responsive-image-checker)
 
-[07.1.2 HTML validator](#html-validator)
+        - [**7.1.2 HTML validator**](#7.1.2-html-validator)
 
-[07.1.3 CSS validator](#css-validator)
+        - [**7.1.3 CSS validator**](#7.1.3-css-validator)
 
-[07.1.4 JSHint](#jshint)
+        - [**7.1.4 JSHint**](#7.1.4-jshint)
 
-[07.1.5 Google Lighthouse](#google-lighthouse)
+        - [**7.1.5 Google Lighthouse**](#7.1.5-google-lighthouse)
 
-[07.1.6 Manual testing](#manual-testing)
+        - [**7.1.6 Manual testing**](#manual-testing)
 
-[07.1.7 Defects identified during testing](#defects-identified-during-testing)
+        - [**7.1.7 Defects identified during testing**](#defects-identified-during-testing)
 
-[08 Deployment](#deployment)
+- [**8 Deployment**](#deployment)
 
-[09 Credits](#credits)
+- [**9 Credits**](#credits)
 
-[09.1 Acknowledgements](#acknowledgements)
+    - [**9.1 Acknowledgements**](#acknowledgements)
 
-[10 Content](#content)
+- [**10 Content**](#content)
 
-[10.1 Media](#media)
+    - [**10.1 Media**](#media)
 
-[10.2 References used](#references-used)
+    - [**10.2 References used**](#references-used)
 
-## UX
+## 1 UX
 There are numerous people who are struggling with uncertainty due to new challenges. Brought about in part by the current Covid-impacted environment and causing distress from lack of clarity. 
 This framework has proven to be effective in all areas of life because it guides people to think holistically about their problems from multiple different angles when attempting to solve their problems. 
 Most people tend to have one dominant way of thinking, but the Six Thinking Hats method encourages people to exercise multiple views when looking at a problem. 
 Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
 All the videos which guide the user are as brief whilst being comprehensive as possible and are between 1-3 minutes in duration. 
 
-##### The user story envisaged is as follows: 
+#####  The user story envisaged is as follows: 
 As a person struggling with uncertainty, I want to learn how to think effectively and apply this to solve any difficult problems I encounter. 
 I want to enhance my quality of life by finding clarity through creating comprehensive solutions to enable decisions which I can confidently take action on. 
 I want to be guided through an effective process, be able to record my ideas and get a report that gives me a record of my thoughts and conclusions at the end. 
 
 
-## The Home page
+## 2 The Home page
 The Landing Page provides a brief overview video at the top with an accordion at the bottom containing a visual cheat sheet and transcript.  
 In between the video and the accordion there is a call to action button that leads you to the guided session page. 
 At the bottom of all the pages there is a footer with some social media links plus a disclaimer text stating this site is educational only. 
@@ -87,7 +87,7 @@ The Home page:
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe1.jpg)
 
-## The Guided Session page
+## 3 The Guided Session page
 This page opens with another video about defining the specific problem with a text box to enter your problem. 
 The logic in the problem textarea requires a string between 20 to 100 characters in length.
 Once the user submits their problem six flip cards appear representing the six hats leading to a modal that guides the user though the process for each hat. 
@@ -111,7 +111,7 @@ The final report and the end of the guided session:
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe4.jpg)
 
-## The Contact page
+## 4 The Contact page
 There is a short bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
 Below the video is an accordion with three sections: 
 - Speaker bookings which takes you to a page where you can book Edward De Bono for events and testimonials for Edward De Bono
@@ -125,15 +125,15 @@ The Contact page:
 
 [Back to table of contents](#contents)
 
-## Features
+## 5 Features
 All features were listed, organised and tracked on Trello: https://trello.com/b/RhaoyvZJ/milestone-project-2
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/trello.jpg)
 
-### Existing Features
+### 5.1 Existing Features
 The following are the features implemented by page: 
 
-#### Home Page
+#### 5.1.1 Home Page
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/index-html.jpg)
 
@@ -157,7 +157,7 @@ The following are the features implemented by page:
 
 [Back to table of contents](#contents)
 
-#### Guided session page
+#### 5.1.2 Guided session page
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/hats-html-1.jpg)
 
@@ -220,7 +220,7 @@ b.	Disclaimer text
 
 [Back to table of contents](#contents)
 
-#### Contact page
+#### 5.1.3 Contact page
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/contact-html-1.jpg)
 
@@ -268,7 +268,7 @@ There is also a favicon in all the tabs.
 
 [Back to table of contents](#contents)
 
-#### Features Not Implemented
+#### 5.2 Features Not Implemented
 Any obvious spacing, design or layout issues were tracked and fixed immediately. 
 Excessively complex requirements not implemented were de-scoped only after alternative solution was found and successfully deployed.
 
@@ -288,9 +288,9 @@ Cancelled features are noted on the Trello project board which were part of my i
 
 [Back to table of contents](#contents)
 
-## Technologies Used
+## 6 Technologies Used
 
-### Core Technologies
+### 6.1 Core Technologies
 The project uses: 
 - [HTML5 for structure](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS for styling](https://www.w3.org/Style/CSS/Overview.en.html)
@@ -302,7 +302,7 @@ The project uses:
 - [Git for version control](https://git-scm.com/)
 - [Gitpod for the IDE](https://community.gitpod.io/)
 
-### Supplemental technologies
+### 6.2 Supplemental technologies
 - [Balsamiq for my wireframes](https://balsamiq.com/)
 - [Fontawesome for the icons](https://fontawesome.com/)
 - [Google fonts for the text styles](https://fonts.google.com/)
@@ -313,12 +313,12 @@ The project uses:
 
 [Back to table of contents](#contents)
 
-## Testing
+## 7 Testing
 The majority of the testing was manual combined with the appropriate online validation tools outlined below to ensure that my code met the required standards. 
 
-### Testing methods and systems
+### 7.1 Testing methods and systems
 
-#### Responsive design checker
+#### 7.1.1 Responsive design checker
 [Link](http://ami.responsivedesign.is/)
 
 All passed: 
@@ -327,7 +327,7 @@ All passed:
 
 [Back to table of contents](#contents)
 
-#### HTML validator
+#### 7.1.2 HTML validator
 
 ##### 1. index.html
 All passed: 
@@ -346,7 +346,7 @@ All passed:
 
 [Back to table of contents](#contents)
 
-#### CSS validator
+#### 7.1.3 CSS validator
 ##### style.css
 All passed: 
 
@@ -354,7 +354,7 @@ All passed:
 
 [Back to table of contents](#contents)
 
-#### JSHint
+#### 7.1.4 JSHint
 
 ##### main.js
 All passed. There were some warnings based on use of Let and JQuery ($) and one unused variable which was being called when loading or reloading hats.html i.e. is actually being used, so I was okay with this:  
@@ -366,11 +366,11 @@ All passed. There were some warnings based on use of Let and JQuery ($) and one 
 ##### email.js
 Confirmed the javascript code was acceptable for jshint
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-email-js-jshint.JPG)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-email-js-jshint.jpg)
 
 [Back to table of contents](#contents)
 
-#### Google Lighthouse
+#### 7.1.5 Google Lighthouse
 All passed. A useful tool for checking the webpage's performance and making recommendations to improve. 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse.jpg)
 
@@ -390,7 +390,7 @@ SEO performance is acceptable for me, but I have now added meta descriptions to 
 
 [Back to table of contents](#contents)
 
-#### Manual testing
+#### 7.1.6 Manual testing
 All pased or issues identified were fixed/resolved prior to launch. 
 
 1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
@@ -422,11 +422,15 @@ Confirm email alert works
 
 ![Create broken link](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-404-html.jpg) 
 
-The website was personally reviewed on multiple devices for functionality (laptop, tablet and mobile) as a final check before submission. 
+12. The website was personally reviewed on multiple devices for functionality (laptop, tablet and mobile) as a final check before submission. 
+
+13. Submit my code for peer review (a few times). On the final review I requested detailed feedback. 
+
+
 
 [Back to table of contents](#contents)
 
-#### Defects identified during testing
+#### 7.1.7 Defects identified during testing
 The following were the errors identified during the multiple testing sessions: 
 - Multiple spacing and layout issues - done
 - Hat modal doesn't disappear on submit - I was advised by mentor that this is preferred as user might want to see the text acceptance. 
@@ -447,7 +451,7 @@ The following were the errors identified during the multiple testing sessions:
 
 [Back to table of contents](#contents)
 
-## Deployment
+## 8 Deployment
 [Link to the deployed site](https://dantehealy.github.io/Thinking_Hats/index.html)
 
 1. Established my own Github account by registering on https://github.com/ If you are reading this file you are already accessing my public profile which is https://github.com/DanteHealy
@@ -464,8 +468,8 @@ Until I have developed my own personal website where I can link to my portfolio 
 
 [Back to table of contents](#contents)
 
-## Credits
-### Acknowledgements
+## 9 Credits
+### 9.1 Acknowledgements
 The quality of this website is testimony to the help and support from my mentor and code institute colleagues. 
 Though there are many of people who contributed to the project I would like to mention: 
 - Special thanks to gbenga_mentor, JoWings_alumna, [Readri205](https://github.com/Readri205) for their particular focused attention and superb guidance when helping me to develop my website.  
@@ -476,13 +480,13 @@ Though there are many of people who contributed to the project I would like to m
 
 [Back to table of contents](#contents)
 
-## Content
-### Media
+## 10 Content
+### 10.1 Media
 The photos used in this site were obtained from:
 - [Using PowerPoint to create custom videos for the web site](https://www.youtube.com/watch?v=D8JV3w4TOVw) 
 - [For royalty free images](https://unsplash.com/)  
 
-### References used
+### 10.2 References used
 - [My initial inspiration for this project](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono) 
     [further reference](https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/)
 - [Use of Bootstrap generally for responsive styling and layouts](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
