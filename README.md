@@ -397,14 +397,7 @@ Confirmed the javascript code was acceptable for jshint
 #### 7.1.5 Google Lighthouse
 All passed. A useful tool for checking the webpage's performance and making recommendations to improve. 
 
-##### index.html
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse-index.jpg)
-
-##### hats.html
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse-hats.jpg)
-
-##### contact.html
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-lighthouse-contact.jpg)
 
 The overall performance is acceptable.  
 
