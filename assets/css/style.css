@@ -182,6 +182,15 @@ video {
     margin-right: 0.5rem;
 }
 
+/* --- style accordion content */
+.cheatSheet {
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+}
+
 
 /* --- Print Six Hats report only, hide non-relevant elements and eliminate page breaks inside report sections --- */
 @media print {
@@ -235,7 +244,6 @@ video {
   75% { height: 100%;}
   100% { height: 0%;}
 }
-
 
 /* -------------------------- Footer-Social-Media */
 footer {
