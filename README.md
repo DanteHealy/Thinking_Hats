@@ -10,11 +10,11 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 ## Contents
 - [**1 UX**](#1-ux)
 
-    - [**1.1 Site Owner Goals**](#1.1-site-owner-goals)
+    - [**1.1 Site Owner Goals**](#-1.1-site-owner-goals)
 
-    - [**1.2 User Goals**](#1.2-user-goals)
+    - [**1.2 User Goals**](#-1.2-user-goals)
 
-    - [**1.3 Design Process**](#1.3-design-process)
+    - [**1.3 Design Process**](#-1.3-design-process)
 
 - [**2 The Home page**](#2-the-home-page)
 
@@ -58,17 +58,17 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 
         - [**7.1.7 Defects identified during testing**](#defects-identified-during-testing)
 
-- [**8 Deployment**](#deployment)
+- [**8 Deployment**](#8-deployment)
 
-- [**9 Credits**](#credits)
+- [**9 Credits**](#9-credits)
 
-    - [**9.1 Acknowledgements**](#acknowledgements)
+    - [**9.1 Acknowledgements**](#9.1-acknowledgements)
 
-- [**10 Content**](#content)
+- [**10 Content**](#10-content)
 
-    - [**10.1 Media**](#media)
+    - [**10.1 Media**](#10.1-media)
 
-    - [**10.2 References used**](#references-used)
+    - [**10.2 References used**](#10.2references-used)
 
 ## 1 UX
 There are numerous people who are struggling with uncertainty due to new challenges. Brought about in part by the current Covid-impacted environment and causing distress from lack of clarity. 
