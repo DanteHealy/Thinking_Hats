@@ -1,3 +1,53 @@
+// Create two variables from element ids for the main question and submit button: 
+let questionInput = document.getElementById('question-problem');
+let submitButton = document.getElementById('submit');
+let questionDisplay = document.getElementById('question-display');
+let clearButton = document.getElementById('clear');
+
+/* Create six variables from element ids for the main question: */
+// Create response variables from element ids for the answer to the White Hat question 
+let answerWhite = document.getElementById('answer-white');
+let submitWhite = document.getElementById('whiteHat');
+let whiteAnswer = document.getElementById('whiteAnswer');
+
+// Create response variables from element ids for the answer to the Red Hat question 
+let answerRed = document.getElementById('answer-red');
+let submitRed = document.getElementById('redHat');
+let redAnswer = document.getElementById('redAnswer');
+
+// Create response variables from element ids for the answer to the Yellow Hat question 
+let answerYellow = document.getElementById('answer-yellow');
+let submitYellow = document.getElementById('yellowHat');
+let yellowAnswer = document.getElementById('yellowAnswer');
+
+// Create response variables from element ids for the answer to the Black Hat question 
+let answerBlack = document.getElementById('answer-black');
+let submitBlack = document.getElementById('blackHat');
+let blackAnswer = document.getElementById('blackAnswer');
+
+// Create response variables from element ids for the answer to the Green Hat question 
+let answerGreen = document.getElementById('answer-green');
+let submitGreen = document.getElementById('greenHat');
+let greenAnswer = document.getElementById('greenAnswer');
+
+// Create response variables from element ids for the answer to the Blue Hat question 
+let answerBlue = document.getElementById('answer-blue');
+let submitBlue = document.getElementById('blueHat');
+let blueAnswer = document.getElementById('blueAnswer');
+
+/* Show Generate Report Button when all boxes are completed: */
+// Establish the necessary variables to count when each box has been completed: 
+let countWhite = 0;
+let countRed = 0;
+let countYellow = 0;
+let countBlack = 0;
+let countGreen = 0; 
+let countBlue = 0;
+
+/* Create a function that reveals the report when the Generate report button is pressed */
+// set the variable linked to the button ID
+let generateReport = document.getElementById('reportButton');
+
 // Create variables first hide and then show sections of the hats.html exercise page based on certain criteria being met: 
 function hideFunction() {
     // First include load animation that runs until page is fully loaded:
@@ -23,17 +73,11 @@ function hideFunction() {
     document.getElementById("blueTick2").style.display="none";
 }
 
-// Create two variables from element ids for the main question and submit button: 
-let questionInput = document.getElementById('question-problem');
-let submitButton = document.getElementById('submit');
-let questionDisplay = document.getElementById('question-display');
-let clearButton = document.getElementById('clear');
-
 // Reveals the Six Hats Flip-card Div plus Reset button and hides the Problem Video when the problem submit button is pressed and fixes the problem statement
 submitButton.addEventListener("click", function(){
     let questiondisplayvalue = encodeURI(questionInput.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     questionDisplay.innerHTML = questiondisplayvalue;    
-    var strQ = $('#question-problem').val().length;
+    let strQ = $('#question-problem').val().length;
     if (strQ < 20) {    
         alert("Problem statement is too short. Please elaborate further!");             
     } else {        
@@ -52,17 +96,11 @@ clearButton.addEventListener("click", function(){
     }
 });
 
-/* Create six variables from element ids for the main question: */
-// Create response variables from element ids for the answer to the White Hat question 
-let answerWhite = document.getElementById('answer-white');
-let submitWhite = document.getElementById('whiteHat');
-let whiteAnswer = document.getElementById('whiteAnswer');
-
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 submitWhite.addEventListener("click",function(){                 
     let whiteanswervalue = encodeURI(answerWhite.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     whiteAnswer.innerHTML = whiteanswervalue;
-    var strW = $('#answer-white').val().length;
+    let strW = $('#answer-white').val().length;
     if (strW < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
@@ -74,16 +112,11 @@ submitWhite.addEventListener("click",function(){
     }
 }); 
 
-// Create response variables from element ids for the answer to the Red Hat question 
-let answerRed = document.getElementById('answer-red');
-let submitRed = document.getElementById('redHat');
-let redAnswer = document.getElementById('redAnswer');
-
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 submitRed.addEventListener("click",function(){
     let redanswervalue = encodeURI(answerRed.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     redAnswer.innerHTML = redanswervalue;    
-    var strR = $('#answer-red').val().length;
+    let strR = $('#answer-red').val().length;
     if (strR < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
@@ -95,16 +128,11 @@ submitRed.addEventListener("click",function(){
     }
 }); 
 
-// Create response variables from element ids for the answer to the Yellow Hat question 
-let answerYellow = document.getElementById('answer-yellow');
-let submitYellow = document.getElementById('yellowHat');
-let yellowAnswer = document.getElementById('yellowAnswer');
-
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 submitYellow.addEventListener("click",function(){
     let yellowanswervalue = encodeURI(answerYellow.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     yellowAnswer.innerHTML = yellowanswervalue;    
-    var strY = $('#answer-yellow').val().length;
+    let strY = $('#answer-yellow').val().length;
     if (strY < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
@@ -116,16 +144,11 @@ submitYellow.addEventListener("click",function(){
     }
 }); 
 
-// Create response variables from element ids for the answer to the Black Hat question 
-let answerBlack = document.getElementById('answer-black');
-let submitBlack = document.getElementById('blackHat');
-let blackAnswer = document.getElementById('blackAnswer');
-
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 submitBlack.addEventListener("click",function(){
     let blackanswervalue = encodeURI(answerBlack.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     blackAnswer.innerHTML = blackanswervalue;    
-    var strB = $('#answer-black').val().length;
+    let strB = $('#answer-black').val().length;
     if (strB < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
@@ -137,16 +160,11 @@ submitBlack.addEventListener("click",function(){
     }
 }); 
 
-// Create response variables from element ids for the answer to the Green Hat question 
-let answerGreen = document.getElementById('answer-green');
-let submitGreen = document.getElementById('greenHat');
-let greenAnswer = document.getElementById('greenAnswer');
-
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 submitGreen.addEventListener("click",function(){
     let greenanswervalue = encodeURI(answerGreen.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     greenAnswer.innerHTML = greenanswervalue;    
-    var strG = $('#answer-green').val().length;
+    let strG = $('#answer-green').val().length;
     if (strG < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
@@ -158,16 +176,11 @@ submitGreen.addEventListener("click",function(){
     }
 }); 
 
-// Create response variables from element ids for the answer to the Blue Hat question 
-let answerBlue = document.getElementById('answer-blue');
-let submitBlue = document.getElementById('blueHat');
-let blueAnswer = document.getElementById('blueAnswer');
-
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 submitBlue.addEventListener("click",function(){
     let blueanswervalue = encodeURI(answerBlue.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
     blueAnswer.innerHTML = blueanswervalue;    
-    var strB = $('#answer-blue').val().length;
+    let strB = $('#answer-blue').val().length;
     if (strB < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
@@ -184,26 +197,12 @@ function pause() {
     document.querySelectorAll('video').forEach(vid => vid.pause());
 }
 
-/* Show Generate Report Button when all boxes are completed: */
-// Establish the necessary variables to count when each box has been completed: 
-let countWhite = 0;
-let countRed = 0;
-let countYellow = 0;
-let countBlack = 0;
-let countGreen = 0; 
-let countBlue = 0;
-
-//Reveal the generate report box when the hCount variable equals 6 (or all the Hat boxes are completed)
+//Reveal the generate report box when the hCount variable equals 6 (all the Hat boxes are completed)
 function showRptBtn() {
     if (countWhite && countRed && countYellow && countBlack && countGreen && countBlue) {    
     document.getElementById("reportProduce").style.display="block"; 
     }  
 }
-
-/* Create a function that reveals the report when the Genrate report button is pressed */
-
-// set the variable linked to the button ID
-let generateReport = document.getElementById('reportButton');
 
 // Generate report when clicking the generate report button leaving only the reset button with the report: 
 generateReport.addEventListener("click",function(){    
