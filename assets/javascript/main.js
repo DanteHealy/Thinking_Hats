@@ -53,24 +53,13 @@ function hideFunction() {
     // First include load animation that runs until page is fully loaded:
     $(".loader-wrapper").fadeOut("slow");
     // Second hide key sections on first page load to be called up when certain parts are completed:  
-    document.getElementById("hatProblem").style.display="none";
-    document.getElementById("sixHats").style.display="none";    
-    document.getElementById("reportProduce").style.display="none";
-    document.getElementById("reportPrint").style.display="none";
-    document.getElementById("hatReport").style.display="none";
-    document.getElementById("resetBtn").style.display="none";
-    document.getElementById("whiteTick").style.display="none";
-    document.getElementById("whiteTick2").style.display="none";
-    document.getElementById("redTick").style.display="none";
-    document.getElementById("redTick2").style.display="none";
-    document.getElementById("yellowTick").style.display="none";
-    document.getElementById("yellowTick2").style.display="none";
-    document.getElementById("blackTick").style.display="none";
-    document.getElementById("blackTick2").style.display="none";    
-    document.getElementById("greenTick").style.display="none";
-    document.getElementById("greenTick2").style.display="none";
-    document.getElementById("blueTick").style.display="none";
-    document.getElementById("blueTick2").style.display="none";
+    $("#hatProblem").hide();
+    $("#sixHats").hide();    
+    $("#reportProduce").hide();
+    $("#reportPrint").hide();
+    $("#hatReport").hide();
+    $("#resetBtn").hide();
+    $(".hatCheck").hide();    
 }
 
 // Reveals the Six Hats Flip-card Div plus Reset button and hides the Problem Video when the problem submit button is pressed and fixes the problem statement
@@ -81,11 +70,11 @@ submitButton.addEventListener("click", function(){
     if (strQ < 20) {    
         alert("Problem statement is too short. Please elaborate further!");             
     } else {        
-    document.getElementById("problemBox").style.display="none";
-    document.getElementById("hatProblem").style.display="block";
-    document.getElementById("sixHats").style.display="block";
-    document.getElementById("resetBtn").style.display="block";
-    document.getElementById("problemVideo").style.display="none";
+    $("#problemBox").hide();
+    $("#problemVideo").hide();
+    $("#hatProblem").show();
+    $("#sixHats").show();
+    $("#resetBtn").show();    
     }
 });
 
@@ -104,8 +93,8 @@ submitWhite.addEventListener("click",function(){
     if (strW < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
-        document.getElementById("whiteTick").style.display="block";
-        document.getElementById("whiteTick2").style.display="block";        
+        $("#whiteTick").show();
+        $("#whiteTick2").show();
         countWhite = 1;
         showRptBtn();
         pauseWhite();
@@ -120,8 +109,8 @@ submitRed.addEventListener("click",function(){
     if (strR < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
-        document.getElementById("redTick").style.display="block";
-        document.getElementById("redTick2").style.display="block";        
+        $("#redTick").show();
+        $("#redTick2").show();
         countRed =1;
         showRptBtn();
         pauseRed();
@@ -136,8 +125,8 @@ submitYellow.addEventListener("click",function(){
     if (strY < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
-        document.getElementById("yellowTick").style.display="block";
-        document.getElementById("yellowTick2").style.display="block";        
+        $("#yellowTick").show();
+        $("#yellowTick2").show();
         countYellow = 1;
         showRptBtn();
         pauseYellow();
@@ -152,8 +141,8 @@ submitBlack.addEventListener("click",function(){
     if (strB < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
-        document.getElementById("blackTick").style.display="block";
-        document.getElementById("blackTick2").style.display="block";        
+        $("#blackTick").show();
+        $("#blackTick2").show();
         countBlack = 1;    
         showRptBtn();
         pauseBlack();
@@ -168,8 +157,8 @@ submitGreen.addEventListener("click",function(){
     if (strG < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
-        document.getElementById("greenTick").style.display="block";
-        document.getElementById("greenTick2").style.display="block";        
+        $("#greenTick").show();
+        $("#greenTick2").show();
         countGreen = 1;
         showRptBtn();
         pauseGreen();
@@ -184,8 +173,8 @@ submitBlue.addEventListener("click",function(){
     if (strB < 20) {    
         alert("Answer is too short. Please elaborate further!");             
     } else {        
-        document.getElementById("blueTick").style.display="block";
-        document.getElementById("blueTick2").style.display="block";        
+        $("#blueTick").show();
+        $("#blueTick2").show();
         countBlue = 1;
         showRptBtn();
         pauseBlue();
@@ -200,16 +189,16 @@ function pause() {
 //Reveal the generate report box when the hCount variable equals 6 (all the Hat boxes are completed)
 function showRptBtn() {
     if (countWhite && countRed && countYellow && countBlack && countGreen && countBlue) {    
-    document.getElementById("reportProduce").style.display="block"; 
+    $("#reportProduce").show(); 
     }  
 }
 
 // Generate report when clicking the generate report button leaving only the reset button with the report: 
 generateReport.addEventListener("click",function(){    
     if (confirm("WARNING: After report is run you cannot amend your answers. Please confirm you still wish to proceed!")) {
-        document.getElementById("hatReport").style.display="block";         
-        document.getElementById("sixHats").style.display="none";
-        document.getElementById("reportProduce").style.display="none";
-        document.getElementById("reportPrint").style.display="block";
+        $("#hatReport").show();
+        $("#sixHats").hide();
+        $("#reportProduce").hide();
+        $("#reportPrint").show();
     }
 });
