@@ -59,35 +59,6 @@
             </div>
         </div>
     </div>
-    <!-- Insert an Infographic for convenient reference -->
-    <div class="container" id="questionInfo">
-        <div class="row justify-content-around">
-            <div class="col-lg-10">
-                <div class="bs-home">
-                    <div class="accordion" id="accordionQuestion">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h3 class="mb-0">
-                                    <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"><i class="fas fa-sort-down fa-2x"></i> Problem Quick Guide</button>
-                                </h3>
-                            </div>
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionQuestion">
-                                <div class="card-body">
-                                    <div class="container">
-                                        <div class="row justify-content-around">
-                                            <div class="col">
-                                                <img src="assets/documentation/slide2.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">    
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Initial prompt for challenge or question -->
     <div class="container section-div text-center" id="problemBox">        
@@ -101,7 +72,7 @@
             </div>
         </div>
     </div>
-
+    
     <!-- Report section hosting the problem for the Six Hat to solve -->
     <div class="container report-div" id="hatProblem">
         <div class="row justify-content-around">
@@ -242,8 +213,7 @@
                     <video id="whiteVid" controls class="hat-video">
                         <source src="assets/movie/video-white.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
-                    </video>                    
-                    <img src="assets/documentation/slide3.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">
+                    </video>
                     <label for="answer-white">What information do we need?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea class="hatText" name="answer-white" id="answer-white" maxlength="400" cols="50" rows="10" wrap="hard"></textarea>                        
                     <input type="submit" value="Submit" id="whiteHat" class="btn btn-outline-dark">
@@ -269,8 +239,7 @@
                     <video id="redVid" controls class="hat-video">
                         <source src="assets/movie/video-red.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
-                    </video>
-                    <img src="assets/documentation/slide4.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">
+                    </video>                    
                     <label for="answer-red">What emotions are you feeling?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea class="hatText" name="answer-red" id="answer-red" maxlength="400" cols="50" rows="10" wrap="hard"></textarea>                        
                     <input type="submit" value="Submit" id="redHat" class="btn btn-danger">
@@ -296,8 +265,7 @@
                     <video id="yellowVid" controls class="hat-video">
                         <source src="assets/movie/video-yellow.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
-                    </video>
-                    <img src="assets/documentation/slide5.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">
+                    </video>                    
                     <label for="answer-yellow">What are your benefits and opportunites?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea class="hatText" name="answer-yellow" id="answer-yellow" maxlength="400" cols="50" rows="10" wrap="hard"></textarea>                        
                     <input type="submit" value="Submit" id="yellowHat" class="btn btn-warning">
@@ -323,8 +291,7 @@
                     <video id="blackVid" controls class="hat-video">
                         <source src="assets/movie/video-black.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
-                    </video>
-                    <img src="assets/documentation/slide6.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">
+                    </video>                    
                     <label for="answer-black">What are your risks and weaknesses?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea class="hatText" name="answer-black" id="answer-black" maxlength="400" cols="50" rows="10" wrap="hard"></textarea>                        
                     <input type="submit" value="Submit" id="blackHat" class="btn btn-dark">
@@ -350,8 +317,7 @@
                     <video id="greenVid" controls class="hat-video">
                         <source src="assets/movie/video-green.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
-                    </video>
-                    <img src="assets/documentation/slide7.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">
+                    </video>                    
                     <label for="answer-green">What are your new ideas and alternatives?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea class="hatText" name="answer-green" id="answer-green" maxlength="400" cols="50" rows="10" wrap="hard"></textarea>                        
                     <input type="submit" value="Submit" id="greenHat" class="btn btn-success">
@@ -377,8 +343,7 @@
                     <video id="blueVid" controls class="hat-video">
                         <source src="assets/movie/video-blue.mp4" type="video/mp4">                
                         Your browser does not support the video tag.
-                    </video> 
-                    <img src="assets/documentation/slide8.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">
+                    </video>                     
                     <label for="answer-blue">What are your conclusions and next actions?<br>Please enter between 20 to 400 characters:</label><br>
                     <textarea class="hatText" name="answer-blue" id="answer-blue" maxlength="400" cols="50" rows="10" wrap="hard"></textarea>                        
                     <input type="submit" value="Submit" id="blueHat" class="btn btn-primary">
@@ -386,6 +351,76 @@
                 <div class="modal-footer">
                     <i class="hatCheck fas fa-check fa-2x" id="blueTick2"></i>
                     <button type="button" class="btn btn-default" onclick="pause();" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Insert an Infographic for convenient reference -->
+    <div class="container" id="questionInfo">
+        <div class="row justify-content-around">
+            <div class="col-lg-12">
+                <div class="bs-home">
+                    <div class="accordion" id="accordionQuestion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h3 class="mb-0">
+                                    <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"><i class="fas fa-sort-down fa-2x"></i> Fast start cheat sheet</button>
+                                </h3>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionQuestion">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row justify-content-around">
+                                            <div class="col">
+                                                <img src="assets/documentation/slide1.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">    
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-around">
+                                            <div class="col">
+                                                <img src="assets/documentation/slide2.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">    
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-around">
+                                            <div class="col">
+                                                <img src="assets/documentation/slide3.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">    
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-around">
+                                            <div class="col">
+                                                <img src="assets/documentation/slide4.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">    
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-around">
+                                            <div class="col">
+                                                <img src="assets/documentation/slide5.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">    
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-around">
+                                            <div class="col">
+                                                <img src="assets/documentation/slide6.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">    
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-around">
+                                            <div class="col">
+                                                <img src="assets/documentation/slide7.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">    
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-around">
+                                            <div class="col">
+                                                <img src="assets/documentation/slide8.jpg" class="img-responsive cheatSheet" alt="Six Thinking Hats Process Summary">    
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-around">
+                                            <div class="col-lg-4 col-md-6 col-sm-8 d-flex justify-content-around mt-2 mb-2">
+                                                <a href="assets/documentation/infographic.pdf" target="_blank" class="btn btn-lg btn-primary" role="button">Download pdf version</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
                 </div>
             </div>
         </div>

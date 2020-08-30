@@ -71,8 +71,7 @@ submitButton.addEventListener("click", function(){
         alert("Problem statement is too short. Please elaborate further!");             
     } else {        
     $("#problemBox").hide();
-    $("#problemVideo").hide();
-    $("#questionInfo").hide();
+    $("#problemVideo").hide();    
     $("#hatProblem").show();
     $("#sixHats").show();
     $("#resetBtn").show();
@@ -199,6 +198,7 @@ generateReport.addEventListener("click",function(){
     if (confirm("WARNING: After report is run you cannot amend your answers. Please confirm you still wish to proceed!")) {
         $("#hatReport").show();
         $("#sixHats").hide();
+        $("#questionInfo").hide();
         $("#reportProduce").hide();
         $("#reportPrint").show();
     }

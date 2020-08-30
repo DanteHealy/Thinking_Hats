@@ -67,8 +67,7 @@ input[type="text"] {
 }
 
 .hat-video {
-    border: 5px;
-    border-color: #000;
+    border: 5px solid #000;    
 }
 
 video {
