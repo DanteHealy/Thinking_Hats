@@ -72,9 +72,10 @@ submitButton.addEventListener("click", function(){
     } else {        
     $("#problemBox").hide();
     $("#problemVideo").hide();
+    $("#questionInfo").hide();
     $("#hatProblem").show();
     $("#sixHats").show();
-    $("#resetBtn").show();    
+    $("#resetBtn").show();
     }
 });
 
@@ -97,7 +98,7 @@ submitWhite.addEventListener("click",function(){
         $("#whiteTick2").show();
         countWhite = 1;
         showRptBtn();
-        pauseWhite();
+        pause();
     }
 }); 
 
@@ -113,7 +114,7 @@ submitRed.addEventListener("click",function(){
         $("#redTick2").show();
         countRed =1;
         showRptBtn();
-        pauseRed();
+        pause();
     }
 }); 
 
@@ -129,7 +130,7 @@ submitYellow.addEventListener("click",function(){
         $("#yellowTick2").show();
         countYellow = 1;
         showRptBtn();
-        pauseYellow();
+        pause();
     }
 }); 
 
@@ -145,7 +146,7 @@ submitBlack.addEventListener("click",function(){
         $("#blackTick2").show();
         countBlack = 1;    
         showRptBtn();
-        pauseBlack();
+        pause();
     }
 }); 
 
@@ -161,7 +162,7 @@ submitGreen.addEventListener("click",function(){
         $("#greenTick2").show();
         countGreen = 1;
         showRptBtn();
-        pauseGreen();
+        pause();
     }
 }); 
 
@@ -177,7 +178,7 @@ submitBlue.addEventListener("click",function(){
         $("#blueTick2").show();
         countBlue = 1;
         showRptBtn();
-        pauseBlue();
+        pause();
     }
 }); 
 
