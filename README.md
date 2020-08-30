@@ -534,8 +534,6 @@ The photos used in this site were obtained from:
 - [Thanks to Karina on the SLACK channel for sharing this tip for elegently handling broken links](https://github.com/11ty/eleventy/issues/466)  
 - [Insert meta tag description for better SEO](https://www.youtube.com/watch?v=o3Gfsc6kihk)  
 - [Fix page breaks](https://www.w3schools.com/cssref/pr_print_pagebi.asp) 
-- [Add progress bar](https://getbootstrap.com/docs/4.0/components/progress/)
-    [Include variable that moves progress bar depending on completion level](https://stackoverflow.com/questions/52587835/using-jquery-script-variable-with-a-bootstrap-progress-bar)
 
 - Articles and websites for ideas and concepts relating to the Six Thinking Hats concept: 
     1. [The DeBono Group, concept owners](https://www.debonogroup.com/services/core-programs/six-thinking-hats/)
