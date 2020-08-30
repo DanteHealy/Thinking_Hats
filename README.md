@@ -526,6 +526,7 @@ The photos used in this site were obtained from:
 - [Dismiss modal on successful submit (for a more user friendly mobile experience) after peer review.](https://stackoverflow.com/questions/33477930/close-bootstrap-modal-on-form-submit) 
 - [Transition animation load for the hats.html guided session page](https://www.youtube.com/watch?v=gttmqvZ4kYc)
 - [Pause MP4 video on close to prevent multiple videos playing at the same time](https://www.geeksforgeeks.org/how-to-play-pause-video-using-jquery/#:~:text=The%20pause()%20method%20in,element%20to%20pause%20the%20video)  
+    - [Pause all videos](https://stackoverflow.com/questions/4646998/play-pause-html-5-video-using-jquery)    
 - [Video fluid width in css](https://css-tricks.com/fluid-width-video/)
 - [Centre text in flip card back vertically](https://getbootstrap.com/docs/4.4/utilities/text/)  
 - [Center flip card horizontally](https://www.w3.org/Style/Examples/007/center.en.html)

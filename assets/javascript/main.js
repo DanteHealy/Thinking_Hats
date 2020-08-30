@@ -180,42 +180,18 @@ submitBlue.addEventListener("click",function(){
 }); 
 
 // Pause the videos when modals are closed to avoid multiple video voices played at the same time. Defect discovered during testing! 
-function pauseProblem() { 
-   $('#problemVid').get(0).pause();  /* Pause video when problem is submitted */
-} 
-
-function pauseWhite() { 
-   $('#whiteVid').get(0).pause();  /* Pause video when white modal closes */
-} 
-
-function pauseRed() { 
-   $('#redVid').get(0).pause();  /* Pause video when red modal closes */
-} 
-
-function pauseYellow() { 
-   $('#yellowVid').get(0).pause();  /* Pause video when yellow modal closes */
-} 
-
-function pauseBlack() { 
-   $('#blackVid').get(0).pause();  /* Pause video when black modal closes */
-} 
-
-function pauseGreen() { 
-   $('#greenVid').get(0).pause();  /* Pause video when green modal closes */
-} 
-
-function pauseBlue() { 
-   $('#blueVid').get(0).pause();  /* Pause video when blue modal closes */
-} 
+function pause() {
+    document.querySelectorAll('video').forEach(vid => vid.pause());
+}
 
 /* Show Generate Report Button when all boxes are completed: */
 // Establish the necessary variables to count when each box has been completed: 
-var countWhite = 0;
-var countRed = 0;
-var countYellow = 0;
-var countBlack = 0;
-var countGreen = 0; 
-var countBlue = 0;
+let countWhite = 0;
+let countRed = 0;
+let countYellow = 0;
+let countBlack = 0;
+let countGreen = 0; 
+let countBlue = 0;
 
 //Reveal the generate report box when the hCount variable equals 6 (or all the Hat boxes are completed)
 function showRptBtn() {
