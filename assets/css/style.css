@@ -1,4 +1,4 @@
-/* -------------------------- styling for main body elements and text*/
+/* ----- body styling */
 body {
     font-family: 'Lato', sans-serif;
     color: #53548A;
@@ -14,11 +14,6 @@ body h1 {
 body h2 {
     font-family: 'Lato', sans-serif;
     font-style: italic;
-}
-
-.navbar {
-    background-color: #53548A;
-    color: white;
 }
 
 .home-div {
@@ -56,11 +51,6 @@ body h2 {
     color: #000;
 }
 
-input[type="text"] {
-    width: 600px;
-    height: 40px;
-}
-
 .video-div {
     padding-top: 20px; 
     padding-bottom: 20px;
@@ -74,6 +64,11 @@ video {
     width: 100% !important;
     height: auto !important;
 }
+/*------ header style */
+.navbar {
+    background-color: #53548A;
+    color: white;
+}
 
 .navbar {
     padding: 0;
@@ -85,6 +80,12 @@ video {
   display: inline;
 }
 
+/*----- text input style */
+input[type="text"] {
+    width: 600px;
+    height: 40px;
+}
+
 .questionProblem {
     width: 100%;
     height: 80px;
@@ -93,12 +94,6 @@ video {
 .hatText {
     width: 100%;
     height: 240px;
-}
-
-/*------ style report image */
-.reportImg {
-    width: 50px;
-    height: 50px;
 }
 
 /* ----- Image overlay for card */
@@ -171,8 +166,7 @@ video {
     height: 300px;
 }
 
-
-/* --- Establish Accordion --- */
+/* --- accordion style --- */
 .bs-example{
     margin: 20px;
 }
@@ -190,8 +184,13 @@ video {
     width: 100%;
 }
 
+/*------ report image style */
+.reportImg {
+    width: 50px;
+    height: 50px;
+}
 
-/* --- Print Six Hats report only, hide non-relevant elements and eliminate page breaks inside report sections --- */
+/* --- print Six Hats report only, hide non-relevant elements and eliminate page breaks inside report sections --- */
 @media print {
    #resetBtn *, #reportPrint *, #footNote * { display:none; }
    #hatProblem, #hatReport *, #titleDiv * { display:block; }
@@ -244,7 +243,7 @@ video {
   100% { height: 0%;}
 }
 
-/* -------------------------- Footer-Social-Media */
+/* -------------------------- footer-social-media */
 footer {
     margin-top: 10px;    
     width: 100%;
@@ -284,7 +283,7 @@ footer .row {
     margin-left: 0px;
 }
 
-/* --- Fix an issue with the modals in hats.html adding padding and causing the screens and navbar to jerk right --- */
+/* --- fix an issue with the modals in hats.html adding padding and causing the screens and navbar to jerk right --- */
 .modal-open, 
 .fade {
     padding-right: 0px !important;
