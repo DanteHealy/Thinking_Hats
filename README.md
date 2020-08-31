@@ -71,11 +71,11 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
     - 10.2 References used
 
 ## 1 UX
-There are numerous people who are struggling with uncertainty due to new challenges. Brought about in part by the current Covid-impacted environment and causing distress from lack of clarity. 
+There are numerous people who are struggling with uncertainty due to new challenges. Brought about in part by the current Covid-impacted environment causing distress from lack of clarity. 
 This framework has proven to be effective in all areas of life because it guides people to think holistically about their problems from multiple different angles when attempting to solve their problems. 
 Most people tend to have one dominant way of thinking, but the Six Thinking Hats method encourages people to exercise multiple views when looking at a problem. 
 Each hat is a metaphor for a different perspective which will support the to focus on a single thing at a time before bringing everything together. 
-All the videos which guide the user are as brief whilst being comprehensive as possible and are between 1-3 minutes in duration. 
+All the videos which guide the user are brief whilst also aiming to be comprehensive as possible and are between 1-3 minutes in duration. 
 
 ### 1.1 Site owner goals
 The purpose of this project was to provide an interactive online training experience which guides the user to complete the process in any given order, but prescibes finishing with the blue hat. 
@@ -114,6 +114,7 @@ The Home page:
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe1.jpg)
 
+
 ## 3 The Guided Session page
 This page opens with another video about defining the specific problem with a text box to enter your problem. 
 The logic in the problem textarea requires a string between 20 to 100 characters in length.
@@ -138,6 +139,7 @@ The final report and the end of the guided session:
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe4.jpg)
 
+
 ## 4 The Contact page
 There is a short bio of the creator of the Six Thinking Hats (Edward De Bono) plus an embedded video in which he explains the process in his own words.
 Below the video is an accordion with three sections: 
@@ -151,6 +153,7 @@ The Contact page:
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/wireframe5.jpg)
 
 [Back to table of contents](#contents)
+
 
 ## 5 Features
 All features were listed, organised and tracked on [Trello](https://trello.com/b/RhaoyvZJ/milestone-project-2)
@@ -217,25 +220,27 @@ c.	A submit button that then replace the textarea box with the entered question 
 a.	On hover the flip cards reveal a button that opens up a modal which takes the user through a guided explanation of the purpose 
     and perspective of the hat and then allows the user to enter their thoughts into the box 
 
+b.  There is also an accordion with the cheat sheet, same as the homepage, for the user's convenience and reference. 
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/hats-html-2b.jpg)
 
-b.	The textarea box uses JavaScript to validate that the answers aren’t too short or too long (character limits are set between 20 – 300) 
+c.	The textarea box uses JavaScript to validate that the answers aren’t too short or too long (character limits are set between 20 – 300) 
 
-c.	There are buttons for closing the modal and submitting the users’ answers for each hat with some more JavaScript logic that pauses the video when the modal 
+d.	There are buttons for closing the modal and submitting the users’ answers for each hat with some more JavaScript logic that pauses the video when the modal 
     is closed to avoid multiple videos being played at the same time. 
 
-d.	There are two ticks once an answer is submitted – one within the modal and one outside the flip card to alert the user that an answer has been recognized 
+e.	There are two ticks once an answer is submitted – one within the modal and one outside the flip card to alert the user that an answer has been recognized 
 
-e.	Once all six cards are completed, a generate report button appears that replaces the six hat flip cards with a report that consolidates the inputs 
+f.	Once all six cards are completed, a generate report button appears that replaces the six hat flip cards with a report that consolidates the inputs 
     - The report uses JavaScript to recognise any line breaks and spaces as entered by the user 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/hats-html-2c.jpg)
 
-f.	A print button appears after the report is generated. 
+g.	A print button appears after the report is generated. 
 
-g.	A reset button is available with an alert that warns the user they will lose any current work and requests confirmation that they want to proceed 
+h.	A reset button is available with an alert that warns the user they will lose any current work and requests confirmation that they want to proceed 
 
-h.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
+i.	When the report is printed there is some CSS that hides the buttons at the bottom and the footer so only the report is printed. 
 
 [Example post-session report](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/example-report.pdf)
 
@@ -315,6 +320,7 @@ Cancelled features are noted on the Trello project board which were part of my i
 
 [Back to table of contents](#contents)
 
+
 ## 6 Technologies Used
 
 ### 6.1 Core Technologies
@@ -336,6 +342,7 @@ The project uses:
 - [Favicon.io for my favicon image](https://favicon.io/)
 
 [Back to table of contents](#contents)
+
 
 ## 7 Testing
 The majority of the testing was manual combined with the appropriate online validation tools outlined below to ensure that my code met the required standards. 
@@ -383,9 +390,13 @@ All passed:
 ##### main.js
 All passed. There were some warnings based on use of Let and JQuery ($) and one unused variable which was being called when loading or reloading hats.html i.e. is actually being used, so I was okay with this:  
 
+<details open>
+     <summary>jsHint report screens</summary>
+    [ERROR] Self-reference
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-main-js1-jshint.jpg)
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-main-js2-jshint.jpg)
+ </details>
 
 ##### email.js
 Confirmed the javascript code was acceptable for jshint
@@ -437,8 +448,10 @@ Confirm email alert works
 
 12. The website was personally reviewed on multiple devices for functionality (laptop, tablet and mobile) as a final check before submission. 
 
-13. Submit my code for peer review (a few times). On the final review I requested detailed feedback 
-    [The following feedback was received and addressed as outlined in the attached.](https://github.com/DanteHealy/Thinking_Hats/blob/master/peer-feedback-31082020.pdf)
+13. Submit my code for peer review (a few times). On the final review I requested detailed feedback which was addressed as per the attached details below:
+    [The following feedback was received and addressed as outlined in the attached.](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/peer-feedback-31082020.pdf)
+    
+After finishing this I performed one final end to end test of the application and review of my code. 
 
 [Back to table of contents](#contents)
 
@@ -461,6 +474,9 @@ The following were the errors identified during the multiple testing sessions:
 - If the report spans more than a single page the page break may break up a particular hat section. This defect is now fixed (see below):
 [Example post-session report avoiding page breaks inside each hat section](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/example-report-fix-page-breaks.pdf)
 - Late bug where the first question video on the guided session still plays if not completed before the problem is submitted. 
+- Peer review: code needed to be more efficient and warranted refactoring - done. 
+- Use cdn instead of local JQuery library as it's faster - done. 
+- Use round trip of Bootstrap, fontawesome and JQuery - done. 
 
 [Back to table of contents](#contents)
 
