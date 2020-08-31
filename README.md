@@ -429,13 +429,13 @@ As this is not an issue with the physical view I do not consider this a flaw in 
 <details closed>
     <summary>Chrome Dev Tool review - dropdown</summary>
 
-Before refresh (upon immediate load in mobile view): 
+Before refresh (upon immediate load in mobile view) - ONLY EXISTS IN THE DEV TOOL AND DISAPPEARS WHEN SWITCHING BETWEEN SCREENS AND BACK AGAIN: 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/chrome-ie-quirk.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/chrome-ie-quirk.JPG)
 
-After switching to different views and then back to the mobile view: 
+After switching to different views and then back to the mobile view this margin in the Chrome DEV tool disappears (this is not in Edge Dev tool): 
 
-![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/chrome-ie-quirk1.jpg)
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/chrome-ie-quirk1.JPG)
  </details>
 
 
