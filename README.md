@@ -437,7 +437,8 @@ Confirm email alert works
 
 12. The website was personally reviewed on multiple devices for functionality (laptop, tablet and mobile) as a final check before submission. 
 
-13. Submit my code for peer review (a few times). On the final review I requested detailed feedback. 
+13. Submit my code for peer review (a few times). On the final review I requested detailed feedback 
+    [The following feedback was received and addressed as outlined in the attached.](https://github.com/DanteHealy/Thinking_Hats/blob/master/peer-feedback-31082020.pdf)
 
 [Back to table of contents](#contents)
 
