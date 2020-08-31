@@ -96,16 +96,15 @@ When looking at fonts I decided on Lato sans-serif.
 It is considered to be a transparent colour, but also emits warmth and friendliness whilst also providing structure and seriousness which I wanted to convey with this website. 
 
 #### Colour scheme 
-I selected purple in my colour scheme that was separate from the six hats which could convey royalty, nobility, luxury, power and ambition. 
-It is also associated spirituality, the sacred, higher self, passion, third eye, fulfillment, and vitality. Purple helps align oneself with the whole of the universe. 
-By contrast grey is a cool and neutral colour providing balancing contrast to purple. 
-White is also used representing clarity and new beginnings. 
+I selected purple in my colour scheme because it is separate from the colours used in the six hats themselves and conveys royalty, nobility, luxury, power and ambition. 
+It is also associated spirituality, the sacred, higher self, passion, third eye, fulfillment, and vitality. Purple helps align oneself with the whole of the universe which promotes resourcefulness. 
+By contrast grey is a cool and neutral colour providing balancing contrast to purple's energy. White is also used in this scheme representing clarity and new beginnings. 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/wireframes/color-scheme.jpg)
 
 
 ## 2 The Home page
-The Landing Page provides a brief overview video at the top with an accordion at the bottom containing a visual cheat sheet and transcript.  
+The Landing Page starts with a brief overview video at the top with an accordion at the bottom containing a visual cheat sheet and transcript.  
 In between the video and the accordion there is a call to action button that leads you to the guided session page. 
 At the bottom of all the pages there is a footer with some social media links plus a disclaimer text stating this site is educational only. 
 
@@ -390,13 +389,15 @@ All passed:
 ##### main.js
 All passed. There were some warnings based on use of Let and JQuery ($) and one unused variable which was being called when loading or reloading hats.html i.e. is actually being used, so I was okay with this:  
 
-<details open>
-     <summary>jsHint report screens</summary>
-    [ERROR] Self-reference
+
+<details closed>
+    <summary>jsHint report screens - dropdown</summary>
+
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-main-js1-jshint.jpg)
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-main-js2-jshint.jpg)
  </details>
+
 
 ##### email.js
 Confirmed the javascript code was acceptable for jshint
@@ -501,10 +502,10 @@ Until I have developed my own personal website where I can link to my portfolio 
 ### 9.1 Acknowledgements
 The quality of this website is testimony to the help and support from my mentor and code institute colleagues. 
 Though there are many of people who contributed to the project I would like to mention: 
-- Special thanks to gbenga_mentor, JoWings_alumna, [Readri205](https://github.com/Readri205) for their particular focused attention and superb guidance when helping me to develop my website.  
-- [Neringa](https://github.com/neringabickmore), [Michaelstanden](https://github.com/Michaelstanden), michael_ci, [SamL](https://github.com/samlaubscher), Ed B and Sean MC for their technical inputs and feedback on peer review and 
+- Special thanks to gbenga_mentor, JoWings_alumna, [Readri205](https://github.com/Readri205) and michael_ci for their particular focused attention and superb guidance when helping me to develop my website.  
+- [Neringa](https://github.com/neringabickmore), Eventyret_mentor, [Michaelstanden](https://github.com/Michaelstanden), [SamL](https://github.com/samlaubscher), Ed B and Sean MC for their technical inputs and feedback on peer review and 
 - My LinkedIn friend and professional tester Alejandra Huamán Ordóñez 
-- Edward De Bono and Jim Kwik for the source material and inspiration 
+- Jim Kwik and Edward De Bono for the source material and inspiration 
 - Finally many thanks to my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
 
 [Back to table of contents](#contents)
@@ -565,7 +566,8 @@ The photos used in this site were obtained from:
     8. [Red Hat Thinking](https://transformationacademy.com/2019/10/thoughts-101-how-thoughts-create-emotions-and-stuff/ )
 
 Special dedication to 
-- [Edward De Bono and his book Six Thinking Hats](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono/dp/0241257530/ref=sr_1_1?crid=1EEDOQZKPKSVG&dchild=1&keywords=six+thinking+hats&qid=1598200811&sprefix=six+thinking%2Caps%2C149&sr=8-1) 
 - [Jim Kwik for bringing the value of this concept to my attention through his thinking courses and book](https://www.amazon.co.uk/Limitless-Techniques-Improve-Performance-Productivity/dp/1401958230/ref=sr_1_1?crid=3RJUP8CP6I5ET&dchild=1&keywords=limitless+jim+kwik&qid=1598200888&sprefix=limitless%2Caps%2C152&sr=8-1)
+- [Edward De Bono and his book Six Thinking Hats](https://www.amazon.co.uk/Six-Thinking-Hats-Edward-Bono/dp/0241257530/ref=sr_1_1?crid=1EEDOQZKPKSVG&dchild=1&keywords=six+thinking+hats&qid=1598200811&sprefix=six+thinking%2Caps%2C149&sr=8-1) 
+
 
 [Back to table of contents](#contents)
