@@ -10,11 +10,11 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 ## Contents
 - [**1 UX**](#1-ux)
 
-    - [**1.1 Site Owner Goals**](#-1.1-site-owner-goals)
+    - 1.1 Site Owner Goals
 
-    - [**1.2 User Goals**](#-1.2-user-goals)
+    - 1.2 User Goals
 
-    - [**1.3 Design Process**](#-1.3-design-process)
+    - 1.3 Design Process
 
 - [**2 The Home page**](#2-the-home-page)
 
@@ -24,51 +24,51 @@ The Six Thinking Hats framework is a lateral thinking technique used to help emp
 
 - [**5 Features**](#5-features)
 
-    - [**5.1 Existing Features**](#5.1-existing-features)
+    - 5.1 Existing Features
 
-        - [**5.1.1 Home Page - Features**](#5.1.1-home-page)
+        - 5.1.1 Home Page - Features
 
-        - [**5.1.2 Guided session page - Features**](#5.1.2-guided-session-page)
+        - 5.1.2 Guided session page - Features
 
-        - [**5.1.3 Contact page - Features**](#5.1.3-contact-page)
+        - 5.1.3 Contact page - Features
 
-    - [**5.2 Features Not Implemented**](#5.2-features-not-implemented)
+    - 5.2 Features Not Implemented
 
 - [**6 Technologies Used**](#6-technologies-used)
 
-    - [**6.1 Core Technologies**](#6.1-core-technologies)
+    - 6.1 Core Technologies
 
-    - [**6.2 Supplemental technologies**](#6.2-supplemental-technologies)
+    - 6.2 Supplemental technologies
 
 - [**7 Testing**](#7-testing)
 
-    - [**7.1 Testing methods and systems**](#7.1-testing-methods-and-systems)
+    - 7.1 Testing methods and systems
 
-        - [**7.1.1 Responsive image checker**](#7.1.1-responsive-image-checker)
+        - 7.1.1 Responsive image checker
 
-        - [**7.1.2 HTML validator**](#7.1.2-html-validator)
+        - 7.1.2 HTML validator
 
-        - [**7.1.3 CSS validator**](#7.1.3-css-validator)
+        - 7.1.3 CSS validator
 
-        - [**7.1.4 JSHint**](#7.1.4-jshint)
+        - 7.1.4 JSHint
 
-        - [**7.1.5 Google Lighthouse**](#7.1.5-google-lighthouse)
+        - 7.1.5 Google Lighthouse
 
-        - [**7.1.6 Manual testing**](#manual-testing)
+        - 7.1.6 Manual testing
 
-        - [**7.1.7 Defects identified during testing**](#defects-identified-during-testing)
+        - 7.1.7 Defects identified during testing
 
 - [**8 Deployment**](#8-deployment)
 
 - [**9 Credits**](#9-credits)
 
-    - [**9.1 Acknowledgements**](#9.1-acknowledgements)
+    - 9.1 Acknowledgements
 
 - [**10 Content**](#10-content)
 
-    - [**10.1 Media**](#10.1-media)
+    - 10.1 Media
 
-    - [**10.2 References used**](#10.2references-used)
+    - 10.2 References used
 
 ## 1 UX
 There are numerous people who are struggling with uncertainty due to new challenges. Brought about in part by the current Covid-impacted environment and causing distress from lack of clarity. 
@@ -78,16 +78,16 @@ Each hat is a metaphor for a different perspective which will support the to foc
 All the videos which guide the user are as brief whilst being comprehensive as possible and are between 1-3 minutes in duration. 
 
 ### 1.1 Site owner goals
-The purpose of this project was to provide an interactive online training experience which guides the user to complete the process in the correct order. 
+The purpose of this project was to provide an interactive online training experience which guides the user to complete the process in any given order, but prescibes finishing with the blue hat. 
 The intention of the videos is to provide the user with clear instructions guiding them through the process whilst they record their thoughts. 
 
-### 1.2 User Goals
+### 1.2 User Goals 
 #### The user story envisaged is as follows: 
 As a person struggling with uncertainty, I want to learn how to think effectively and apply this to solve any difficult problems I encounter 
 - I want to enhance my quality of life by finding clarity through creating comprehensive solutions to enable decisions which I can confidently take action on 
 - I want to be guided through an effective process, be able to record my ideas 
 - I want to be able to access a quick start guide in order to understand the process quickly 
-- I want to get a report at the end that gives me a record of my thoughts and conclusions at the end of the session
+- I want to get a report at the end that gives me a record of my thoughts and conclusions at the end of the session 
 
 ### 1.3 Design Process
 
@@ -353,17 +353,17 @@ All passed:
 
 #### 7.1.2 HTML validator
 
-##### 1. index.html
+##### index.html
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-index-html-validator.jpg)
 
-##### 2. hats.html
+##### hats.html
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-hats-html-validator.jpg)
 
-##### 3. contact.html
+##### contact.html
 All passed: 
 
 ![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/test-contact-html-validator.jpg)
@@ -439,9 +439,8 @@ Confirm email alert works
 
 13. Submit my code for peer review (a few times). On the final review I requested detailed feedback. 
 
-
-
 [Back to table of contents](#contents)
+
 
 #### 7.1.7 Defects identified during testing
 The following were the errors identified during the multiple testing sessions: 
@@ -464,6 +463,7 @@ The following were the errors identified during the multiple testing sessions:
 
 [Back to table of contents](#contents)
 
+
 ## 8 Deployment
 [Link to the deployed site](https://dantehealy.github.io/Thinking_Hats/index.html)
 I used GitHub pages to deploy this website. The steps required to do this are as follows: 
@@ -479,6 +479,7 @@ Until I have developed my own personal website where I can link to my portfolio 
 
 [Back to table of contents](#contents)
 
+
 ## 9 Credits
 ### 9.1 Acknowledgements
 The quality of this website is testimony to the help and support from my mentor and code institute colleagues. 
@@ -490,6 +491,7 @@ Though there are many of people who contributed to the project I would like to m
 - Finally many thanks to my family (wife, mum and siblings) and friends for testing my web site and providing their critical feedback as new general users. 
 
 [Back to table of contents](#contents)
+
 
 ## 10 Content
 ### 10.1 Media
