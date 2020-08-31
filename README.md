@@ -421,6 +421,24 @@ All pased or issues identified were fixed/resolved prior to launch.
 1. Significant manual testing performed by myself across multiple devices (Laptop, iPad and iPhone 7) - to check that the layouts were responsive on all size devices 
 [See attached pdf](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/manual-testing-checklist.pdf) 
 
+Please note this dropdown section displays an apparent glitch during testing where the Chrome developer tool sometimes displays a gap in the mobile view.
+However, this disappears when you switch between the different size views and return to the original mobile view. 
+Checking the views on actual physical mobile phones this margin gap does not exist. 
+As this is not an issue with the physical view I do not consider this a flaw in the website and note it for completeness only. 
+
+<details closed>
+    <summary>Chrome Dev Tool review - dropdown</summary>
+
+Before refresh (upon immediate load in mobile view): 
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/chrome-ie-quirk.jpg)
+
+After switching to different views and then back to the mobile view: 
+
+![alt text](https://github.com/DanteHealy/Thinking_Hats/blob/master/reference/test/chrome-ie-quirk1.jpg)
+ </details>
+
+
 2. Sent the webpage to my selected friends (work colleagues and LinkedIn contacts) and family (wife and brother) to test on their devices and provide feedback
 3. Posted my link via workflow on the Peer-Review SLACK group with the Code Institute for feedback (twice first at about 80% complete then a final review at 95% complete)
 4. Had my content and design reviewed by certain select people amongst my LinkedIn contacts for any changes needed
