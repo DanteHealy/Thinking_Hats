@@ -1,10 +1,10 @@
-// Create two variables from element ids for the main question and submit button: 
+// Create four variables from element ids for the main question, submit button and refresh buttons: 
 let questionInput = document.getElementById('question-problem');
 let submitButton = document.getElementById('submit');
 let questionDisplay = document.getElementById('question-display');
 let clearButton = document.getElementById('clear');
 
-/* Create six variables from element ids for the main question: */
+/* Create six sets of variables from element ids for each of the six hat exercises: */
 // Create response variables from element ids for the answer to the White Hat question 
 let answerWhite = document.getElementById('answer-white');
 let submitWhite = document.getElementById('whiteHat');
@@ -85,6 +85,7 @@ clearButton.addEventListener("click", function(){
     }
 });
 
+/* Validation and subsequent actions when each of the six hat modals are completed and counts the number of hats completed: */
 // On click of the answer check that the minimum character requirement is met before saving the answer and logging progress
 submitWhite.addEventListener("click",function(){                 
     let whiteanswervalue = encodeURI(answerWhite.value).replace(/%20/g," ").replace(/%0A/g,"<br>");
